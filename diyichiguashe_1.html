@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第一吃瓜社</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《第一吃瓜社》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于第一吃瓜社</h2>
+<p>					第一吃瓜社<p>赵珊洳“没有什么不妥的，毕竟，我也很喜欢我自己。”</p><p>原来如此。</p><p>她所指的喜欢，是这种类型的喜欢啊。</p><p>赵珊洳“但这也是建立在，我很清楚自己的优点藏在哪里的前提下，才能把‘喜欢’一词随随便便挂在嘴边，只不过，师兄你…真能说出如何喜欢上我的这份答案吗？”</p><p>明明她目前所说的话题。</p><p>有点类似于公开自己过往在QQ空间里面发布的伤痛文学那样，即是令人脸红害臊的，也是令人巴不得溜之大吉的。</p><p>不过。</p><p>我必须得赶在这种瘙痒感即将涌进心头之前，立刻按耐住自己才行。</p><p>不然的话。</p><p>这道难关肯定难以安全渡过。</p><p>“我…。”</p><p>还没来得及念出第二个字。</p><p>只见眼前的初三女生快速冲了过来，并且牢牢地抓住了我的手腕。</p><p>目前正在使用的这张桌子，发生了很轻微的偏移，而她刚才所坐的椅子，也因此划出了低沉的拖动声。</p><p>如今的赵珊洳同学趴在桌面上，保持着一动也不动的姿态。</p><p>虽然嘴巴的部分什么话语都没有阐明，但她的举止明摆着就是在静候我的下一步。</p><p>“请问，这…。”</p><p>赵珊洳抬头看向我的同时，也皱起自己比较浓郁的眉毛“难道另外一个世界的我，没有对你做过这种事情吗？”</p><p>“呃…没有，至少在我印象之中，完全没。”</p><p>赵珊洳“是吗……既然这样，那么，这个举动就是这个世界的我的独特之处了啊。”</p><p>“嗯，嗯唔。”</p><p>赵珊洳“师兄，你为什么还呆呆地停下，继续说呀。”</p><p>“可是…。”</p><p>你这么用力紧握着我手腕的这个举动。</p><p>不觉得，相当奇怪的吗？</p><p>明明我们最初在这里相遇的时候，当时的她，被我碰完她那双小手以后，可是声称自己立刻跑进洗手间里面，连续洗手很长一段时间才会再次出来的。</p><p>可如今呢？</p><p>从那之后才过了八天时间不到，这么快，就已经从洗手无数遍的那种厌恶心态，一口气转变成此时此刻的积极主动。</p><p>实在是，快到令人感到震惊了。</p><p>虽然我很想这样子去反驳，只不过，我下意识地认为不应该就这样随便说出口。</p><p>赵珊洳摇了摇头“别把我这道行为当作一回事，老老实实交代你的内心想法就行。”</p><p>听到这里时。</p><p>我，用力深呼吸一口。</p><p>紧接着就是全力说出眼前这位女生的优点以及亮点。</p><p>“我觉得，小如长得很可爱。”</p><p>明明这句话是我结合过往所看的漫画剧情以后，好不容易得出一句容错率高达百分百的万能答复。</p><p>赵珊洳“早就知道了。”</p><p>结果。</p><p>她却给与如此平淡的回应。</p><p>“哎…。”</p><p>正常人不都是会说‘谢谢’之类的话语么。</p><p>就这么自信的吗…唔唔唔，她无论是外观又或者是打扮，的确全都维持在很可爱的范畴便是啦。</p><p>赵珊洳心灰意冷地继续追问道“仅仅只是从现阶段的外观方面去判断一个人的话，你今后可是绝对会吃大亏的喔，所以，师兄就没有除此以外的说法吗？”</p><p>如果。</p><p>我把你当前这种‘突然紧握他人手腕’的举动，比喻成行为习惯非常独特的话。</p><p>到时候的你，肯定就会立刻注意到我的这句不寻常赞美，纯粹就是找茬用的嘲讽语而已。</p><p>唉。</p><p>话题又回归到原点了啊…除此以外的亮点吗？</p><p>不知道气味这个方面算不算呢？</p><p>至少我所认识的同龄女孩里面，唯独只有眼前这位初三女生的气味是与众不同的，而且，此时此刻经过我那钛合金狗鼻的再次确认，她身上果不其然还是留有一股很酸涩的柠檬香氛气味。</p><p>看来，这是她的…。</p><p>赵珊洳“师兄，你现在究竟在想些什么呢？你的心脏跳动速度突然快了很多喔？”</p><p>哎？</p><p>什么情况？</p><p>她的语气不像是在故弄玄虚的感觉，然而，我却没有瞧见这位初三女生到底是通过什么方式…啊。</p><p>难道！</p><p>是她当前这个紧握着我手腕的举动？</p><p>好像，还真是。</p><p>众所周知，古代的神医往往都会通过‘望闻问切’的方式去调查病患的状态，而其中，最为关键的部分就是‘切’的这一环节。</p><p>具体来说，就是把脉。</p><p>而如今赵珊洳同学紧握我手腕的行为，从表面上来看，看似是很单纯地固定着我的左手，可实际上呢？</p><p>她，却借着这个举动，悄悄把自己纤细的无名指以及尾指，按压在我左手手腕上的脉搏位置。</p><p>以此，强行探明着我的心跳速度。</p><p>‘呜哇，这个女生远远比我想象中还要蛮横很多倍啊。’</p><p>如果我没猜错的话。</p><p>这，应该就是赵珊洳变亲近之后才会故意采取的打量方式是吧。</p><p>倘若真是这样的话，那就稍微变得有点难办了啊。</p><p>嗯唔？</p><p>你问我为什么要这样子说？</p><p>难道我们之间变得亲近，会是坏事？</p><p>我认为，亲近本身确实不是什么坏事，倒不如说是如同上天恩赐一样的好事，只是…她当前的行为若是继续下去，迟早会注意到我露马脚的部分。</p><p>毕竟，你看。</p><p>先前的我可是故意摆显过那种慌张的态度，然后以此证明在这期间的自己毫无疑问就是在说些假话。</p><p>然而现在的她，却能够通过这种窃听心跳的方式一口气查明真伪。</p><p>不妙啊。</p><p>绝对不能让之前塑造出来的人设就此崩塌的同时，还要得出一份令她满意的答案。</p><p>稍微有点难办了。</p><p>该怎么做，才是最佳…别那么慌张嘛，江小白。</p><p>‘你，似乎有点太过小瞧你自己的本事了吧？’</p><p>因为内心深处突然冒出这句话的缘故。</p><p>原本无法冷静下来的大脑，一口气，就变得无比的平和。</p><p>赵珊洳“师兄，你的心跳速度开始变慢了哦？”</p><p>冷静点。</p><p>再冷静点。</p><p>保持理性行事。</p><p>尽管我在观察力这个领域上会输给世上很多人，但这并不代表我没有观察力的意思哇。</p><p>同样道理，假若我连这种基本操作都做不到的话。</p><p>那么，我今后还要怎么应对这位初三女生接踵而来的挑战啊。</p><p>毕竟。</p><p>她当前那种特殊举动虽说是第一次，却不是最后一次哇。</p><p>“小如。”</p><p>赵珊洳笑道“终于要开始你的演说了吗，请开始吧。”</p><p>“我，最喜欢的是你那种不会坐等才能从天而降的态度，以及，你尝试新鲜事物的时候，依旧保持着这种积极应对的想法。”</p><p>其实。</p><p>我根本就不知道赵珊洳同学到底是哪个领域里面的天才，毕竟，梦梦大师死活都不愿意诉说，而是强行示意让我自己去获取答案。</p><p>不过，我刚才的这番话语肯定能够轻松蒙混过关，毕竟，她如今身子底下压着的，正是她这么多天以来的劳动成果。</p><p>是的。</p><p>我在说的就是那支钢笔，那本笔记，还有那堆科幻题材的书籍。</p><p>紧接着我再次交出她那第二份的优点，也是确切结合了我与她相遇之后的情景，根本就不是什么谎言。</p><p>你看，正常人能接受现实生活中存在科幻情节的事情么？</p><p>更何况对方还是才校学生？</p><p>因此。</p><p>我的这份说法非常的……。</p><p>心底话明明还没念完，眼前的赵珊洳同学就已经把头撇向一边，并缓缓松开紧握我手腕的手。</p><p>此时的她，从桌面上回到座位上。</p><p>多次确认坐稳以后，赵珊洳才会如此回应道“还…还算挺有眼光的。”</p><p>嗯唔？</p><p>这是我的错觉吗？</p><p>为什么我隐隐约约感觉那位初三女生，此时此刻的态度略微表露出一丝母猩猩的感觉。</p><p>“请多夸赞我几句嘛，我是那种夸赞次数越多，成长速度越快的孩子喔。”</p><p>因为这句话的缘故。</p><p>那位还没完全回归正常状态的初三女生，赫然正面看向我这边。</p><p>赵珊洳“麻烦师兄赶紧去卫生间里面照照镜子吧，明明都已经长成这副模样了，居然还敢声称自己是个孩子，你的行为可是相当容易造就儿童医院的负担呀。”</p><p>我，总算是借此机会看了个清楚。</p><p>她当前表情里面所蕴含的，正巧是母猩猩的那股味道。</p><p>再配合着此时此刻这种说话带刺的模式。</p><p>如此一来。</p><p>哪怕赵珊洳同学今后再怎么狡辩，关于她的性格，我，多多少少都能摸出个大概出来了。</p><p>没错。</p><p>她，绝对沾有一部分与傲娇相关的性格混杂其中。</p><p>“行吧…。”</p><p>话音结束。</p><p>我们，重新回归原本的聊天模式。</p><p>虽说这个地方是图书馆，附近的警示牌也明确表示要保持安静，不过，由于这个地方实在是太过宽阔的缘故，外加，馆内陆陆续续就会传来页面翻动声。</p><p>因此。</p><p>只要我们控制好自己的说话音量，就绝对不会引起远处那些学生的注意。</p><p>但周遭的…不好意思，我们周遭压根就没有其他人在。</p><p>也许，是这个位置曾经发生过什么案件，才会导致没有人敢肆意靠近这里。</p><p>也许，是赵珊洳同学的存在本身，就已经能让绝大多数人都处于望而止步的状态。</p><p>总之。</p><p>能在这里随便闲聊的这件事，换作是其他图书馆的话，绝对，没办法顺利做到才对。</p><p>真庆幸天时地利都站在我这边啊。</p><p>目前，就差人和而已。</p><p>而如今，我，就在使劲争取着。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海角社区实战</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《海角社区实战》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于海角社区实战</h2>
+<p>					海角社区实战<p>…。</p><p>……。</p><p>总觉得。</p><p>今天的时间流动速度，明显要比昨天还要缓慢许多倍。</p><p>哪怕我不愿意这样子去认为，不过，周遭传进我耳朵里面的嘈杂声，却始终处于慢了一拍的感觉。</p><p>尤其是刚才正在吃饭的那段期间，关于这份感触就更加显赫了。</p><p>由于今天饭堂这边实在是太多人的缘故，那些剩余下来的空位，几乎不可能会长存超过三秒没被霸占。</p><p>等我们好不容易找到三人座的时候，逼不得已的头槌少女，无可奈何地只好捧着她那番茄…黄油…总之就是番茄炒蛋盖饭，来到隔壁的坐位上，坐下。</p><p>并不是我的隔壁！而是母猩猩的隔壁！</p><p>也正因为座位调整了的缘故。</p><p>我，明显看见这两人的斗嘴方式又提升了一个全新的境界，虽然闭幕时的结局依旧还是以头槌少女的落败收场，不过，过程方面倒是挺有创新的。</p><p>至少我是没有想到。</p><p>魔法攻击(寒冰掌)竟然能对头槌少女这么奏效便是。</p><p>总结。</p><p>又和她们在吃饭期间，聊了一堆毫无营养价值的话题。</p><p>伴随着清脆的三道餐盘碰撞声，我们，离开了这个无比温暖的学生饭堂。</p><p>尽管绝大多数的学生都处于吃完饭的状态，且，迟迟不愿意交出自己屁股底下那个好不容易坐暖了的位置。</p><p>但这也并不能成为留住我们的理由。</p><p>至少。</p><p>我眼前这两只吵吵闹闹的家伙，就没能因为这份‘正常’理由而选择停下脚步。</p><p>叶露“甜味的豆腐脑肯定是最好吃的啊，你说话的时候究竟有没有带脑子的。”</p><p>伍文欣“就因为带了脑子的缘故，才会明确告诉你咸味的豆腐脑更加畅销，而且，往往只有小孩才会选择什么东西都要带点糖。”</p><p>叶露“你、你才是小孩子！！”</p><p>唉，我就说吧。</p><p>这两人肯定会因为一些鸡毛蒜皮的事情开始斗嘴。</p><p>倘若她们能和好相处，那才是最不可思议的事情。</p><p>伍文欣“嗯对，我确实是人族里面的小孩子，那你一定是虫族里面的小蚊子。”</p><p>叶露“我，暂…暂停！！”</p><p>原本我是打算就此借尿遁离开的。</p><p>结果。</p><p>还没把这份想法交出来的我，竟然被头槌少女给提前截胡了啊。</p><p>叶露“刚才那种有股虫味的风，害我突然很想去摘花了。”</p><p>有股虫味的风，是什么鬼？</p><p>再说，我可是紧跟在你们身后，而且风还是朝着我们正面吹来的哇。</p><p>伍文欣“你的膀胱是外国进口的山寨货？”</p><p>叶露“我这可是百分百原装的国货。”</p><p>伍文欣“依我看，肯定是你小时候不懂事，不小心被邪恶的科学家强行从国货改装成二手山寨货，才会导致如今你这只臭蚊子的容量，明显比起医院里面的患者还要少上一大截。”</p><p>叶露“哪有这种可能！外加，哪里来的邪恶科学家！！”</p><p>“你们二位能不能，不要在吃完饭的这个霎那就给我立刻提及这个。”</p><p>叶露“我没提，这都是臭猩猩带的头。”</p><p>伍文欣“所以，真忍不住了？”</p><p>叶露“不行，这风越吹的嚣张，身体就越抖的厉害…不妙，好像，已经有几滴。”</p><p>尽管这只是她的一番言论。</p><p>不过，我还是不由自主的通过这几句话去联想出。</p><p>青绿色的稚嫩叶子边缘，有几滴清晨的甘露在绕着叶边，凝聚，然后滴落。</p><p>滋润了脚底下这片枯燥的……。</p><p>伍文欣，目露凶光地看了过来“死变态，你刚才究竟在思考些什么？”</p><p>“没，没，什么都没有。”</p><p>叶露“快，带我去最近的…摘花点，解决…问题。”</p><p>伍文欣“从这地方来看，也就只剩下综合楼是最近的了，给我忍着点，我可不想给你父母打电话让她们送条全新的裤子以及内裤过来。”</p><p>叶露“这倒是…放心吧，我今天可是有垫…的。”</p><p>由于我的存在。</p><p>头槌少女居然晓得主动把自己说出的部分关键词，特意消音了下去。</p><p>尽管我大致上也能通过完形填空去解决刚才空缺的部分，不过，我推荐还是当作若无其事会更加好。</p><p>伍文欣“你以为那是尿不湿吗？”</p><p>叶露“至少，好过真空。”</p><p>一颤一抖，艰难前行。</p><p>看见如此一幕的我，唯有停下脚步目送二人离开。</p><p>并不是我不想一同跟随过去，而是，母猩猩眼神上的杀意容不得我这样子去做。</p><p>于是乎。</p><p>我就只能呆滞在原地，以此确保对方能够看得见我的这个合格举动。</p><p>“唉，明明我待会也是要去综合楼的啊，但又不能让你们知道…那该怎么办？”</p><p>方法一，抄捷径走林间小道。</p><p>尽管该方式确实是省时省力的良策，而且，还能赶在母猩猩与头槌少女到达综合楼之前，领先一拖一拐的她们提前走进综合楼。</p><p>只可惜。</p><p>由于林间小道的不确定性太多，外加，绝大多数都是弊大于利的模式。</p><p>由此判断，方法一并不推荐。</p><p>方法二，绕二号楼的单车道过去。</p><p>尽管这个方案确实可以回避校内的告白圣地，只可惜，这段绕弯距离也是相当…相当遥远的哇。</p><p>甚至，很有可能在头槌少女摘花完毕以后，碰巧遇见这两人携手一同遣返回班上的情景呢，毕竟，有谁会讨厌抄近道啊。</p><p>由此判断，方法二更加不推荐。</p><p>“没办法了，只能用方法三了。”</p><p>也就是，重走一遍。</p><p>还记得学生饭堂的后门在哪里吗？没错，就是小卖部和饮水机那边。</p><p>那么，从那条路走出去之后会在路上遇到什么呢？</p><p>答案就是综合楼。</p><p>古语云，条条大路通罗马，意思就是罗马的交通非常方便发达，同样道理，综合楼的情况也是如此的。</p><p>内心如此思考着的我，身体，不知不觉已经回到了干饭天堂那边。</p><p>果不其然还是那么多人啊。</p><p>不过，我这次过来并不是为了吃饭，而是为了借路。</p><p>走进饭堂，来到小卖部，从后门离开。</p><p>期间。</p><p>偶尔就会让我嗅到有人在吃杯面的气味，明明饭堂里面的新鲜饭菜还是挺不错的，价位方面也不可能会比杯面贵，为什么，偏偏还是有人愿意在中午时段用这个去代替呢？</p><p>难不成，是购饭窗口里头没有东西剩下了？</p><p>不知道，这点事情我不想去追究答案。</p><p>终于走出那个饭堂吵杂声的范围以后，紧接着，迎面而来的便是枯叶铺满整条路段的场景。</p><p>“就像是走进了电脑桌面背景那样。”</p><p>既是漂亮的，也是令人皱眉的。</p><p>因为树叶盖着的底下，有些许碎石导致我没办法好好正常行走。</p><p>好不容易，快要到达心心念念的那个综合楼。</p><p>之前。</p><p>我，明显看见不远处的行人座位上。</p><p>有一道很熟悉的身影，就在那个阳光不怎么明媚的地方里头，坐着。</p><p>而她。</p><p>也正巧听见了我的脚步声，循声看了过来。</p><p>女同学笑道“这，到底是巧合呢？还是偶遇呢？”</p><p>淡淡的眉毛底下，长着一对挺好看的丹凤眼。</p><p>炯炯有神的瞳孔里面，宛如藏着紫宝石一般美丽。</p><p>右眼眼角留有两点泪痣，小巧的鼻子上方没有一丁半点的黑头，两片薄薄的嘴唇在维持笑容的期间，腮上也一同挂着浅浅的小酒窝。</p><p>“确实是，有够凑巧的。”</p><p>而不远处的她。</p><p>正是上次那位在单车棚那边偶遇，且，至此为止都不知道名字的女生。</p><p>女同学“啊我懂了，肯定是你念念不忘我上次故意留给你的那罐喝剩饮料，所以，你这次才会特意寻找我的身影出来的，我，没有猜错吧？”</p><p>“请问你这是把我当作变态来看，还是把我当作垃圾回收厂来看。”</p><p>女同学“我，只是把江小白同学当作美食家来看。”</p><p>“这到底是哪个门子的美食家啊？”</p><p>女同学“这是专门喝别人喝剩下东西的，偏科美食家…所以，上次的你，到底有没有好好品尝一下呢？”</p><p>说出这句话的同时。</p><p>还故意指着自己的嘴唇。</p><p>就像是生怕我不知道，这世上会存在着间接接吻这种词汇一样。</p><p>“没有喝，直接倒掉了。”</p><p>女同学“我发现你这人，还真是有够浪费的啊。”</p><p>“我认为，当初在浪费食物的人应该是你才对吧。”</p><p>女同学“我这是在给你一个改变自身的机会。”</p><p>“给我一个可以从正常人改变成变态的机会，是吧？”</p><p>女同学立刻遮挡自己的小嘴“就你这副脸孔，很难不会让人这样子去思考的喔。”</p><p>“那我还真是谢谢您的好意咧。”</p><p>面对我终于走到她面前的时候。</p><p>只见眼皮底下这位女同学，依旧，还是毫不顾虑地把身旁那罐，难以动用这种长指甲掰开的汽水罐，硬是塞到我的怀里。</p><p>哪怕这人在此期间，什么话语都没有说出。</p><p>我，依然还是能够理解她的目地。</p><p>‘嗞——’</p><p>顺利解决了扣环，便立刻把汽水罐交回原主人的怀里。</p><p>“来，给你。”</p><p>女同学双手接上，并举高放在自己胸前“感恩。”</p><p>我，明确记得上次的自己也说过类似的话语来着？</p><p>这位女生的指甲明显无法做到掰开汽水环，可是，她却偏偏喜欢来到一个鸟无人烟的地方里面，还特意带着这瓶还没开封的汽水，就像是在静候着什么人的降临。</p><p>如同姜太公钓鱼那样。</p><p>“要是我刚才没有途经这里的话，恐怕，你手上这罐汽水会变得明天都没法顺利喝上一口也不一定，所以，你，为什么不去买个瓶装的回来呢？”</p><p>女同学“如果不是汽水狂热爱好者的话，完全没办法发现罐装和瓶装的区别呢。”</p><p>“啊这…真有区别的么？”</p><p>女同学点了点头“气的量以及酸味会不一样。”</p><p>“真的假的。”</p><p>女同学露出邪魅一笑，并，特意举高汽水在我眼前“要，稍微试试看吗？”</p><p>“不，这是你的东西。”</p><p>女同学“正因为是我的东西，所以我才会特意去询问你的，江小白，你，难道就不想尝一下别人手里的饮料吗？”</p><p>“我为什么要专门去尝别人手里的饮料不可？”</p><p>女同学“那是因为有一句古话说过，男人一旦吃过女人手里的东西，就会变得相当听话，而我，正巧也想看看你听话时的模样。”</p><p>“总觉得这句话我近期也好像在哪听到过…对了，小恶魔也和我说过类似的，就是，吃过她的饭以后，今后的我也会变得更加听她的话。”</p><p>女同学，缓缓放下手里的罐装饮料“原来，你还和那只小恶魔一起吃过饭的呀。”</p><p>不知为何。</p><p>当她诉说完这句嘲讽话语的时候，我，明显感觉此人眼眸里面传来了非常浓烈的杀意。</p><p>如同把一车黑色油漆，倾倒在小小的水池里面那样。</p><p>容不得水底下的任何鱼儿，拥有一丝逃离又或者是喘气的机会。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

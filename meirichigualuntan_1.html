@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日吃瓜论坛</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《每日吃瓜论坛》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于每日吃瓜论坛</h2>
+<p>					每日吃瓜论坛<p>…。</p><p>……。</p><p>来来往往的车辆，紫红色的天空，逐渐被点亮的路灯，以及，坐在候车亭里面静候专线的我。</p><p>“好慢啊。”</p><p>等了这么久，却仍然没有指定车辆前来这里的理由，我，能想到的答案也就只有那么一个。</p><p>就是。</p><p>在我赶过来这边之前，正巧错过了一辆公交车才会导致的。</p><p>“也就只有这种可能了啊……。”</p><p>由于闲着实在没什么事可以干，于是乎，我，便像往常那样。</p><p>点击手表屏幕，静候南极动物背影APP的加载完毕。</p><p>选中那个熟悉的头像，打开相应的对话框。</p><p>正准备找梦梦子稍微聊一下，不久之前发生过的那些。</p><p>结果。</p><p>我的身后，立刻传来了一把很熟悉的女性声音。</p><p>孙凛世“又碰上你了呢，江师兄。”</p><p>“呜哇！能不能别在我身后忽然开口说话啊，要是我的心脏稍微差了那么一点，恐怕会被你吓到立刻躺下哇。”</p><p>孙凛世“因为我太过漂亮的缘故，所以误以为自己走进了天堂的人，这世上也有不少喔。”</p><p>“难道，自恋是才校学生必备的土特产吗？”</p><p>孙凛世“至少比起师兄所在的那所学校，在师资方面要好上不少不是么？”</p><p>“总而言之，孙同学能稍微解释一下，你，再次前来这里的目地到底是为了什么吗？”</p><p>晚风，轻轻牵起这位闺蜜的一部分长发。</p><p>宛如人偶一般美丽的她，哪怕目前处于背对着那枚落日的状态，眼眸里面也依然闪烁着部分夕阳。</p><p>尽管眼前的画面确实如同绝美的画卷那般，能用绮丽二字进行概括。</p><p>但。</p><p>她的这份微笑底下，却不带掩饰地掺杂一丝寒芒。</p><p>孙凛世“只是稍微打一声招呼的这种说法，已经行不通了吗？”</p><p>“从刚才开始，我们就一直以提问的方式去进行聊天，不觉得这样很奇怪的吗？”</p><p>孙凛世“奇怪的人，由始至终都是江师兄而已，为什么，非要选择洳洳不可呢？”</p><p>“按照你的视觉角度来看，我和她，既不是同一所学校的人，也不是有所认识的人，更不是在兴趣爱好上有所关联的人，完完全全，就是一个三无的标准化。”</p><p>孙凛世“能别废话了吗？”</p><p>“我隐约记得，我已经在长廊那边解释过了吧。”</p><p>孙凛世“要是我真愿意相信的话，那我就不会刻意出现在这里了。”</p><p>“有道理。”</p><p>孙凛世“除了‘喜欢’这两个字以外，江师兄你，应该还能继续解释些什么吧？”</p><p>“如果我说没有呢，你，会放弃协助我吗。”</p><p>孙凛世“不会。”</p><p>“单纯只是不希望戴梦梦再次与我黏在一起，才选择这种回答的吗？”</p><p>孙凛世“对。”</p><p>“好坦率。”</p><p>孙凛世“面对这种类型的事情，稍微坦率一点又有何不可，但是，江师兄由始至终都不是一个坦率的人，关于这点我姑且算是记住了。”</p><p>无论偷看她多少次，不管是从何种角度看过去，这位闺蜜的五官果然如同人偶一样精致。</p><p>而且身材方面，也难以用冬日的服饰去掩盖那份苗条。</p><p>给人感觉，就像是童话故事之中的女主角那般，获得了该有的最终形态。</p><p>孙凛世“江师兄，这么快就移情别恋了吗？”</p><p>“哈啊？”</p><p>孙凛世“如果不是的话，那你，刚才为何要拿出配种动物的眼神看向我这边。”</p><p>“配…咳，你有些时候拿出来的说辞还真是有够毫不客气的啊。”</p><p>孙凛世“需要我拨打求助热线，让特种兵去阻止你接下来即将实施的行为吗。”</p><p>“特种兵才不会管这种类型的小事呢。”</p><p>孙凛世“原来如此，那么，待会前来这里的一定就是武警了。”</p><p>“我看起来真有这么危险吗。”</p><p>孙凛世“你比我更加清楚这份答案不是吗。”</p><p>“确实…。”</p><p>孙凛世“理由的部分，姑且可以优先听你解释那么一遍，但别指望今后还会允许你再次做出这种桥段，毕竟，我，刚才真的已经把报警电话给准备好了的。”</p><p>“只是忽然觉得，你在身材这个方面保持得未免太好了，让人不由自主想要多看几眼，难道，你是那种每天都坚持晨运的学生？”</p><p>孙凛世“戴学姐故意隐瞒许多情报的这点，原来，都不是她的谎言啊。”</p><p>“什么意思？”</p><p>孙凛世“我，是才校芭蕾舞部门的领队，偶尔，就会去洳洳的声乐部客串笛手。”</p><p>“难怪身材这么好，原来是跳芭蕾舞的啊。”</p><p>孙凛世“听到这都不觉得惊讶吗？”</p><p>“里面包含着令人吃惊的元素么？”</p><p>孙凛世“我可是领队喔？”</p><p>“在我小学二年级的时候，还是班长呢。”</p><p>孙凛世“这两者的性质可是完全不一样的啊…。”</p><p>“就算被你这样说，可我终究还是没办法理解你的意思。”</p><p>孙凛世“算了，和你解释太多肯定都是没有任何意义的，更何况，我最开始的提问也没能拿到答案，感觉就像是在对牛弹琴那样。”</p><p>“呃…。”</p><p>孙凛世“总之，我，会持续监视着你们的，因此，你们就别妄想能够再次单独会面了。”</p><p>“哦，哦……。”</p><p>说完。</p><p>这位闺蜜，便来了一个华丽的转身。</p><p>缓缓地离开这个无人候车亭。</p><p>没过多久。</p><p>我所需要的专线，终于姗姗来迟的成功达阵。</p><p>……。</p><p>…………。</p><p>由于今天的回家时间确实是有点晚。</p><p>因此，我被老妈斥责了一大顿，但看在我已经把作业提前完成了的缘故，又姑且收敛了一部分的骂言。</p><p>总而言之。</p><p>这种类型的谎言，也不知道能继续瞒骗二老多少次。</p><p>随着餐桌上的菜肴闪闪发光，米饭的香味四溢客厅，筷子的响声出现节奏，一家人的笑容洋溢在脸上。</p><p>晚餐时段，就这么匆匆的结束了。</p><p>完事之后的桌面收拾、洗碗、倒垃圾…尽管其中一个项目不需要我去做，但剩余下来的两个也要耗费我将近十五分钟。</p><p>紧接着，便迎来转身回去寝室里面看书复习的黄金时段。</p><p>虽说。</p><p>疲惫感根本就容不得我把眼皮底下的文字，看进大脑里面。</p><p>不过，此时此刻也确实没有别的事情要去忙活，顶多，也就是去群聊组那边偷偷观察情侣圈最近在聊些什么，的这点而已了吧？</p><p>随着时间的推移。</p><p>我，也是时候要前往羞涩学姐那边了。</p><p>在此期间虽然被洗衣店的店主女儿稍微打扰了那么一小会，不过，由于她忽然发来的那些无聊话语，完全不会为她的恋果带来一些什么样的成效。</p><p>于是乎。</p><p>我便相当随意的整了几句鼓励，便把她给打发掉了。</p><p>穿上大衣，换好鞋子，推开大门。</p><p>以极其迅捷的身姿，从自己所在的楼层来到这个小区的楼下。</p><p>朝着广场那边，不断摇头晃脑地小跑进发。</p><p>不出一会时间。</p><p>我，便到达了那个熟悉的角落。</p><p>还是一如既往的人物，还是习以为常的背景，但，我们之间的关系，却变得截然不同了。</p><p>巫恋学姐“晚上好，小白。”</p><p>“晚上好啊。”</p><p>学姐她，为什么没有把那件事情说给小恶魔听呢？</p><p>关于这份疑问，我，由始至终都得不出什么很好的结论。</p><p>而且，也无法猜透她的小心思。</p><p>尽管在我前来这里的途中，已经多次考虑过该不该摊开这件事情然后继续聊下去，最终，我仍然还是决定，既然是难以预料的事情，那就并不存在迟与早的问题。</p><p>“学姐。”</p><p>巫恋学姐“请问，怎么了吗？”</p><p>“昨天的你，为什么不把那件事告诉给你的晚辈朋友听？”</p><p>原本以为。</p><p>学姐可能会做出支支吾吾的举动，又或者是，没办法正面回答我的疑问。</p><p>然而。</p><p>羞涩学姐只动用了一句的程度，就把这件事…就这么草草的结束了。</p><p>巫恋学姐笑道“我认为，这是属于我们两人的秘密，不该，把我的晚辈朋友也牵扯进去，而且…小白的这份说法，也在明确说明了，你，也没有提前说给她听的意思，不是吗？”</p><p>虽然理由的部分确实是不怎么完善的。</p><p>但至少，她用行动阐明了自己的打算。</p><p>即便这份打算并不是时下的迫切所需，不过，仍然会在未来的某一天里面存在着巨大的效力。</p><p>宛如一枚定时炸弹那般。</p><p>容不得我提前拆掉，更容不得让别人去知道。</p><p>“确实。”</p><p>巫恋学姐“那么，小白…请问，我们能开始闭眼锻炼了么。”</p><p>“学姐你到底是怎么了？为什么忽然之间变得那么积极主动了，明明不久之前还如此厌恶这类锻炼来着，该不会是发烧感冒了吧！这可是说小不小的问题啊！！”</p><p>巫恋学姐“难道…先前的我们不是已经说好了，在工作日的一三五里面，进行锻炼的吗。”</p><p>“确实有说过，可是，今天是星期二呀…。”</p><p>巫恋学姐“昨天，并没有，锻炼。”</p><p>“虽然学姐你愿意主动接受锻炼的这点，确实令人感到欣慰，不过，也会令人感到心生畏惧啊，不行！学姐快把你的额头亮出来，我要确认一下你是不是已经处于发烧的状态！！”</p><p>听到这里时。</p><p>羞涩学姐，略微思考了一小会。</p><p>紧接着，她，毫不犹豫地把自己额头上的留海给揪起。</p><p>糟糕。</p><p>这人竟然真的愿意允许我去接触她的额头。</p><p>看来，学姐病得不轻啊。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

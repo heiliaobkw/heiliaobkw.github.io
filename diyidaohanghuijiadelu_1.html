@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第一导航 回家的路</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《第一导航 回家的路》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于第一导航 回家的路</h2>
+<p>					第一导航 回家的路<p>小小年纪就参与工作，还顺势帮家里减轻负担，实属是优秀。</p><p>不过。</p><p>让未成年人去店铺打工的这件事，应该已经触犯法律了吧？</p><p>不知道。</p><p>虽然我脑袋里面经常存储这一些冷门知识，但不代表我能够就此化身成为逆转裁判，所以，关于这种类型的疑问姑且还是无视掉算了。</p><p>打单完毕以后，只见店主女儿握紧扫码枪“是支付宝还是微信付款？”</p><p>“微信。”</p><p>放下装有才校校服的塑料袋，举起左手智能手表并展示二维码，伴随着扫码枪的瞄准，机器立刻发出清澈的一声‘滴’。</p><p>结算成功。</p><p>店主女儿“这是你的小票。”</p><p>“哦，好。”</p><p>店主女儿“到时候记得凭小票过来领取…。”</p><p>她还没来得及说完这番提醒。</p><p>我的左手手腕便立刻传来了熟悉的震动，迫使我只能把目光放在手表屏幕上。</p><p>【Zhaoshanru发来了语音通话请求】</p><p>还记得，故意用拼音去代替Q名的这个账号到底是谁，的这件事吗？</p><p>还记得，今天傍晚你们之间的关系已经从什么进化到什么，的这件事吗？</p><p>还记得，关系密切起来之后需要去做哪种行为才能维持下去，的这件事吗？</p><p>不可能这么快就不记得了吧？</p><p>总之，那位初三女生没有发送视频通话过来的这点，确实，是一件相当值得庆幸的事。</p><p>不过。</p><p>语音通话也依旧是个世界级的难题啊。</p><p>该怎么办？</p><p>接通之后就意味着，我接下来需要花费比较大量的时间，去和话筒另一头的初三女生进行日常闲聊，甚至很大概率会就此变成彻夜闲谈的模式。</p><p>倘若真的演变成这样的话，那么，羞涩学姐这边要怎么处理？</p><p>搁置一旁不管吗？</p><p>羞涩学姐之所以会被我粘贴‘羞涩’这个人格标签进去，其原因，当然并不止是行为举止方面明显要比普通人更加畏惧她人，更是确切知晓她，绝对会在思想觉悟方面也会优先采取躲避的行为，才会使我不由自主地动用这种称呼。</p><p>是的。</p><p>一旦让学姐瞧见我与其他女生进行语音的场面，而自己在此期间却又完全不敢说话的时候，她，大概率就会因为太过尴尬而选择提前离开。</p><p>以及。</p><p>我与初三女生闲聊的这段期间，很有可能会不由自主的拿出一部分情话出来，学姐听闻以后估计会误以为我已经是有女朋友的人，所以，今后就会变成‘没事别约在一起见面’的情况。</p><p>以此方式去证明所谓的双方清白。</p><p>毕竟。</p><p>有女朋友的人，每天晚上还要跑去和其他女生见面，这到底是啥情况？</p><p>完全不能让一般人去接受的好吧。</p><p>这，就是我强行给羞涩学姐扣上帽子的思考方式。</p><p>如果我因此变成没办法和学姐继续‘像这样’去闲聊的话，恐怕，以后获取小恶魔情报的渠道会变得相当稀少也不一定。</p><p>如此一来。</p><p>无论小恶魔在学校里面干了些啥大动作，到时候的我，始终都处于后知而后觉…甚至是永远没有觉也是有可能发生的。</p><p>这对于我的生存空间来说造就了极大的困扰。</p><p>明显，就是弊大于利的行为。</p><p>反观来看另一边。</p><p>假若接下来的我选择无视了初三女生那边的话，又会怎么样呢？</p><p>她。</p><p>大概率会把当前这段薄如蚕翼的关系，给直接当作没有那回事去处理了吧。</p><p>像这种前进一步后退三步的举止，到底还要花费多少时间才能确切建立为‘情侣’关系，而且，那个关智仁宣布的截止日应该是在3月15号。</p><p>而今天则是2月28号。</p><p>“还剩两周时间而已了啊…。”</p><p>就在我犹豫不决的这段期间。</p><p>手捧货物的店主，正好推开员工大门走进了店铺的另一头。</p><p>至于那位店主女儿嘛，则是趴在桌子上用手支撑着自己脸颊，露出狡猾的表情，说了一句有点让人出乎意料的话语。</p><p>店主女儿“不接吗？手表里面那位应该也是你女朋友吧？”</p><p>人小鬼大，原本，是字典里面的四字成语才对。</p><p>结果。</p><p>如今的我，却看见了现场版的释义。</p><p>“什…我的事，应该不关你这小孩子的事吧。”</p><p>店主女儿一脸坏笑“对我说这种话真的好吗？”</p><p>“什么意思？”</p><p>店主女儿“上次，故意命令你对着手表唱情歌的女人，应该，就是如今正在打电话给你的那位吧，至于今天晚上在店门口遛狗的那位，不知道在得知这件事以后会怎么做呢？”</p><p>“呃咳。”</p><p>店主女儿“所以说，脚踏两条船的你，如果不赶紧拿出更加诚恳的态度出来，我呢，有可能会立刻大喊一声让她进来也不一定哦？”</p><p>真厉害。</p><p>我居然被年纪比我还要小的女孩子，给威胁了。</p><p>“对不起，是我错了，我不应该用这种语气去回应您的，还望您大人不计小人过，千万不要在意这种事。”</p><p>店主女儿“退缩的好快！！难道你就不晓得继续为自己逞强那么一小会么？”</p><p>“与其去做这傻事，还不如老老实实认栽，反正，最后的最后都是同一个结局。”</p><p>店主女儿“确实。”</p><p>“所以，我该怎么称呼你。”</p><p>店主女儿“叫我周雯雯…不对，现在是我向你发起提问的时候才对。”</p><p>“在这之前，可以麻烦您能不能先让我决定好如何解决这个问题再说呢？”</p><p>自称周雯雯的店主女儿，见状我那个震动不停的智能手表以后。</p><p>无可奈何地，选择摊开双手示意让我做好决断。</p><p>而我这边。</p><p>也就只能关掉智能手表的屏幕，以此方式去无视掉对方后续的干扰，并由衷祈祷话筒另一头的初三女生，绝对不要因为这事而变成非常气愤的模式。</p><p>虽说，无人接听的行为确实很容易出现问题。</p><p>不过。</p><p>刚才的我，已经有老长一段时间没有点击接听按钮，估计，如此聪明的对方也会立刻联想到，我这边很有可能正在处理着某些问题没办法腾出时间。</p><p>因此，关于这段解释肯定允许留有一席之地才对。</p><p>总结。</p><p>结束完这趟行程以后，大概率，就要立刻点击赵珊洳的语音通话按钮了。</p><p>店主女儿周雯雯“如果我没猜错的话，你手表里面命令你当街唱情歌的女朋友，在性格方面应该是相当火爆的类型才对，所以，这…真的好吗？就这样拒听。”</p><p>“没办法的事情，只能采取无能为力的行为了，不是吗…再说，你知道的事情还真是有够多的啊……。”</p><p>周雯雯“按照正常人的一般论来说，那天，客人你在我面前唱完那种难听得要命的情歌以后，不是立刻红着脸离开这里了吗？而如今，你再次出现在我面前的时候不会觉得很尴尬吗？至少，我不久之前就是尴尬的要命。”</p><p>原来。</p><p>她之前朝我发呆的理由就是这个啊。</p><p>“喂，你难道不希望自己家的店铺多点业绩么？”</p><p>周雯雯“现在提出问题的人是我！！”</p><p>“呜哇，好可怕，现代的初一女生都已经这么能说会道的么？”</p><p>周雯雯“别看我个子小，好歹我也是在读初二的！！”</p><p>“还真是完全看不出来哇。”</p><p>周雯雯“总之，你，给我说说看，为什么遭遇到那种尴尬事以后还会愿意出现在这？”</p><p>“首先，我家附近也就只有你这么一家洗衣店是最为邻近的，其次，我并不需要特意绕路太远就能解决问题，第三，价格方面也明显符合我的支出预算，第四……。”</p><p>周雯雯“慢着，我不是为了听你解释这个的。”</p><p>“那你倒是说说看，你到底想听什么啊。”</p><p>因为这句话的缘故，周雯雯立刻变得有些犹豫“就是…就是……。”</p><p>这位在读初二的店主女儿。</p><p>并没有如她所愿那样，确切说出自己的答案。</p><p>目前，这人只是使劲瞪大了她那双清澈的双眼，然后试图通过这种方式去暗示着那份，不愿意直接诉说出来的回答。</p><p>啊这…。</p><p>她该不会是打算从我这里获得，无需怕出糗的锻炼方法吧？</p><p>“早已完全习惯门店工作的你，哪有可能还会为害羞的问题而烦恼的嘛。”</p><p>周雯雯“唉，究竟是什么牌子的思考回路，才会得出这种蠢猪一样的结论。”</p><p>“难道不是么。”</p><p>周雯雯“根本不是。”</p><p>“这就奇怪了。”</p><p>周雯雯“奇怪的人是你…唉，总而言之，你以后还会继续光顾我们洗衣店的，是吗？”</p><p>“啊，嗯，不出意外的话。”</p><p>突然有点害怕，当我说完这句回应以后。</p><p>会被在读初二的她狠狠地来了一句，那你今后别来了。</p><p>周雯雯“是吗。”</p><p>结果。</p><p>这位店主女儿却没有给予除此以外的答复。</p><p>“…如果没别的事的话，那我就……。”</p><p>周雯雯“慢着。”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

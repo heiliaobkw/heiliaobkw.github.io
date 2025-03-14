@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>端午安康瓜报</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《端午安康瓜报》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于端午安康瓜报</h2>
+<p>					端午安康瓜报<p>‘轰隆轰隆轰隆——’</p><p>这道由远至近的雷鸣声，把那个仍然处于发呆状态的我，给吓了一跳。</p><p>抬头一看，呜哇。</p><p>怎么变得更加昏黑了啊，而且，这附近还没有路灯提供照明。</p><p>哪怕母猩猩接下来会突然出现在不远处，我也没办法…这句话好像不太对。</p><p>虽然现在光线不足严重影响视野范围，但如果我没记错的话，我们学校校服的上方会有反光条才对。</p><p>身穿带有反光条的服饰时。</p><p>无论此人身处在多么昏暗的地方，一旦有些许微弱的光源照射进去，这玩意就会立刻起到非常厉害的作用。</p><p>看吧，就像是不远处那位保安大哥身穿着的制服那样。</p><p>明明这个距离早已看不清楚他人究竟藏在了哪里，再加上，那个保安亭居然到现在为止都还没开灯。</p><p>即便如此。</p><p>反光条也会确切显赫出这位大哥的所在之处。</p><p>总结。</p><p>只要母猩猩出门穿着校服的情况下，我，根本就无需担心自己会在恶劣天气的情况下，找不到那头母猩猩的所在方位。</p><p>哦…噢？</p><p>说曹操，曹操就到了啊。</p><p>正当我不断朝着不远处那位，身穿反光条服饰的人影挥手打招呼的这段期间。</p><p>我的身旁。</p><p>明显传来了伍文欣的说话声“死变态，你，干嘛对着那位保洁工人示好？”</p><p>“哎？”</p><p>她究竟是什么时候，到的…。</p><p>不对。</p><p>如果她身穿带有反光条服饰的情况下，从我这个角度来说，绝对不可能会看不见她的到来才对。</p><p>抱有这份疑问的我。</p><p>趁着空气还没完全凝固起来之前，连忙把自己的视线快速转移到声音源的地方。</p><p>只见。</p><p>母猩猩这次不仅非常准时的来到了这个地方，甚至，还穿着一件我完全没有见识过的衣服…请问我究竟在胡言乱语些什么啊。</p><p>除了校服以外，她的其他服饰我均无见过的哇。</p><p>另外值得一提的是。</p><p>她发型的部分，也更换为搭在肩膀上的侧马尾。</p><p>真的。</p><p>除了声音、语气、以及她认识我的这三点以外…我，压根就没有意识到眼前这位女生，居然会是母猩猩。</p><p>人靠衣装，魔靠妖装。</p><p>这句话正好就验证了我现在的心情。</p><p>就在这时。</p><p>伍文欣冷冷地来了一句“就算被你动用这种眼神看着我，我也绝对不会就这么轻易放你这个劳动力离开，你，现在能做到的事情也就是死了这条心跟在我后头，仅此而已。”</p><p>尽管外观方面的变化确实很大。</p><p>一旦想到对方是母猩猩的时候，我的四肢，还是会出现不由自主做出想要颤抖的表现。</p><p>“嗯…嗯唔。”</p><p>聊到这里时，母猩猩就已经转身朝着某个方向前进。</p><p>并示意让我赶紧跟上。</p><p>所以，像这种时候。</p><p>我应该立刻夸赞她的打扮两句？还是，闭嘴不提一个字紧跟着她身后就行？</p><p>“那…。”</p><p>伍文欣“闭嘴。”</p><p>“明明我什么话都还没说出口。”</p><p>伍文欣不屑一顾的回应道“反正肯定不是好事，也绝对不可能会听见有好事。”</p><p>“唉…。”</p><p>自从这个学期开学以来，连续单身十六年的我每到周六日都有异性约出去。</p><p>请问，这是不是一件值得庆幸的事情？</p><p>无论怎么想，这事始终都会让人感到很侥幸吧。</p><p>我。</p><p>居然又又又一次在这种情况底下学会乐观起来。</p><p>眼看我没能顺利跟上她的急速步伐以后，停在不远处的伍文欣立刻回头喊道“你怎么孤零零一个人走在那里，难道你是在享受着与地球约会吗？”</p><p>为什么这头母猩猩。</p><p>总是能放一些既狠毒又新颖的嘲讽话语出来。</p><p>“当然不是！！”</p><p>即便知道自己的这句回答没有什么意义。</p><p>但我，依旧还是会忍不住想要反驳一下对方。</p><p>伍文欣“既然不是在和地球约会的话…那你，肯定就是在离家出走的过程中寻找真我了，对不。”</p><p>“请问我究竟是什么时候迷失了自我的？再说，为什么要动用离家出走去作为这件假说的前提条件？”</p><p>伍文欣“我明明只是在和你身后盘旋着的枯叶说话而已，你这枚真菌突然之间跑出来搭话是做什么。”</p><p>“原来昨晚的设定，还没结束啊…。”</p><p>眼看我确切跟上她的脚步以后，这头母猩猩，便不再说出刚才的那些话语了。</p><p>不过，话又说回来。</p><p>我们接下来要去的地方到底是哪里来着…这附近，无论怎么看都不像是拥有大型超市的样子。</p><p>所以。</p><p>我们穿梭在到处都是居民楼的小区道路之间，到底…是为了做什么事情？</p><p>真奇怪啊。</p><p>正当我如此思考的期间，眼前的伍文欣突然停下了脚步。</p><p>呜呼！</p><p>好险啊！！</p><p>差点就来不及刹车，从而导致自己撞上这位满嘴狠话的母猩猩了。</p><p>要是真不小心发生了那种事情，后果，实在不容得我这种市井贱民去想象出来的哇。</p><p>伍文欣“就那里，走吧。”</p><p>“哪里？”</p><p>随着母猩猩的再次前进。</p><p>我，继续紧跟在她身后。</p><p>由于天气过份恶劣的原因，尽管远处的景色已经完全处于乌漆抹黑的状态，然而，唯独这条道路的尽头却依然让人清晰看见那块发光的门匾。</p><p>长者…之家。</p><p>我们要去的地方应该不太可能是那里吧，可是，母猩猩的行动路径是笔直的哇。</p><p>再说。</p><p>我们这两位年轻人去那种地方里头，到底是为了做些什么东西？</p><p>义工？</p><p>清洁工？</p><p>陪老人家说话？</p><p>由于我完全没有这方面的经验，倒不如说，我根本就没有进去过这种地方。</p><p>‘轰隆隆——’</p><p>死灰色的天空伴随着几次白光闪烁，由远至近地逐渐传来它那相当响亮的雷鸣声。</p><p>尽管如此。</p><p>雨水方面，却依然没有下过一滴。</p><p>好了。</p><p>到了。</p><p>我们的最终目地果然就是眼前这个‘长者之家’啊。</p><p>稍微，描述一下这个地方吧。</p><p>门口处粘贴着两幅对联，由于上面的毛笔字实在太过潦草的缘故，害我完全看不懂这到底是哪个时代的中文。</p><p>其次就是室内的白炽灯非常猛亮，且，地面上的瓷砖也是非常干净。</p><p>啊…我刚才忘记说一个前提了。</p><p>这地方的大门不知道为什么，被人故意用红色塑料绳拴紧在附近的水管上，无时无刻都保持着彻底敞开的状态。</p><p>给人感觉就像是二十四小时都在营业那般。</p><p>总之。</p><p>我们要进去这里了吗？</p><p>喉咙深处的唾液，还没来得及哽咽下去。</p><p>我身旁的母猩猩就已经毫不犹豫地走了进去。</p><p>伍文欣“打扰了。”</p><p>无可奈何之下的我，也只能舍命陪君…陪类人猿了。</p><p>“打…打扰了。”</p><p>成功进入室内以后。</p><p>猛一抬头才发现，这座双层建筑物的实际空间比外观还要大许多。</p><p>同时。</p><p>老人家身上独有的气味，也持续地在这个地方里头飘逸着。</p><p>还记得以前回乡下玩耍的那时候，我姥姥，偶尔就会带着我出门到小镇的集市买菜，而前来买菜的人里头绝大多数也都是老人家。</p><p>因此。</p><p>人满为患的这种地方，空气里面，或多或少都会掺杂着些许特殊的味道。</p><p>例如：驱风油的气味、镇痛贴的气味、雪花膏的气味、以及各种药物的气味。</p><p>关于这些全部混搭起来，便是如今我鼻子里头的答案。</p><p>请问，我们还要待在这个地方多久才行？</p><p>如果可以的话。</p><p>真希望自己能把这句话立刻掏出去，只可惜，按照过往的行为习惯去加以判断的话，母猩猩肯定是不会愿意听取的。</p><p>过了一会。</p><p>一位身穿红色马甲的中年妇女，缓缓地从某个房间里面走出来。</p><p>她看见母猩猩以后，立刻满怀喜悦地说道“看着这天气我还以为你会不来了呢…快快进来这里别继续站着门口，待会要是不小心着凉了那该怎么办。”</p><p>伍文欣“没事。”</p><p>话音刚落，她，便迅速走向那位中年妇女的身旁。</p><p>非常小声地向对方询问了一些不知道什么。</p><p>而我呢？</p><p>除了继续待在这个刮响着大风的门口附近，压根，就没有其他选项是可供选择的。</p><p>没过多久。</p><p>问话完毕的母猩猩，立刻招手示意让我进去。</p><p>在这个无比短暂的过程中。</p><p>那位中年妇女伴随着柔和的目光看向我，虽然她什么话语都没有张嘴说出，可是，这人的眼神之中却像是掺杂了无数的话语。</p><p>请问，这到底是什么情况？</p><p>伍文欣“我们走吧。”</p><p>“哦…哦。”</p><p>点头，以及给与答复。</p><p>这明明是相当理所当然的事情才对。</p><p>结果。</p><p>关于我的这些举动，全在那位身穿红色马甲的中年妇女，包裹着她那独有慈祥视线底下一路进行了下去。</p><p>直到，我消失在拐角处为止。</p><p>呼呼…虽然这并不是什么压迫感，却依然让我觉得不太好受哇。</p><p>而且。</p><p>我还有股很不好的预感就在自己眉头上跳动。</p><p>所以。</p><p>“她……。”</p><p>还没来得及拿出自己的问话，母猩猩就已经示意让我在这个地方停下。</p><p>伍文欣“快去借一件马甲来穿吧，不然你待会没法进去的。”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瓜老师网站</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《瓜老师网站》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于瓜老师网站</h2>
+<p>					瓜老师网站<p>…。</p><p>……。</p><p>仍然是午休时段。</p><p>解决完午餐问题的我，挥手与大胖男孩道别。</p><p>放下餐盘，赶紧动身前往综合楼那边探望一下小不点学姐，借着接下来的话题稍微启发一下大脑，顺便盘算着剩余可用的方案。</p><p>在此期间路过操场的时候。</p><p>我，明显听见了与我擦身而过的同学，正激烈地聊着某些热门的话题。</p><p>路过的女生“你听说了吗，除了今天早上那一次以外，中午出去吃饭甚至是吃完饭回来的人，也要被风纪部那群人给搜身。”</p><p>同行的另一位女生“有有有，而且那些没收回来的手机，已经快要堆满一个纸皮箱的程度了。”</p><p>真的假的啊。</p><p>这得没收多少台智能手机才能确切做到这种级别！</p><p>虽然我也在大胖男孩嘴里了解到，风纪部的行动很勤快。</p><p>几乎每一节课后休息时间，都会发现她们的身影出现在这条走廊上，也正因为这份举动的缘故，才会导致一年级里面绝大多数的家伙，都不敢肆意拿出智能设备出来。</p><p>只是让我没想到的是。</p><p>会是这么夸张的级别。</p><p>路过的男生“风纪部最近是不是吃饱了嫌命长啊。”</p><p>同行的另一位男生“估计是嫌弃自家空荡荡太过无聊了，才会特意去做这种讨好老师的举动，然后把那些积累已久的‘好孩子积分’，拿去校方那里换一对全新的养父养母回来吧，哈哈哈。”</p><p>怨声载道，应该，就是用来形容这些画面的吧。</p><p>尽管那位男生一句脏话都没有拿出，但这些骂言明显要比脏话还要来得猛烈。</p><p>啊啊。</p><p>真不希望未来的某一天里面，当我不得不加入风纪部的那个瞬间，你们这群龟孙子会因为过于害怕我滥用职权，而故意选择前来讨好我的情况啊。</p><p>就在我假装鞋带松了，仔细聆听周遭路人的杂谈声时。</p><p>手表，传来了震动。</p><p>按照当前的时段来看。</p><p>要么就是初三女生那边发来的提前知会，要么就是范刺猬的某些临时情报需要汇报。</p><p>停下系鞋带的动作，假装自己在擦拭手表表盘。</p><p>然后，点击屏幕。</p><p>静候那个南极动物背影APP的加载完毕。</p><p>【古清璇发来了一则最新消息】</p><p>真没想到居然是那个田径部部长发过来的，而且，还偏偏选择在这种严查时段。</p><p>看样子。</p><p>对方肯定是捕获到什么相当有用的消息，才会特意冒死也要报告出来给我听了。</p><p>由于操场上路过的人数比较多，被视线游走的情况经常发生。</p><p>于是乎。</p><p>我，小跑远离了操场。</p><p>朝着人迹罕见的体育馆前进，直到看不见有什么人路过周遭为止。</p><p>停下脚步，仔细观察屏幕以内。</p><p>【古清璇（五分钟之前，有个在读文科且没有参与任何部门的家伙，特意，跑到我们一号楼的这边）】</p><p>【对方发来了一张占用3.33MB的图片】</p><p>点击，加载。</p><p>由于照片里面的画质确实不怎么清晰，强行拉大指定人物的部分以后，仅仅也就是在大致上看清了此人的轮廓。</p><p>抛开画面问题先不说，这里，应该就是一号楼的正门口吧？</p><p>很难想象风纪部不会在门口附近设立巡逻队。</p><p>也就是说。</p><p>“风纪部并没有派遣人手去一号楼，而是故意针对我们二号楼的学生？理由，到底是什么？如果这不是什么校方特意安排的行动，那就…大概率是风纪部擅自开展的举动了。”</p><p>自言自语到这时。</p><p>我，立刻把矛头放在范刺猬这个幽灵成员身上。</p><p>“看样子，这，应该是范刺猬他昨晚没有提及给我听的最优解啊，倘若真是如此的话，那么这场契机所导致的现状，无疑就是在变相指出画面之中的这个文科二年级生，必定，就是牵连着一年1班的其中一个环了。”</p><p>厉害啊。</p><p>不久之前我还在内心深处声称，还没拿到至关重要的部分。</p><p>结果。</p><p>眼皮底下的这个就像是开玩笑一样，漏出了她们通信系统的破绽。</p><p>“明明风纪部的扫荡行动，可以稍微和我提前知会一下的嘛，结果，她们这么快就…等等！能够如此迅速展开这项大行动的操纵者，难道是司徒千里学姐？嗯唔，唯有这个可能性是最大的了。”</p><p>你，还记得大胖男孩上周五那天到底和我聊了些啥吗。</p><p>没错。</p><p>就是有关风纪部里面那两位副部长的事情。</p><p>当时。</p><p>大胖男孩动用了一句‘各自为政’的词汇去进行解释，不难看得出，现在的风纪部确实处于一盘散沙的状态。</p><p>倘若真让要这群人重新合二为一，最显著的方法就是让司徒千里学姐复位，但，这偏偏是最不现实的想法。</p><p>因此。</p><p>如今风纪部的步调一致，绝对不是仅凭范刺猬的一句话就能轻易办得到的。</p><p>“关于这个部分，我还是别想这么多了，趁着这道夜幕还没完全褪去之前，得好好调查一下那个‘环’的事情吧。”</p><p>自言自语结束的同时。</p><p>我，也指挥着对话框另一头的田径部部长，示意她继续保持这种状态去进行今后的监视工作。</p><p>深呼吸一口以后。</p><p>放弃那道继续前往综合楼的打算，开始朝着自己班级所在的二号教学楼前进。</p><p>在我缓缓走动的过程中，大脑，也立刻为我备好一切思想准备工作。</p><p>到达二号楼。</p><p>迈步，朝着不怎么熟悉的上方楼层进发。</p><p>说起文科生这件事。</p><p>除了小不点学姐以及范刺猬以外，我，隐隐约约记得羞涩学姐也是在读文科。</p><p>至于理科生那边，目前，与我比较熟悉的人也就只有司徒千里学姐和田径部部长，以及，排球部副部长这几位而已了吧？</p><p>喔对了，大前辈陆赢也是理科的。</p><p>但大前辈可是三年级的学生啊，无论今后的我们将会选择走文还是理的路线，一旦升上三年级以后，始终还是要汇聚在一号教学楼里面。</p><p>咳咳。</p><p>不好意思，话题似乎绕远了。</p><p>在我转发那张照片没多久以后，起初，范刺猬确实直接来了一句‘跟踪狂’的说法，紧接着，这人才会姗姗来迟的把相关情报传递给我。</p><p>“文科二年6班吗，总觉得这个班级听起来好耳熟啊。”</p><p>沿着不怎么熟悉的楼道，成功到达二号楼的第四层。</p><p>根据拐角处那张有点模糊的消防路径图来看，6班通常都是分布在1班的正上方。</p><p>也就是说，直接朝着走廊尽头一口气走过去就行了是吧。</p><p>“行吧，上了。”</p><p>稍微有点拥挤的走廊上，无时不刻都走动着文科二年级的学长学姐们。</p><p>由于风纪部的没收智能手机行动，其主要目标就是彻底封锁整栋二号教学楼的缘故，因此，哪怕是高年级的她们也被吓得紧张兮兮。</p><p>无论是路过我身旁的家伙，又或者是站在露台上晒着日光浴的人，再或者是三五成群霸占走廊闲聊的，全都，无一不是在提这事。</p><p>直到，那些喧哗声逐步在我耳边消散。</p><p>而我，也终于来到文科二年6班的后门。</p><p>稍微偷窥一眼看看情况吧。</p><p>尽管眼前的地方是学长学姐的场所，但是，班内的大致结构几乎和一年级没区别，倒不如说，在读一年级的我们要是身高方面再高那么两三公分的话。</p><p>估计，就能创造出眼前这番一模一样的景色了吧？</p><p>“哦喔，看到熟人了。”</p><p>她。</p><p>是经常跑去图书室里面‘玩弄’小不点学姐的女生，同时，也是本届社联会的主要成员之一。</p><p>名为杜莉莎，又可以称呼为大白鲨。</p><p>虽然刺猬确实需要对此警惕，但是，那个书记可不会对风纪部以外的家伙也要管这么多的哇。</p><p>人望这种东西。</p><p>哪怕不晓得是什么意思，也能确切通过眼前的景象去了解。</p><p>是的。</p><p>目前那位书记的身旁围绕着好几位同班同学，场面有说有笑十分融洽。</p><p>而且，全员的衣服领口上都佩戴银色发夹甚至是金色发夹，换句话来说，这个班级的主要人脉圈，几乎都是以她所在的圈子作为中心然后运作的是吗。</p><p>虽然不太清楚这是基于书记的口才，还是基于书记的职位创造出来的。</p><p>总之。</p><p>大白鲨书记，很厉害。</p><p>推理还没来得及停下。</p><p>身后，立刻传来女生的声音。</p><p>二年级学姐“你，应该是一年级的学生吧，故意站在我们班的后门是要做些什么呢？”</p><p>转身，循声望去。</p><p>掏出虚伪的笑容面向那位好心人的同时，也拿出提前藏在心底里面的谎言。</p><p>“我只是听男神老师的吩咐，特意过来二年6班这里找一位学长过去的，请问，学姐能否替我呼叫一下你们班上的……。”</p><p>原本以为，这种事情应该相当容易就能办得到。</p><p>结果。</p><p>意料之外的展开，出现了。</p><p>眼前那位好心人的身后，明显藏着羞涩学姐她那畏畏缩缩的身影。</p><p>如今，我们之间的距离也就不到三米的程度。</p><p>真的假的啊？</p><p>羞涩鬼学姐居然也是就读文科二年6班的人？</p><p>而且好巧不巧，竟然还被她给看了个正着。</p><p>该怎么办。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

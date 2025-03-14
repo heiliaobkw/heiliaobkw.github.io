@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>zztt吧</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《zztt吧》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于zztt吧</h2>
+<p>					zztt吧<p>我的回复（家里买的纸尿裤质量很好，无需你担忧该方面的忧虑）</p><p>【小恶魔（原来如此，这玩意在宠物医院里面确实也有贩卖）】</p><p>【小恶魔（只不过）】</p><p>我的回复（只不过？）</p><p>【小恶魔（犬类专用的纸尿裤，往往都是给那些无法自理的老年犬，又或者是不懂排便的幼年犬去使用的）】</p><p>我的回复（还望赫晓沫大人，能不能别再提屎尿相关的话题）</p><p>【小恶魔（我懂了！）】</p><p>我的回复（太好了）</p><p>【小恶魔（动物在**的期间，确实会夹带一股很浓厚的气味，而且，这股气味足以让很远距离的异性动物察觉）】</p><p>【小恶魔（一旦嗅到就会为之疯狂，穷追不舍）】</p><p>我的回复（…你的意思就是在说）</p><p>我的回复（之所以我会使用宠物医院的纸尿裤，其理由就是，我正处于你刚才描述的那种状态，是吗？）</p><p>【小恶魔（只要包裹得足够严实，你的身上就没有气味！）】</p><p>【小恶魔（唉，**期还真是挺麻烦的事情啊）】</p><p>我的回复（稍微等等，我们人类只有‘思春期’这个说法而已哦）</p><p>【小恶魔（你在说什么呢）】</p><p>【小恶魔（这里所指的人类哪有‘我们’，只有‘我’而已哦）】</p><p>我的回复（虽然我老早就知道自己已经被灵长类科目给开除了）</p><p>我的回复（但）</p><p>我的回复（至少允许我为自己辩护一下哇）</p><p>【小恶魔（哒咩，小恶魔法庭不接受江小白的二审判决）】</p><p>她发送过来的这个‘哒咩’，到底是啥意思来着。</p><p>根据前后话语稍微联想一下的话，应该就是和‘不行’有所挂钩吧？</p><p>具体答案我也不太清楚，姑且就当作是这么一回事好了。</p><p>我的回复（行吧……）</p><p>我的回复（所以，我已经被你慰问完毕了吗？）</p><p>【小恶魔（感觉还差了点什么）】</p><p>我的回复（请你长话短说）</p><p>【小恶魔（傍晚的时候，为什么不过来一起参加庆功宴呢？）】</p><p>我的回复（我的功劳，真的足以让我进去你们的宴会里面吗？）</p><p>【小恶魔（说的也是）】</p><p>【小恶魔（你贡献出来的大小，顶多只是让你过来…）】</p><p>【小恶魔（帮大家捡起地上喝完了的塑料瓶，的程度？）】</p><p>我的回复（为什么是疑问句）</p><p>我的回复（还有，我真的是过来庆功的吗？）</p><p>【小恶魔（在某种意义上，姑且算是吧）】</p><p>我的回复（你这个‘姑且’的范围还真是有够广义的……）</p><p>我的回复（除了我以外，全员都参与这场庆功宴了么）</p><p>【小恶魔（伍文欣并没有参与哦）】</p><p>我的回复（果然）</p><p>【小恶魔（明面上是庆功宴，实际上就是各自掏钱拿着一瓶饮料，然后围着小卖部门口一起高喊干杯而已）】</p><p>【小恶魔（听完以后，是不是觉得自己没参加进来真的太好了呢？）】</p><p>我的回复（奇怪）</p><p>我的回复（在赛事开始之前，不是说好要让高兴坚请客的么）</p><p>【小恶魔（他只‘请客’了裁判的那份）】</p><p>我的回复（这人还真是…）</p><p>太会捉字眼了。</p><p>如果我没有猜错的话，在这之后应该就是高兴坚把自己的情人节礼物，附赠给小恶魔的好时机才对。</p><p>所以，她，究竟有没有收下这份心意呢？</p><p>像这种极度私密的情报。</p><p>我实在没办法在这种时候突然提问，更不可能会莫名其妙地得到她的答复。</p><p>唉。</p><p>【小恶魔（说起来）】</p><p>【小恶魔（江小白这个名字）】</p><p>【小恶魔（在全国各地的覆盖率以及重复率…到底是多少百倍呢？）】</p><p>这句话，是她埋下的双重陷阱。</p><p>像这种眨眼看似非常随便的话题衔接，正常人，根本就不可能会引起什么警惕才对。</p><p>但实际上。</p><p>偏偏只有这种说法，才会相当容易地引起当事人的警觉。</p><p>毕竟。</p><p>不久之前我才把自己的全名，确切地，输入在羞涩学姐QQ好友备注栏里面。</p><p>所以。</p><p>这，才是她真正想要提出的疑问吧？</p><p>为了确信我的这个大众化名字。</p><p>到底是不是真的，很‘偶然’地出现在羞涩学姐的嘴巴里面。</p><p>我的回复（这个问题请你不要问我，而是去问我的父母）</p><p>由于自己社团里面的羞涩前辈，不可能会在这种莫名其妙的时间点里面，突然提及我这个全国各地都有重复的名字。</p><p>哪怕理性不断在告诫她，这是不可能的事。</p><p>但。</p><p>与之关联的疑虑，依然在小恶魔的脑袋里面残留了余党。</p><p>不过所幸的是。</p><p>巫恋学姐并没有提及我的其他信息，纯粹就是说了名字。</p><p>因此。</p><p>即便小恶魔再怎么对此产生过多的怀疑，也只会被一份理所当然的论点，给成功敲掉眼皮底下的不确信。</p><p>是的。</p><p>正因为我的名字并不稀奇，才能安然无恙继续与她闲聊。</p><p>正因为我不是她所认为的当事人，才会给出这个不屑一提的回答。</p><p>尤其是在此期间绝对不能反过来询问她：你，为什么会把话题突然转换成这个。</p><p>不然的话。</p><p>她，肯定会放大自己的这份疑问。</p><p>【小恶魔（行吧）】</p><p>很好。</p><p>得到她的这份答复，我就姑且算是放心了。</p><p>【小恶魔（改天有空的时候，我会顺从你刚才的提议，稍微上门拜访一下伯父伯母好了）】</p><p>我的回复（等会）</p><p>我的回复（从你嘴里得出的这段消息记录，绝大多数情况下我都没办法坐视不管的啊）</p><p>虽然不太可能。</p><p>按照正常逻辑来说，无论再怎么退一万步都不太可能。</p><p>但。</p><p>我的隔壁桌并非是什么等闲之辈，这种看似玩笑话一样的心血来潮。</p><p>如何合理化的去实现，对于她而言那都是小事一桩…如何在实现的期间把我弄得死去活来，那，才是值得她皱起眉头感到困扰的部分。</p><p>因此。</p><p>【小恶魔（怎么了？）】</p><p>【小恶魔（害怕眼前这位小恶魔大人，到时候会被你父母当作亲生女儿那样去招待吗）】</p><p>我的回复（画面感都出来了）</p><p>【小恶魔（嗯唔，确实有点画面感了）】</p><p>【小恶魔（明明自家孩子无论怎么看都是没有一点异性缘，结果，他居然会在这么平凡的日子里面，带来这么乖巧的同班同学）】</p><p>【小恶魔（而且，还是很可爱的女生！）】</p><p>我的回复（别说了、别说了…）</p><p>我的回复（我记得你刚才找我打招呼的理由，应该是慰问我才对，所以…现在为什么会变成这样子去发展话题呢）</p><p>【小恶魔（我已经慰问成功了哦）】</p><p>我的回复（哪有！！！）</p><p>【小恶魔（听见我主动提倡登门拜访的这个瞬间，你的心脏就不会加速一下么？）】</p><p>我的回复（你想说的是，眼前的歹徒手持利刃突然冲过来，的那种心跳加速是吧…）</p><p>【小恶魔（至少把我比喻成‘可爱的屠夫’，我认为会更好哦）】</p><p>我的回复（说到底）</p><p>我的回复（我由始至终都是那位‘等待被宰的动物’是吧）</p><p>【小恶魔（至少不是昆虫，不是吗）】</p><p>我的回复（用这个去作为判定标准，难免会被人说自己是不是变成‘2B’了）</p><p>【小恶魔（我们身处的时代，还哪有人会用‘2B’这种古早词汇去形容啦）】</p><p>我的回复（反正我就是现代人之耻啦）</p><p>【小恶魔（所以）】</p><p>【小恶魔（你今天傍晚陪同Happy坚去面对那位学长的时候）】</p><p>【小恶魔（真的，没遇到什么突发状况吧？）】</p><p>再次回归最初的主题时。</p><p>明明小恶魔发来的这段消息并非是语音。</p><p>可我。</p><p>依然能确切看出文字之间掺杂着‘没有开玩笑’的温柔语气进去。</p><p>所以。</p><p>你故意绕了这么大的一个圈子以后，终于要开始执行真正的慰问工作了吗。</p><p>我的回复（没问题）</p><p>【小恶魔（我身旁的那位社团前辈刚才已经回去了）】</p><p>【小恶魔（因此）】</p><p>【小恶魔（你这只江小白可以趁现在赶紧发送你那，充满下流语调的音频给我听哦）】</p><p>我的回复（你这人转换话题的速度，果然好快！！）</p><p>我的回复（每次我都感觉自己快要跟不上你的脚步）</p><p>【小恶魔（别犹豫，快给小恶魔大人我发送语音过来吧）】</p><p>【小恶魔（不然的话）】</p><p>【小恶魔（走动在这个杳无人烟的地方里面，怪吓人的）】</p><p>思路还没来得及反应过来。</p><p>我。</p><p>就已经成功把九宫格模式切换回语音模式。</p><p>长按手表屏幕，开始录制。</p><p>“原来我的声音还能把鬼怪给吓跑的啊！！”</p><p>松开，发送。</p><p>没过多久。</p><p>小恶魔也把她专属的语音发送了过来。</p><p>点开，运行。</p><p>赫晓沫的语音“快听我的背景音…果然瞬间就没杂音了，对吧……所以，你这只江·小白的糟糕说话声还是拥有其他功效的嘛。”</p><p>她的背景音里面。</p><p>明确有狗狗麻鲁的叫唤声…。</p><p>不对。</p><p>她身处的地方从一开始就没有任何杂音，哪有可能会因为我的糟糕说话声，把那些原本就不存在的东西给赶跑的哇。</p><p>我的隔壁桌，居然又换了一种全新的气人方式了。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

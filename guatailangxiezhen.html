@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瓜太郎写真</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《瓜太郎写真》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于瓜太郎写真</h2>
+<p>					瓜太郎写真<p>“……两千块钱换这么个智能表，说实话有点小亏。”现在，和我在返校路上说话的男性，名叫欧阳靖。</p><p>虽然这个名字写出来的时候，会很帅气，至少我认为这个名字很帅。</p><p>然而！我这个朋友啊，他从来不在乎自己的外观。</p><p>该怎么说呢……。</p><p>就是，衣服穿起来松松垮垮的，脸蛋上老是感觉很脏，皮肤没有一点光泽，时不时还能看到他那正方形的头部上方，夹带着不少头皮屑。</p><p>我觉得这种形容词已经足够亲切了，在这之上的坏话，大概，我也想不出来。</p><p>可能是因为，我和他是同一类人的缘故吧。</p><p>无论是打扮还是外观又或者是气质，都差不多。</p><p>如果这句话是其他人说出来的话，就会变成贬义词。</p><p>但在你我之间聊起来的时候，却变成一个引人发笑的话题。</p><p>“所以，你昨晚把作业肝完没？大傻白。”这家伙，一旦想到什么坏主意的时候，都会把我这个别名喊出来。</p><p>“还差两本，你咧，欧靖靖。”</p><p>朋友之间起别名，很正常吧？</p><p>虽然我们也知道这个称呼，挺奇怪的……。</p><p>没事的！只要我们不介意尴尬的话。</p><p>尴尬的人，就会变成刚才路过我俩身旁的女生。</p><p>“来对一下！！”</p><p>“行吧！！”</p><p>说完这句话之后，两位高一男生，就在这样停在人行道的中间。</p><p>拿出自己书包里面的寒假作业，像是游戏王那样，抽卡（把作业本拿出）。</p><p>然后，摊牌（把作业本扔地上）。</p><p>逐一对着对方的血量（作业本的数量）。</p><p>再进行结算。</p><p>“七本。”</p><p>“六本。”</p><p>听到这个结果的欧阳靖立刻捂着自己胸口，无力地挨靠在附近墙壁上“我居然赢了！这，不可能。”</p><p>“老老实实交出你的青龙白眼吧，欧靖靖，不对，是宇智波欧靖靖。”</p><p>“稍微等等，我们的世界观能不能统一一下啊，这里不是坂田银时的万事屋啊。”</p><p>“你觉得有那可能吗，明明壹原侑子都已经不在了！！”</p><p>“真拿你没办法啊，稍微等我看看刚才少了哪片四魂之玉吧。”</p><p>对，这就是我和他之间的特殊交流方式。</p><p>虽然别人听不懂，也不奢望别人能听的懂。</p><p>就在欧阳靖弯腰蹲下捡起那些扔到地上的寒假作业时。</p><p>只见他突然把眼瞪大，抬头牢牢地盯着我的脸颊，然后喊了一句“完了。”</p><p>“卿家平身，此话何解？”</p><p>“我不是在开玩笑的，这种时候就别用古风。”</p><p>“快说吧，哪里出了问题。”</p><p>“我和你做了完全一致六本，而剩余的三本，根本就没动笔太多。”</p><p>我，缓缓的蹲了下来。</p><p>拍响着对方的肩膀，竖起了大拇指“认命吧。”</p><p>“嗯，你也是。”</p><p>随后，两人一同发出哀叹声“唉……。”</p><p>……。</p><p>收拾好那些寒假作业，摇晃着呆滞的脑袋走入校门。</p><p>“早啊。”一声很有力量的喊话声，就在眼前这位男性喉咙里迸发而出。</p><p>这是第二位愿意在校内和我俩打招呼的人。</p><p>同时，也是校内公认的男神。</p><p>“老师早上好。”</p><p>没错，他是老师，而且还是体育老师。</p><p>负责一切体育相关课程、生理健康相关课程。</p><p>遇上突发状况时，也能兼备门卫、校医的工作。</p><p>是所有运动社团的指导师。</p><p>也是这个学校里面，为数不多最受欢迎的老师。</p><p>为什么我会这样说呢，因为他长得很帅吗？不对，我想表达的不是这个。</p><p>具体理由就是。</p><p>各个年级的级长，从学生手里没收的游戏机、触屏手机、耳机、杂志、漫画、化妆品、零食……这些全部，都会放在那位体育老师的桌子上。</p><p>因此，我每次经过办公室的时候，都没看见那位体育老师空闲过。</p><p>说起来我也觉得奇怪，为什么年级长要把这种工作交给他呢？</p><p>“居然被你蒙混过关了啊，大傻白。”走动在我身旁的欧阳靖，突然靠了过来。</p><p>“啊……你不说我还真忘了。”</p><p>如同我自己所说的那样，我完全忘了现在手腕上戴着的表。</p><p>是电子表。</p><p>属于禁止携带进入到我校的其中一种物品。</p><p>“反正时间还很早，去单车棚那边补作业不？”</p><p>我抬头看了看天空，再把视觉点转向自己的厚重外套“如果可以的话，我希望是去食堂那边补作业。”</p><p>这句话还没来得及说完。</p><p>欧阳靖就已经推着我后背，往自行车棚那边前进“只是稍微有点冷而已啦，别介意细节。”</p><p>“问题是，现在是一月下旬啊。”</p><p>“然后呢？”</p><p>“万一感冒了该怎么办。”</p><p>“能拿到一个待在家里休息的理由，不好么。”</p><p>“有道理！！”</p><p>虽然是顺应这个气势去自行车棚那边补作业。</p><p>但是，这个鬼天气是真的冷到要命。</p><p>虽然这里的座位很多，石椅也很干净。</p><p>但是我俩的双手在抖个不停，鼻涕也在流个不停。</p><p>虽然这里相当安静，风景也超级宜人。</p><p>但我俩双脚已经打了十多分钟哆嗦了，而且北风还时不时把我们作业吹飞。</p><p>“说说说实话，我我我快到极限了。”我，说话也变得不灵活了。</p><p>就在此时，欧阳靖拍响石桌离开座位“那那那就，稍稍微运运运动动一下。”</p><p>如果不加上这句话的话，刚才那一连串的动作，还算是挺帅气的。</p><p>“行。”</p><p>如同他所说的那样，我俩围绕着自行车棚附近，稍微跑动了一下。</p><p>这种传统的驱寒方式果然很有用，就是有点累人而已。</p><p>然而！那货根本就没有把心放在跑步上。</p><p>只见欧阳靖缓缓停下步伐，指着校内那一辆扑满灰尘的共享单车“大傻白。”</p><p>又来了。</p><p>这家伙，一旦想到什么馊主意的时候，都会把我这个别名喊出来。</p><p>“这次说的是人话吗，欧靖靖。”</p><p>“你那智能手表能扫二维码不？”</p><p>我举起自己的手腕。</p><p>稍微用指尖触碰一下那个手表屏幕，这玩意就会立刻取消显示时间，并切换回菜单主界面状态。</p><p>“这玩意应该不具备拍摄功……居然有。”</p><p>“真的假的啊？”</p><p>我，点开了拍摄程序“这清晰度可以啊，挺意外的……。”</p><p>“快，让我欧杰哥康康。”</p><p>俩人就这样，稍微研究了一会。</p><p>得出的结论一共有三个。</p><p>这玩意的拍摄功能很厉害，这玩意的录制功能很给力，这玩意的录音功能很完整。</p><p>随后，欧阳靖就示意让我去扫描一下，那辆扑满灰尘的共享单车“来，瞄准这个二维码看看。”</p><p>我摇了摇头“这么做的意义究竟是什么？”</p><p>“我从很久以前，就奢望自己拥有一台触屏手机，但我爸妈不让买，无论怎么做都不行，因此，我从初中到现在就一直用着直板机。”</p><p>“什么是直板机……哦！！我想起来了，就是你那台拥有数字键盘的黑色小老鼠。”</p><p>“对，就是那台没有拍摄功能，没有游戏功能，没有上网功能，甚至屏幕还停留在黑白色阶段的上世纪末产物。”</p><p>“但你那玩意是能允许带进我校的东东，而我这玩意却是会被没收的违禁品。”</p><p>“你觉得这是值得高兴的事吗？”</p><p>“完全不。”</p><p>“这不就对了！！”欧阳靖突然握紧我的双肩，对，很用力的握紧我那双肩“我，有生之年想自己扫一次二维码，然后亲眼看着这辆共享单车，就在我面前打开车锁。”</p><p>“才16岁就已经变成有生之年的事了吗。”</p><p>“而你现在手里就拥有着，能立刻实现我梦想的神奇道具。”</p><p>“你这梦想，还真是渺小啊。”</p><p>“来试试吧，绝对不会出事的。”</p><p>“放心吧，到时候如果真出事的话，我也会把这笔帐算在你头上。”</p><p>“好好好。”欧阳靖笑着举高我的手，打开了手表的拍摄功能，让镜头瞄准着那一辆共享单车的二维码。</p><p>随着一声清澈的‘滴’。</p><p>车锁，并没有打开。</p><p>“奇怪。”欧阳靖立刻挠了挠他那充满头皮屑的脑袋。</p><p>“怎么了。”</p><p>“它显示这是一段网址，要打开下载什么APP才能……。”</p><p>“喂！别点下载。”</p><p>“啊，不小心点了。”</p><p>“我这电话卡没有开通流量套餐的啊……如果这APP的容量很大，那我下个月岂不是月租都交不上。”</p><p>“到时候真交不上就……。”</p><p>就在此时。</p><p>‘叮咚当咚——’校内不断响彻着这种铃声，虽然脑袋还没反应过来，但我俩双脚已经变成跑动状态。</p><p>“什么情况！！不是还有二十多分钟才上课么。”</p><p>“不知道，赶紧回班级吧，反正我有一种很不好的预感。”</p><p>俩人迅速来到石卓旁边，不断收拾东西“连寒假作业都还没完成，哪有可能会有好事发生啊。”</p><p>【APP下载中……下载完毕】</p><p>手表屏幕持续闪烁白光。</p><p>【该APP并非通过应用商店下载，没有相关协议成功引导安装，请于……引导成功】</p><p>【APP解析中……正在安装……安装完毕】</p><p>【请问是否立刻打开此APP】</p><p>【正在加载中……】</p><p>【欢迎使用匿名版APP】</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

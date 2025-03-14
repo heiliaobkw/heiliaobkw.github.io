@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>yp 首页</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《yp 首页》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于yp 首页</h2>
+<p>					yp 首页<p>共享单车1.5元、防窥屏贴膜30元、麦丽素1.5元。</p><p>以前的我，完全不敢想象。</p><p>为什么自己能在这么短暂的时间内，消费了这么多钱。</p><p>如今的我，依旧不敢想象。</p><p>接下来还要在这个大型超市里面，消费多少钱才能回去。</p><p>“我说，小际，只要把这些抽纸拿去结账，之后就能回家了，是吧？”</p><p>【资料，大致上已经收集完毕】</p><p>【本人接下来将会指出目前为止，您，最容易被自己忽视的缺点】</p><p>“这是哪门子的审判啊，而且还要在超市里面进行！！”</p><p>如同这句话所说的那样。</p><p>目前，我提着一筐抽纸，站在商品架之间的道路中央。</p><p>看着小际打出这些敏感字眼，然后做出稍微有点生气的表情。</p><p>尽管如此，这家伙肯定也不愿意停下来。</p><p>于是乎，我决定来到没人经过的角落里面，把这一筐商品放在脚边。</p><p>仔细看着屏幕里面陆续显示的白底黑字。</p><p>【首先，您对异性和同性的态度截然不同】</p><p>【该点已经通过银行员工，以及手机店老板，这两者之间得到明显对比】</p><p>【其次，您对潮流和美学并不敏感】</p><p>【该点已经通过您刚才自主购买纸巾的时候，得到显赫的证实】</p><p>【第三，您有相当强烈的自卑心理】</p><p>【无论是对教室里面的同学，还是在对校外的陌生人，又或者是店铺内的工作人员】</p><p>【您都不会让自己注意力，放在对方瞳孔】</p><p>【以上】</p><p>“请问我能……。”</p><p>【您没有这方面的自觉性，不接受任何辩驳】</p><p>“这次连话都不让说了吗？”</p><p>【本人并不是打算让您仅仅通过这几句话，就去改变自己】</p><p>【而是让您优先理解什么是自觉性，什么是被忽略的缺点】</p><p>“类似打预防针的形式是吧。”</p><p>【您可以这样理解】</p><p>【但是】</p><p>【本人更希望您把这个定义为，自己目前最大的短柄】</p><p>“短柄吗…缺点的部分我已经有所了解，那么，优点的部分……。”</p><p>【关于这点，本人认为您没有知道的必要】</p><p>“为什么要这样对我！！”</p><p>【因为您是自负类型的人格】</p><p>【一旦让您知道自己的优点，很有可能就会转变成无法收拾的缺点】</p><p>“不要说到这么严重。”</p><p>【一点也不严重】</p><p>【更何况，优点这种事情】</p><p>【本人更希望您从朋友的嘴里得知，而不是从本人这里获得】</p><p>“也就是说，我明天跑去问欧金金的话。”</p><p>【那位除外】</p><p>“明明他就是我的朋友啊，为什么要把他安排在战力以外！！”</p><p>【那位比起朋友，更像是您的青梅竹马】</p><p>“也就是发小啊，听你这样一说，确实那股味道更重了。”</p><p>【本人所指的朋友，就是您从今往后交往的人】</p><p>【无论男性还是女性都可以】</p><p>“真的假的啊！像我这种人，居然也能交到女朋友。”</p><p>【您能听出，您刚才所说的话语里面，究竟是自卑到什么程度吗】</p><p>小际显示完这一段文字之后，便开启了播放功能。</p><p>完完整整的，把我刚才说过的话，再次播放给我听。</p><p>“真的假的啊！像我这种人，居然也能交到女朋友。”</p><p>对，这句话确实是我十几秒之前说的。</p><p>但是这个说话的声调，让我自己也感觉很难受。</p><p>尽管难受，我也无法理解这句话里面，究竟哪里出现自卑情绪了。</p><p>“完全……听不出来。”</p><p>我，如实的告知了这个答案。</p><p>【看来】</p><p>【您还需要很长一段时间的训练，才能理解什么是自卑】</p><p>“话说回来，我到现在为止依旧不知道，为什么要进来超市买纸巾。”</p><p>【准确来说，是抽纸】</p><p>“单纯只是纸巾的话，明明家里还有很多。”</p><p>说到这里时，我大脑突然联想到相当不好的景象。</p><p>因为这番景象对于思春期少年来说，可能存在高度风险。</p><p>就此，我决定用相当委婉的方式。</p><p>悄悄地，对小际说道“你的意思该不会是，让我晚上多用点纸巾解决生理问题吧。”</p><p>【本人一直都是很认真的，请问您现在究竟是在想象些什么下流的事情呢？】</p><p>“对不起。”</p><p>【这些抽纸，将会是您今后上学期间，用来清洁脸部用的工具】</p><p>“如果只是这样的话，去洗个脸不就得了，再不然就撕下一段卷纸擦干净。”</p><p>【虽然这是相当效率且便利的方式】</p><p>【但本人极度不推荐您这样做】</p><p>“我懂了，这会涉及人际关系是吧。”</p><p>【是的】</p><p>“我只是假装我懂了，但没想到还真蒙对了。”</p><p>【目前，学生主要使用的纸巾，以便携式抽纸和迷你手帕纸巾为中心】</p><p>【如果您真的继续选用卷纸的话】</p><p>【‘借纸巾’的这个话题，将会永远与您无缘】</p><p>我，深呼吸一口。</p><p>“难怪每次我从书包里面掏出纸巾的时候，隔壁桌都会用很诧异的眼神去看我。”</p><p>原来理由是这个啊。</p><p>【其次，女性尤其喜爱迷你手帕纸巾】</p><p>“因为它很小很便利的缘故？”</p><p>【因为普遍的迷你手帕纸巾都会添加大量的芬芳剂】</p><p>我把头歪向一边“芬芳剂？”</p><p>【看来，过分专业的词汇您并不能成功理解】</p><p>【简单来说，芬芳剂就是香水的一种】</p><p>我，敲响自己的掌心“懂了！”</p><p>【性别为男的您，比起迷你手帕纸巾，本人更推荐使用便携式抽纸】</p><p>【虽然也会掺杂芬芳剂，但，远远要比另一种产物低很多倍】</p><p>看到这里时，我刻意瞄了一眼篮筐。</p><p>如果让我自己选的话，确实不会优先选这两种纸巾。</p><p>但很庆幸的是，在我选择完毕以后，小际立刻指正了我的错误。</p><p>并示意让我使用其他类型的纸巾。</p><p>如今这个超市篮筐里面放置着的，就是小际如今所说的便携式抽纸。</p><p>价格是16.5元六包，每包都是一百抽。</p><p>“下了大血本啊……。”</p><p>我捂着自己的胸口，正在心疼那些即将长翅膀飞走的人民币。</p><p>【如果使用网购功能的话，您也不需要付出这么多的代价】</p><p>【而且】</p><p>【同样的价位，您也能购买到更多品牌，更多数量，更好质量】</p><p>“网购真厉害啊！！不对。”我立刻对着手表的镜头大喊大叫“你为什么不把这句话，放在第一句啊啊！！！”</p><p>【您没有这么多时间静候快递的到来】</p><p>“那就过几天再说也不迟啊。”</p><p>说出这句话的期间，我已经快速回到刚才的商品架旁边。</p><p>即将把超市篮筐里面的纸巾放回原处的时候。</p><p>手表，持续震动着。</p><p>【您，早已经浪费半年时间了】</p><p>【您，却没有因此编织好自己的人际关系网】</p><p>【您，如果还打算继续浪费时间的话】</p><p>【那么，今后的您也只会像现在这样，选择一拖再拖】</p><p>【试问您，究竟是在逃避些什么】</p><p>我，停下了刚才的打算。</p><p>重新把抽纸放回自己的篮筐里面。</p><p>“虽然不确定这是不是逃避，但听你这样一说，我也觉得自己挺窝囊的。”</p><p>【是吗？】</p><p>“我不是宣过誓吗？绝对不会对你说谎。”</p><p>【本人只是在推断】</p><p>【锻炼您的方式，也许不用直接告诉您最终目标，可能会更显效率】</p><p>“既然这样的话，那我就全盘交给你了……现在，回家吧。”</p><p>手表，传来了震动。</p><p>【您还有别的物品需要购买】</p><p>“哎？”</p><p>这不是我发出的疑问声。</p><p>这是我发出的心碎声。</p><p>……。</p><p>结果，除了便携式抽纸以外。</p><p>我还购买了剃须刀、洗面奶、修鼻毛的剪刀、以及一次性口罩。</p><p>“我的心在滴血，我的钱包在流泪。”</p><p>握紧手里这个花费5毛钱购买的塑料袋，提起步伐，摇摇晃晃地离开大型超市。</p><p>途经广场上的钟塔时。</p><p>上面显示的时间，已经变成19时26分。</p><p>“不知不觉已经傍晚七点多了啊，我还是第一次这么晚待在外头，老爸老妈应该很担心吧。”</p><p>【是的】</p><p>【您的尊上们已经向您拨打了39次电话，发送了17条短信】</p><p>【以上，全都被本人屏蔽了】</p><p>“这不是超担心的意思吗！！！”</p><p>我说出这句话之前，双脚已经跑动了起来。</p><p>【请放心，本人已经用恰当的方式回复了您的尊上】</p><p>“都说了！每次看见你打出这句话的瞬间，我的后背就会不由自主的发凉。”</p><p>【既然如此】</p><p>【那就请您加快步伐回去吧】</p><p>“就算你不说，我也会这样做！！”</p><p>大冬天的晚上。</p><p>我，跑动在人与人的距离之间。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

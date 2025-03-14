@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日计划 模板</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《每日计划 模板》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于每日计划 模板</h2>
+<p>					每日计划 模板<p>伍文欣“别说得好像头头是道那样，你觉得，我校真有可能会在三天时间以内，立刻推出铜发夹这种草率方案么？明明窗户漏风的这件事，从上个学期开始的那天就一直没有委托任何人过来修缮，更何况还是这种……。”</p><p>“面对这类纯粹只能吃力不讨好的事，校方，确实会采取非常积极的踢皮球，然而很遗憾，我和陈豪兄一致认为，这次的事态肯定会让校方采取与之相反的做法。”</p><p>伍文欣“又打算和我探讨，你们两个中二病胡思乱想出来的阴谋论了吗。”</p><p>“估计，今天放学之前会突然召开一次临时班会，然后，班主任会把我们所猜测的那些，全都演变成现实。”</p><p>伍文欣“给我说句人话出来。”</p><p>“身为成年人的她们，看见自己的学生擅自在操场上举办游行示威，其意图并非是什么闹事，纯粹就是为了能让更多同胞获得所需的福利，因此，学校才会采取睁一只眼闭一只眼的模式，不然的话，像这种游行示威的领头人，哪有可能不会立刻走上处刑台遭受规章惩罚呢。”</p><p>伍文欣“是有这么点道理。”</p><p>“其次，我校很注重对外宣传的形象，尤其是涉及负面相关的一些报道又或者是传闻，一旦她们认为学生所做的事情具备影响力，就会立刻采取一不做二不休的情况，所以，这个学期的体育课才会采取男女分别上课的模式，尽管那种手段聊胜于无，但至少可以堵住部分家长和自媒体的嘴。”</p><p>伍文欣“你，有点跑题了。”</p><p>“第三，把学生不满的情绪顺利发泄在活动商家的不公平上，不仅可以凝聚学生之间的团结力度，还能营造出学校该有的共存氛围感，而且，顺势减缓一年1班那场事态带来的人心惶惶的影响，如同多米诺效应一样。”</p><p>伍文欣“完全听不懂你在说些什么。”</p><p>“总之，只要校方愿意追加铜发夹这个设定，并顺利派发到每一个学生的手里，就肯定能让这所学校变得更加美好起来。”</p><p>伍文欣“如果真做了这种蠢事，那么，那些辛辛苦苦夺下金银发夹的学生，岂不是失去原本该有的优越感了么，到头来，该做法只是减缓学生想要冲到最前排的干劲罢了。”</p><p>“铜发夹的功效，仅限用于这种事，不就完了？”</p><p>伍文欣“如果真的仅限用于这事，那么，特意购入铜发夹的这部分资金，就被直接宣布白白浪费了，至少，我是那种绝对不会做这破财举动的人，所以，我，肯定不会把铜发夹限定在这么个局限用途上。”</p><p>聊到这里时。</p><p>身旁，明显多了一道说话声。</p><p>陈胡浩“明明这只是末将与丞相，在今天早上巡逻时期假设出来的话题，真没想到，伍同学居然会愿意与我们继续浅谈这事，实属侥幸。”</p><p>因为这句话的存在。</p><p>母猩猩，立刻在桌子底下朝着我使用了一记大力金刚脚。</p><p>‘好痛啊——！！’</p><p>虽然很想就这样喊出来。</p><p>但考虑到在场人数过多的缘故，并不希望就此备受瞩目。</p><p>于是。</p><p>我便把这份发自内心的疼痛，在快要到达喉咙顶部之前，强行吞咽了下去。</p><p>哪怕母猩猩在此期间什么解释都没有给予。</p><p>我，大致也能猜到她的心思是什么。</p><p>这都能赖我的头上，是吧。</p><p>行。</p><p>“啊呃咳…陈豪兄。”</p><p>陈胡浩“丞相怎么一脸犯痛的迹象，莫非是旧伤复发？此乃无药可治之病？”</p><p>伍文欣，不屑一顾的回了一句“对，他确实是无药可治了。”</p><p>“今天，人…有点多，咳！你原本该坐的位置已经守不住了，所以，你暂且屈身坐我旁边…吧。”</p><p>驱使大胖男孩坐在母猩猩身旁，也不是不行。</p><p>只怕待会受尽苦头的人并不止是她，还有被她猛烈跺脚的我。</p><p>与其废了双脚，倒不如打从一开始就这样做。</p><p>陈胡浩“末将，正有此意。”</p><p>紧接着。</p><p>大胖男孩便把手里那份承载着‘荤素素素素’的餐盘，放在了我的旁边，然后，抬起那非常笨拙的脚，成功坐在我身旁的空位上。</p><p>说实话。</p><p>大胖男孩无论是体积上又或者是热量上，全都远超同龄人的规格。</p><p>纯粹只是把他当作冬日里的活体暖手宝，姑且还是可以接受的，但，如果换作是夏季来临的时期，恐怕到时候的我，会有点忍受不住他这台活体空调外机所散发的热量。</p><p>陈胡浩“嘿咻……应该，没有妨碍丞相正常用餐的动作吧？”</p><p>“说实话，确实有点妨碍到我了。”</p><p>陈胡浩“哎，丞相怎么不按剧本来啊。”</p><p>“与其说些故意讨好你的话语，倒不如老老实实的让你认栽，毕竟，陈豪兄现在的体积根本就没有减掉多少，更不可能会在这么短暂的时间里面就有成效。”</p><p>陈胡浩“呜呼。”</p><p>“顺便一提，我确实很赞同你减肥期间至少也要补充一点肉类，的这么个理论，但是，我可从没说过用来补充营养的肉类，必须是五花肉的这个级别，因此，这几块肥猪肉不许你以任何名义去食用，没收。”</p><p>陈胡浩“啊这！”</p><p>“记住，下次如果还要补充肉类的话，我这里优先推荐的选项就是鱼肉，又或者是鸡胸肉这类，以上。”</p><p>大胖男孩，被强制性的再次食用纯素套餐。</p><p>至于那位姗姗来迟的头槌少女，则是毫无悬念的只能选择坐在母猩猩的旁边，尽管小吵小闹的情况没有得到任何减缓，但是，化名的喊出倒是因此减少了原有的次数。</p><p>……。</p><p>用餐结束。</p><p>如今，是午休时间的后半段。</p><p>原本打算继续借一如既往的尿遁理由，迅速离开这支干饭小队伍。</p><p>结果，我的举动竟然被母猩猩老早就已经给看破了。</p><p>伍文欣“蚊子，我身后那个正准备溜走的变态，他每天中午都会跑去哪里快活？”</p><p>叶露“综合楼。”</p><p>“喂，不要这么若无其事的当着我的面，去光明正大地述说这些情报出来啊！”</p><p>叶露“如果不是因为你这臭虫太没用的话，那我今天早上也不至于必须卖了一个天大的人情，给其他人。”</p><p>原来如此。</p><p>内鬼头头高兴坚终究还是选择答应头槌少女的那种离谱请求了啊。</p><p>“可就算真是这样，那你也不应该就此怪罪到我的头上哇。”</p><p>叶露“哼！”</p><p>伍文欣“明明只是去综合楼打发时间而已，为什么每次午休开始之前的时候，都要采用尿急的这种说法，难道，你的肾脏是塑料制品？”</p><p>叶露“更加具体来说，臭虫的目地是为了能在图书室里面，和某个学姐闲聊，才会特意做出这种浪费时间浪费体力的行动。”</p><p>“我还真是谢谢你提供的那全面情报哇！”</p><p>叶露“哼！！”</p><p>伍文欣“吼，学姐是吧。”</p><p>“不知为啥，伍文欣大小姐的气场里面，似乎追加了不少冰冷冷的杀意，难道，我这个举动是非常不好的行为？”</p><p>伍文欣“你连交友的圈子，都没能完全覆盖在自己的班级上，不就直接证明了你并不擅长拓展人际关系圈了么，然而，如今的你却妄想把手伸去其他地方上，如果，你没有对那位学姐做了非常失礼的事情，根本就不可能会认识到高年级的学生，倒不如说，你这死变态所做的失礼事还在处于‘正在进行时’的状态吧？”</p><p>“稍微等等伍文欣大小姐，为什么要以失礼去作为这件事的前提，纯粹只是……。”</p><p>伍文欣“在我认识你没多久的时候，你还记得你当时，究竟对我提了一个什么样的疑问。”</p><p>“呃。”</p><p>叶露，非常好奇的插嘴进来“什么疑问？”</p><p>伍文欣“总之，就因为那天发生过的事，所以，我至此为止才会把他称呼为变态！！”</p><p>叶露“切，又不打算说给我听了。”</p><p>“我在最初的时候确实犯下了不少的过错，难免会被伍文欣大小姐如此特殊看待，然而，如今的我早就处于痛改前非的状态，而且，我之所以会认识那位学姐，完全就是因为上次在图书室里面帮忙收拾东西的时候，碰巧衍生出来的情况。”</p><p>伍文欣“在我耳里听来全是假话，如果，你真打算维持纯粹的学姐学弟关系，根本就不可能每天都这么积极的跑去探望对方，更是只需在企鹅APP里面问候那么几句，又或者在校内偶然碰面的情况下聊上几分钟，那，才是正常的。”</p><p>“你的意思是，我的动机并不单纯？”</p><p>伍文欣“这都还需要我作答吗。”</p><p>“正因为有些话语、有些表情、有些动作、有些感触，没办法通过语音通话亦或者是视频通话的方式去表达出来，所以，我才会选择战战兢兢的接近对方，尽管这种做法可能会存在着被误解的成分也不一定，但，我们是清白的。”</p><p>伍文欣“清白不是用嘴巴说出来的，而是用证据去证明出来的。”</p><p>“叶露可以替我佐证。”</p><p>叶露“不佐！”</p><p>“哎——！！”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>暗黑黑料网</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《暗黑黑料网》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于暗黑黑料网</h2>
+<p>					暗黑黑料网<p>“我，喜欢一个人不仅仅是爱着她的一部分优点，而是，希望她在展现自己的全部以后，我，依旧能明确说出自己相当喜欢她，的这么一句话。”</p><p>我，肆无忌惮地说出这些令人害臊的谎言。</p><p>并决定在这之后，为自己这道谎言不断圆上相应的补充。</p><p>“我喜欢阿哥的根本原因…就因为她是我一见钟情的目标，仅此而已的答案不行吗？如此纯粹的动机不可以吗？”</p><p>经历恶棍那次演绎以后，我，发现自己的胆子似乎变得更加大了。</p><p>至少。</p><p>这些话语绝对不是两周之前的我，能随便张嘴对着她人说出来的玩意。</p><p>听到这里时。</p><p>叶露抬头，并用相当怨恨的目光盯着我“就算那种机率渺茫到离谱的奇迹，真的发生在你这种虫子身上之后，从姜添雄身边抢走阿哥的你，究竟要怎么处理这些支离破碎的人际关系，你，能让阿哥过上比这更加幸福的日常吗？她的亲朋好友还会是亲朋好友吗？”</p><p>尽管，这女生的做法和想法都相当的天真。</p><p>可是，唯独她念出来的这句话时，就像是看完一整本入门级人际关系参考书那般，充满着非常残酷的现实感。</p><p>“如你所说的一样，如果我真的从囧(Jiong)妹身边夺走赵雅歌的话，关于她们处心积虑下来的人际关系，肯定全都会变得支离破碎也不一定，但，那仅仅也是恋爱小说的后话了。”</p><p>叶露“你究竟想说什么。”</p><p>“好好恋爱一场，好好挣扎一次…无论这个故事的最终结局是坏与好，我，此时此刻努力过的证据就在所有人眼里见证着，明明我已经没有什么东西是值得失去的了，所以，为啥我还一定要成为这个故事的背景人物，老老实实跟随着心声站出来不行吗？”</p><p>刚才念出的这句话，不止是对着眼前这位头槌少女认真述说的。</p><p>更是对身为江小白的我，狠狠提议出来的一句肯定。</p><p>叶露呆滞地看着我“哪怕，所有人都会在你的故事里面受伤，你也要这样做？”</p><p>“我不知道你所说的‘受伤’，究竟是指什么程度的事情，也并不想知道，具体是什么人会因为这个故事而感到‘受伤’，总之，我现在能给与的回答就是，纯粹的物理暴力和语言暴力没办法拦截我的行动。”</p><p>聊到这里时，叶露把头埋下“你这只虫子…果然是我的天敌啊。”</p><p>由于她这句话着实太小声的缘故，害我浪费不少时间去分辨其内容。</p><p>没过多久，叶露再次把头抬起“你知不知道因为你这个无知的举动，害我原本已经放弃了的想法，完全变成死灰复燃的状态了啊，你该…怎么负起这个责任啊，江小白！！”</p><p>如果我现在佩戴着口罩的话，或许，我不会露出什么丑态才对。</p><p>很遗憾是，必须佩戴口罩的课题已经在上周迎来了结束。</p><p>因此。</p><p>我很确定自己嘴巴无法合拢的原因，肯定就是因为头槌少女她，突然呐喊出这句意义太过深奥的话语，才会导致。</p><p>没问题的，冷静一点。</p><p>小际它没有通过震动手表的方式去通知我，也就是说，我现在依然处于‘问题不大’的安全状况。</p><p>按照一般论的情况下。</p><p>刚才我掏出那番看似真心的宣言以后，大多数的狂热追求者应该都会落荒而逃才对，结果，这位头槌少女不仅没有战意消退，反而……。</p><p>不对。</p><p>应该是原本处于战意低迷的她，逐渐涌现出往日的那种高涨情绪。</p><p>为了避免不必要的猜测，我，还是决定直接问一句吧</p><p>“你，从伴侣的角度来说，不是一直喜欢着赵雅歌的吗？”</p><p>叶露“以前的我确实是这样想的，但是，阿哥让我认识到这是绝对不可能的事情以后，被迫无奈只好放弃这个念头，哪怕在这之后会和她保持着姑且还算是朋友的关系，我，唯独暗中帮助阿哥的这道想法依旧没有消停过……。”</p><p>听到这的时候，我，终于弄懂了。</p><p>原来，你之前在放学路上对我使用一记头槌的这个举动，只是驱赶围绕在赵雅歌身边那些坏虫用的啊。</p><p>尽管我不是什么坏虫，但，由于你不是情侣圈成员的缘故，因此，这份至关重要的情报才会没办法从内鬼头头，也就是高兴坚嘴里得到。</p><p>碰巧那时候的我，也误以为你才是背地里的狂热追求者。</p><p>现在，才会出现这种误打误撞弄巧成拙的情况。</p><p>“唉……。”</p><p>叶露“为什么我还没叹气的时候，偏偏是你先叹气一口了，你是不是对我刚才的举动有什么不满意的地方？再说，为什么阿哥偏偏要把你这种人留在她身边…而不是我。”</p><p>“那肯定是因为你太危险的缘故。”</p><p>我，毫不犹豫的说出了实话。</p><p>叶露立刻拍响自己平坦的胸口“像我这种瘦弱的女孩子，哪里存在危险因素了？”</p><p>听到这里时，我连忙指着她的左手和右脚。</p><p>“但凡是个弱质纤纤的女生，根本就不可能会做出你现在这番举动，至少，我认识的那些屈指可数的女生里面，并没有人会这样做。”</p><p>由于这句话的缘故，对方总算收敛了一点，至少，她的右脚不再践踏着我们班级的墙壁，但唯独左手的拳头依旧锤在原位上。</p><p>如果我的生理时钟没有算错的话，我现在，已经被头槌少女‘壁咚’至少十分钟以上了吧？</p><p>这位女生还打算继续这样下去吗？</p><p>过了一会，叶露再次提问道“江小白，我再问你一遍，你真的不打算放弃阿哥吗。”</p><p>“你这句话听起来根本就不像是什么疑问句，反而感觉更像是肯定句，所以，你接下来还有听取答案的必要么？”</p><p>叶露“有…。”</p><p>我，深呼吸一口。</p><p>“既然这样，那……。”</p><p>当我打算给与对方所需回应的时候，我的视线余光立刻注意到，自己班级门口附近正在晃动着一道高大的人影。</p><p>这，迫使我立刻停下说话，同时也把全部注意力集中放在那里。</p><p>该不会是男神吧？以往的他，似乎也很喜欢在这个时间点刻意过来找我，万一，我现在不小心被他看到这种场面的话，肯定会出…。</p><p>糟了、糟了糟了糟了……比我预想的情况还要糟上一百倍啊！！</p><p>我的视觉成功对焦在班级门口的时候。</p><p>我发现。</p><p>那道高大人影的主人根本就不是什么男神，也不是能被我称之为‘完全陌生’的人，而是…我们班级后排那群，比起学习更加擅长运动的同班同学，的其中一位。</p><p>“呿，如果我不是跑得最慢的那个，现在也不可能会这么乖乖地听秃头级长，提前回来收拾这个烂摊……。”那位男生一边发出自己的碎碎念，一边打开班级大门，直到，他也把相应的目光放在我俩身上“噢哦！！早啊贼丢人，真没想到你会一大清早就…。”</p><p>那家伙念出这句话的期间，叶露，刚好也把头转向身后。</p><p>为此，这位同班男生现在才会表现出，越说越是惊讶的声调。</p><p>气氛，眨眼间就来到了尴尬的极点。</p><p>我，现在究竟要怎么解释，才能让眼前这位男性同班同学成功理解，叶露她对我进行‘壁咚’的这道行为，绝对不是他脑子里面想象出来的糟糕举动。</p><p>我的大脑啊，麻烦你快点运作吧，赶在他得出结论之前。</p><p>此时此刻。</p><p>同班男生发出非常高的声调如此感叹道“你居然在和隔壁班的女生搞暧昧！！”</p><p>啊啊啊…这人居然已经定下自己的结论了啊。</p><p>小际呢？小际怎么还没给我提示啊？</p><p>如今这个情况，绝对是我没办法处理且非常不妙的状况吧？</p><p>该怎么做，才是最正确的选择啊！！</p><p>眼看我俩依旧不为所动，那位男生继续惊叹“哎？贼丢人你不是喜欢赵雅歌同志的么？哎？现在这个究竟是什么情况？出轨吗？三角恋吗？而且，对象还是隔壁班的可爱女生…哎？哎？怎么回事呀？”</p><p>这家伙用的‘哎’字也未免太多了吧！！</p><p>再加上，我现在根本就没有心情回答你提出的一系列问题。</p><p>由于眼前那位男生实在太烦人的缘故，头槌少女叶露，终于不再继续对我使用‘壁咚’，同时，她也立刻转身朝着班级大门的方向跑去。</p><p>那位男生见状以后，试图拦截叶露的逃跑路线。</p><p>只可惜。</p><p>头槌少女的机动能力确实无人能敌，就像是美式足球场上的冲锋二十一号那般，凭借着自己娇小的身躯和矫健的身法，非常轻松地躲开了那位高大男生的人肉栅栏。</p><p>并在下一秒即将来临之前，彻底消失在门口的拐角处。</p><p>很好，至关重要的问题根源已经消失。</p><p>接下来只需……。</p><p>我，还没来得及回到自己座位上，就已经被那位连名字都不知道的同班男生，动用他那非常热情的方式强制停下脚步。</p><p>没错。</p><p>他现在，正在搂着我的肩膀发起提问“别装作什么都不知道哇，赶紧把刚才那种情况的详细部分，一五一十给我说出来啊，贼丢人。”</p><p>你以为你是我的谁。</p><p>为什么我会有这种义务去解释这档事。</p><p>再说。</p><p>刚才小际也没有通过震动手表的方式，去示意让我强行改变这个现状，换句话来说，我没必要花费空闲功夫继续去搭理你的存在。</p><p>“…。”</p><p>因此，我，决定无视这个人的提问，并强行回到自己的座位上。</p><p>结果。</p><p>那位男生居然一同跟了过来“你这货，明明外表看起来没啥有趣特征，甚至扔进人群堆里面超过两秒就找不着你，但，越是像你这种默默无闻的东西，越容易做出相当厉害的事情出来，所以，不打算解释一下刚才那个可爱妹子，究竟是来自哪个班的么？”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>集瓜网页版</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《集瓜网页版》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于集瓜网页版</h2>
+<p>					集瓜网页版<p>“唉……如果换作其他人拦着我的话，我很有可能会故意做出不小心的举动，然后动用这圆珠笔在你手背画几行鬼画符的哦。”</p><p>既是提醒也是威胁。</p><p>具体会怎么去理解，还要看当事人现在的心情如何。</p><p>然而。</p><p>伍文欣并没有因为这句话的缘故，而移开这只遮挡着我作业本的手“有种的话你可以尽管去尝试一遍，试完以后，我会让你立刻知道什么是‘试试就是逝世’的这句话。”</p><p>明明现在正在阻扰我的人可是你啊。</p><p>为什么，这头母猩猩依然能够掏出这么一句大义凛然的话语来？</p><p>“所以，伍文欣大小姐，请问您老人家特意前来小人这边到底是有何贵干……。”</p><p>伍文欣俯视着无比卑微的我“你，给我过来。”</p><p>她。</p><p>在诉说出这句话的期间。</p><p>眼神方面明显传来了非常强势的感觉，可是，表情方面却又有种说不出口的无可奈何。</p><p>就像是在暗示着，这头母猩猩知道自己即将遭遇什么特别重大的问题。</p><p>而。</p><p>目前能够帮到她的人却只有我这号小人物，‘逼不得已’才会出此下策。</p><p>换句话来说。</p><p>这，就是她放不下面子却有求于我的表现？</p><p>不知道…以上内容全是我猜测的。</p><p>伴随着场景的转换，步伐的前进。</p><p>离开身后这个无比吵闹的课室，走动在人来人往的走廊上，紧跟着母猩猩来到一个相对比较少人的僻静区域以后。</p><p>她，终于停下脚步转过身来。</p><p>又一次故意抬高脑袋，俯视着眼前这个超级卑微的我。</p><p>然后，一口气的说道。</p><p>伍文欣“我，被蚊子邀请去参加今天晚上的生日派对了…。”</p><p>“呃…恭喜？”</p><p>伍文欣皱起眉头“你这句话是认真的？”</p><p>当她念到这里时。</p><p>我，明显听见脚下持续换来鞋子的摩擦声。</p><p>“啊不，我刚才那句只是玩笑话的祝贺词而已，所以，请问伍文欣大小姐接下来想要怎么做呢？”</p><p>伍文欣，总算停止脚下的一系列恐怖举动“死变态，这问题应该是在你力所能及范围以内的…你，给我想办法解决掉这桩麻烦。”</p><p>“你的意思是，想借着我的手去拒绝她的这道邀约？”</p><p>伍文欣没有直接给与回应，只是点了点头表示自己的肯定。</p><p>就算你把这份最终结论交了出来，我，也没办法能在一瞬间以内理解这到底是什么情况啊。</p><p>还记得今天中午吃饭的时候。</p><p>你们前前后后可是吵了三场…是三场！！</p><p>然后。</p><p>下午第一节课程结束没多久。</p><p>母猩猩却突然和我说，自己被头槌少女邀请一起参加晚上的生日派对了？</p><p>请问这合理吗…这科学吗…这是现实生活中允许发生的吗？</p><p>“不好意思，我有点理解不过来，麻烦你把这事情的原委稍微给我解释得详细一点吧，最好是……。”</p><p>我还没把这句话补充完整。</p><p>她，就已经把手机画面里面的内容呈现给我看了。</p><p>“等会！这里可是走廊啊！！快收起来…免得待会被什么人给没收了。”</p><p>伍文欣并没有听从这道指挥“别废话，给我认真看，看完我就立刻收。”</p><p>“呃，行…。”</p><p>眼前那台五点五英寸的手机屏幕以内，正持续展示着母猩猩QQ账号里面所提及的关键内容。</p><p>添加为好友的附加信息框里头，叶露，明确写道。</p><p>【有一个生日派对的人数不太够，需要你今晚帮忙过来凑人数。】</p><p>账号名称…没错。</p><p>账号头像…也是完全一致。</p><p>外加，这种无头无脑的说明方式确实有头槌少女那味……。</p><p>只不过。</p><p>我所认识的头槌少女可不会这么轻易地低头请人帮忙的啊。</p><p>即便真的拥有这道想法，也应该会优先选择谈一谈条件的策略，而且还是采取现实中面对面的模式。</p><p>所以，这…究竟是怎么一回事？</p><p>有种很强烈的违和感就在我眼前浮现着。</p><p>伍文欣“看完了吗？”</p><p>“啊…嗯唔……看完了。”</p><p>话音刚落。</p><p>母猩猩连忙把自己的手机收回到衣服口袋里面。</p><p>伍文欣“现在，你得出什么很好的解决方法了没？”</p><p>“完全没有很好的想法…不如，先等我去找叶露那边问问……。”</p><p>伍文欣“既然连你这个死变态都得不出什么好方法的话，那就只能按照我那套方式去解决问题了，你，给我听好了……。”</p><p>“哦…哦。”</p><p>伍文欣“今天傍晚放学的时候，无论蚊子再怎么吵闹，你都要做到全程无视她的状态下，把我安全地送去之前的那个‘止步点’。”</p><p>母猩猩现在所说的止步点。</p><p>其实就是开学第一周以及第二周的周末时，她，示意让我把那堆超大量的生活物资，全放在路口拐角处的那个地点。</p><p>因为该路段的附近拥有一块‘共享单车请止步’的警示牌，且，她也不允许我继续往前走动一步的缘故。</p><p>所以。</p><p>‘止步点’的这个称呼，会莫名给人带来非常强烈的印象。</p><p>可是…。</p><p>我今天傍晚也有一件绝对不能推搡的要紧事啊。</p><p>该怎么做会比较好？</p><p>回绝？推辞？婉谢？</p><p>不行。</p><p>无论脑海里面得出些什么样的答案，始终都会和拒绝产生关联啊。</p><p>伍文欣“听懂以后，麻烦你赶紧点头给一个答复，我可没兴趣去看着这么变态的你，陆陆续续表现些更加变态的举动出来。”</p><p>“恐怕，不太行……。”</p><p>伍文欣“什么？”</p><p>“叶露的性格和你差不多，如果她真的需要你帮忙的话，就说明这个事件是容不得拒绝的情况，而且，她也没有向我这边传来什么消息。”</p><p>伍文欣再次皱起眉头“你，不是不带手机回校的么？”</p><p>“啊…对，我确实是不带手机回校的，所以，没有在叩叩上得到我明确回复的叶露，必定会在关键时候采取直接登门造访的极端举动。”</p><p>呜呼好险，还好我立刻反应过来。</p><p>不然我这破嘴皮子，一不小心就掏出那些容易诞生问题的后续麻烦了。</p><p>伍文欣双手抱胸“死变态，你的这句话为什么说得你好像很了解她一样。”</p><p>与其说这是她的反问句。</p><p>不如说，这是母猩猩的隐喻句。</p><p>明确掺杂着‘你们实际上究竟是什么关系’的疑问成分在里面。</p><p>“我其实也不怎么了解她，只是把你们的性格在一定程度上进行了分析和对比，并从所有假设出来的结论中得出最为有可能的说法，具体便是，伍文欣同学在某个方面和叶露的个性还蛮相似的这件事…。”</p><p>我。</p><p>明确知道我的这句话能够堵住母猩猩刚才的疑问。</p><p>也能顺利让她脑海里面袒露出来的隐喻，一口气就转换成‘我们实际上到底是什么关系’的反问句。</p><p>因此。</p><p>伍文欣更换了一个角度“给我打个比方来说。”</p><p>“你们二位，在班上都很容易被同性给针对……的这点。”</p><p>还记得躲避球事件之前，小恶魔在Q上和我提及过的那项情报吗？</p><p>应该不可能不记得吧。</p><p>虽然她当时所说的内容掺了部分假话，但也令我更容易从母猩猩嘴里得到全数的真相。</p><p>正因为这份答案的缘故，才会导致我对女生待在体育馆里面运动时的美好憧憬，从而产生了些许的幻想破灭情况。</p><p>伍文欣“所以呢，你想表达我们都不合群是吧？”</p><p>虽然话语之间没有怒气，眼神之中没有杀意。</p><p>但我依然能够看得出。</p><p>母猩猩在掏出这句话的期间，表情方面会袒露出些许的不自然。</p><p>可能是她平时始终都保持着无感的状态，所以这个表情语言才会变得那么明显的吧？</p><p>总之。</p><p>我，得小心谨慎地回答第二道提问了。</p><p>“我刚才想说的是，你们，都不容易遇到吻合自己性格的人…所以，你们会在某些行为举止方面特别接近。”</p><p>伍文欣立刻把视线撇开“别废话，我现在就问一句，傍晚的时候你帮还是不帮？”</p><p>该说。</p><p>这是女生的特权，还是母猩猩的特权。</p><p>像这种有点横蛮的方式，如果换作是我去动用出来的话，下一秒迎来的情景毫无疑问就被老妈给踢出家门了。</p><p>“不行，至少不应该用这种拒绝方式去……。”</p><p>伍文欣再次俯视着全世界最卑微的我“所以，你的意思就是不帮忙啰？”</p><p>“要是下次轮到叶露必须面对这种情况的时候，我，也不会这么轻易就帮她拒绝你的请求。”</p><p>真不愧是我。</p><p>居然能在这种非常极限的拉扯环节里面，得到一个无比接近正确答案的答案。</p><p>尽管我的最终回答依旧是拒绝，可是，这样一来母猩猩就肯定不会……。</p><p>伍文欣“看来，你这个死变态今天确实要倒大霉了，哪怕我没有动用那种烂大街的扑克牌去占卜你的未来，我也可以确信你运势已经差到低谷。”</p><p>原来。</p><p>母猩猩偶尔也会留意着小恶魔的一举一动啊。</p><p>所以，她究竟是什么时候给我算上这一卦的？</p><p>“请问你为什么要这么说……好痛！！！”</p><p>她。</p><p>既没有挥霍大力金刚脚去践踏我，也没有动用熟悉的鞋底去摩擦我鞋头。</p><p>只是…狠狠地朝着我的小腿踢了一击。</p><p>随后母猩猩就立刻扬长而去了。</p><p>如同一场暴风雨那般，极为迅速地消失在我的眼前。</p><p>“呜哇，好痛啊！！！”</p><p>真的，没有开玩笑。</p><p>她刚才的举动比起之前那些践踏我脚趾头的动作，还要疼上那么十几倍啊！！</p><p>“啊啊啊，我蹲在这里用手来回搓了这么久，腿上的瘀伤居然还是刺痛刺痛的…看来，母猩猩刚才确实是生气到爆炸的级别了，可是…归根到底，如果头槌少女没有发送那种莫名其妙的信息给她，我也不会遭受这种横祸啊……。”</p><p>我。</p><p>基本已经确定自己的小腿中部，毫无疑问开始出现淤青的痕迹了。</p><p>不妙啊。</p><p>光是站起来就感觉很疼，恐怕跑起步来会产生更大的问题吧。</p><p>现在的我，该怎么做才能……。</p><p>就在我思考到这里时。</p><p>脑残男杜明杰的身影，居然不合时宜地出现了。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

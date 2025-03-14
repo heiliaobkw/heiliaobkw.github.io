@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>吾爱吃瓜网页</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《吾爱吃瓜网页》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于吾爱吃瓜网页</h2>
+<p>					吾爱吃瓜网页<p>视线重新回到自己的桌面上，握紧手边的笔，找出那些勾画出红色叉叉的题目，抬头确认一下班主任逐渐在黑板上书写出来的答案。</p><p>似乎…没有改错试卷的情况耶。</p><p>行吧。</p><p>但，就这分数真的能骗得了我老妈的法眼吗？</p><p>小际似乎…没有打算说些什么，稍微看看隔壁桌小恶魔的情……她那令人感到恐怖的分数究竟是怎么回事！！</p><p>哎？</p><p>小恶魔的考试成绩有那么厉害来着？</p><p>可能只是我看错了吧…稍微再看…也没有看错哇。</p><p>然而，她的目光根本就没有放在这个分数上，而是放在更加遥远的什么东西上……。</p><p>‘叮咚当咚——’</p><p>校内再次响起这道熟悉的铃声，走廊上的嘈杂声逐渐消散。</p><p>没能获得课间休息的我们，就这样，连续上着第二节课程。</p><p>唉。</p><p>我在内心深处如此叹气的时候，我的后面桌也在一同发出了相同的叹气声。</p><p>……。</p><p>上午的大部分课程，都在讲解试卷内容中渡过。</p><p>尽管，每位老师都拿出截然不同的表情面对我们，可是，各科授课老师依旧会在进入教室的那个瞬间，异口同声地声称‘我们班是最差的’。</p><p>这个究竟是宣言还是口号？</p><p>难道这个年级里面，就不存在比我们更差的班级么？</p><p>好吧，我应该纠结的问题并不是这个。</p><p>总而言之。</p><p>老师们握紧手里五颜六色的粉笔，接连在黑板上抹去讲解完毕的内容，又立刻写下不少容易犯错误的题型，顺便还直接说出，我们全班犯下错误的百分比。</p><p>其比率甚至还远远超乎了，允许想象的范畴。</p><p>因此。</p><p>我们今晚的作业→变成了大量的罚抄。</p><p>‘真的是世界的恶意啊’</p><p>我，内心如此呐喊的同时。</p><p>也在趁着课后休息的期间赶紧减少一部分，今天晚上需要完成的作业量。</p><p>与我想法相同的人，不在少数。</p><p>高兴坚确认我如此忙碌的姿态以后，便，不再趁着这段时间过来干扰我了。</p><p>…。</p><p>‘叮咚当咚——’</p><p>响彻在校园的这道铃声。</p><p>既是美丽的，也是残酷的。</p><p>正当全世界的人都知道，我校午休时间正式宣布开始的这个霎那，全班…甚至是整个一年级都突然安静了下来。</p><p>如果这份寂静的理由我没猜错的话，其他班级的遭遇似乎和我们没有太大区别。</p><p>如山一般的作业量，正在压垮着人的食欲。</p><p>早点吃完，早点回来，早点写作业。</p><p>请问，这是积极向上的想法吗？</p><p>请问，这是一个干饭人填饱肚子之前，应该拥有的思绪吗？</p><p>请问，我们现在能正常品尝出菜肴的鲜香吗？</p><p>关于这三道问题的答案，我认为是无解的…但，唯独肚子里的蛔虫却在悄悄作响。</p><p>“唉……。”</p><p>伴随着这…不知是第几声的哀叹迎来结束以后，我，并拢了自己的桌椅以及思绪，决定离开这个教室的同时朝着学生饭堂的方向前进。</p><p>但在后脚跟即将踏进走廊之前。</p><p>我视线的余光，不经意间停留在小恶魔的身上。</p><p>‘那份困扰着她的问题，难道，就在她此时此刻握紧着的手机屏幕里面吗？’</p><p>她的表情，是如此告知我的。</p><p>但是，真正的答案却只有她一人能知晓。</p><p>无法继续深入探究的我，唯有露出充满疑惑的表情。</p><p>并，踏出这个教室。</p><p>……。</p><p>“人山人海。”</p><p>来到学生饭堂的时候。</p><p>眼前无论哪一条购饭队伍，它的队末，始终都已经来到饭堂门口附近。</p><p>奇了个怪了，造就这种盛况的理由究竟是什么？</p><p>以往，这个时间段根本就不可能会冒出这么多的人。</p><p>我，着实想不通。</p><p>抱着侥幸的态度，随便挑选了一条购饭队伍，不断祈祷该队伍的速度不是最慢…可，接下来的结果，不用多猜也能成功想象到那个画面了吧。</p><p>唉，真是令人头疼的世界恶意。</p><p>握紧餐盘的我，走动在这个人满为患的饭堂内，接连寻找着一个空置的座位。</p><p>在我途径的这条道路上，身后方恰好有人吃完离开，然而，正当我转过身来的时候，视线还没来得及对焦成功之前。</p><p>该空位已经被下一批的干饭人，给顺利占领了。</p><p>如果我没有亲眼看见这一幕的话，或许，我还不至于会这么生气…正因为我亲眼看到了这份恶意，那才是最气人的。</p><p>明明是我先来的，为什么……。</p><p>唉…。</p><p>我，已经数不清这声哀叹，究竟在我脑海深处奏响了多少次。</p><p>但是。</p><p>我很肯定自己接下来，绝对会继续发出更加大量的哀叹声。</p><p>…呆滞地站在通道角落，不知道等候了多久。</p><p>终于！！</p><p>让我发现一对腾空出来的位置，并且被我占领成功。</p><p>长椅上，明显还残留着之前那位干饭人的余温；肚子里的蛔虫，早已经学会什么是敲锣打鼓弹吉他；放下手里紧握着的餐盘，试图吃上两口热饭…之前。</p><p>手表，传来了熟悉的震动。</p><p>哪怕没有把目光放在手表屏幕上，我，仍然非常清楚，这是提示我恭候母猩猩到来的意思。</p><p>然而！！</p><p>接下来的我。</p><p>无论待在这里静候多长的时间，却始终没能等到母猩猩的大驾光临。</p><p>原本仍然接连冒着热气的白饭，如今，它已经被天国带走了最后的倔强。</p><p>“饭菜，都已经凉透了啊。”</p><p>随着我的自言自语迎来结束，手表，再次传来了熟悉的震动。</p><p>由于这个举动的意图不太明确，因此，我决定稍微看一眼屏幕。</p><p>【课题目标，来了】</p><p>怎么才来？</p><p>现在这个时间段的饭堂，估计没剩什么好吃的了吧？</p><p>轻盈的脚步声陆续从我身后方传来，姗姗来迟的伍文欣，总算来到我座位的正对面，并，缓缓放下她那果然没剩美味菜肴的午餐。</p><p>“中午好啊，伍文欣。”</p><p>话音刚落，小际立刻通过震动手表的方式，提醒我今天打招呼的课题已经完成。</p><p>但。</p><p>我接下来要说的，可不止这些啊。</p><p>“请问，你今天前来饭堂这边的时候迷路了吗。”</p><p>面对我的嘲讽，伍文欣依旧保持着非常的淡定“进来这所学校已经过去大半年的时间，如果，那种方向感非常差的学生真的存在于这间学校的话，我倒是挺想看看这种人，每天究竟是如何回到校内的。”</p><p>奇怪。</p><p>有股说不清的违和感，就在母猩猩身上弥漫着。</p><p>对了…无论是今天早上的时候，又或者是刚才打完招呼之后，她，似乎都没有拿出以往那种眼神，然后用力去瞪我一眼。</p><p>因此，我认为。</p><p>现在必须立刻把哽咽在喉咙深处的这份疑问，交了出去才行。</p><p>“我说，伍文欣大小姐，你今天难道是遇到什么好事了么？”</p><p>听到这里时，伍文欣总算抬头看了我一眼“看来，那只流浪狗生前移植给你的这双眼，似乎还是有点作用的，至少，你现在说出来的这句人话我姑且算是能听懂。”</p><p>“嗯，对，我这双眼确实是钛合金制作的狗眼，但我从来都没有做过狗眼看人低的事情，所以…我可以拜托你描述一下，今天究竟是遇到什么喜事了吗。”</p><p>由于这份提问涉及了对方的隐私，因此，母猩猩故意把头抬高。</p><p>从她现在这个角度来看，我完全就是处于被俯视着的状态</p><p>伍文欣冷冷地回应道“凭什么我要把自己得到的开心事说给你听，你究竟是我的谁？”</p><p>她说出这番话的期间，语气方面…感觉并不重。</p><p>只要我接下来没有强迫母猩猩的话。</p><p>她，或许真的愿意分享给我听也不一定。</p><p>“我确实不是你的什么谁，而且，我也没有打算把你说出来的开心事拿去怎么样，纯粹就是想要稍微打听一下这个…。”</p><p>面对我的碎碎念，伍文欣显然变得有点不耐烦“所以，你这个死变态究竟想要表达些什么。”</p><p>“因为…我今天运势似乎很差的缘故，光是上午就连续发生好几件糟心事。”</p><p>尽管我运气方面很差，我现在可能只是在做无用功的事情。</p><p>即便如此，我也没有打算向‘世界恶意’叩头认输。</p><p>像这种故意把话题绕远，再去勾引出对方的求知欲，然后把真实答案交付出来的做法，其实，我老早就想要测试一遍了。</p><p>毕竟，小际曾经和我聊过这个问题。</p><p>人，通常都不会在最开始的时间段内，接纳来自她人的第一个‘意见’，无论这个‘意见’再怎么完美和正确，人，始终会选择浪费更多时间去听取更多的‘意见’。</p><p>直到这场讨论出现僵持的情况为止。</p><p>与之对应的案例就是：我，第一次与母猩猩单独去超市购物的那天。</p><p>当时的她。</p><p>的确没有选择第一时间采纳我提出的，分开两支队伍加快结账速度的‘意见’。</p><p>因此。</p><p>与其把时间浪费在这听取的过程上，倒不如，让我把消耗的时间用来实践这个做法。</p><p>只见伍文欣叹气一声“有科学不信居然跑去相信玄学？难道，你是深山村落里面专门搞封建迷信的家伙吗？如果是，那我劝你早点回去精神病院歇一下吧。”</p><p>难道我的耳朵出现什么问题了吗？</p><p>为什么她这句话的声调不像是在辱骂，反而更像是在吐槽呢。</p><p>“其实我也不愿意相信命运、运气这类玄幻的事物，只不过，今天早上让我不顺心的事情，确实有很多而且还是接连不断的情况，如果可以的话，真希望伍文欣大小姐你，能稍微分享一部分乐观给我熬过今天下午。”</p><p>伍文欣摇了摇头“能让死变态开心起来的事情，我，估计做不到。”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

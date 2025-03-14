@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瓜生太郎画家</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《瓜生太郎画家》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于瓜生太郎画家</h2>
+<p>					瓜生太郎画家<p>“叶露，你，知道‘伸出援手’和‘自我满足’的区别吗？”</p><p>手捧橘色小猫的叶露，无精打采地回了一句“什么。”</p><p>“以前的我一直以为，‘伸出援手’这句话其实是相当简单的事情，就像是天上飞过的小鸟突然掉在地上，而我，只需把它捡起来，稍微呵护一下它那受损的翅膀，不出一会这只小鸟肯定又能翱翔于天空之中。”</p><p>叶露依旧无精打采地回了一句“是吗。”</p><p>“当小鸟成功飞回天空时，我，自然而然就会认为已经拯救了那只小鸟，可实际上呢？小鸟的问题依旧没有得到有效解决，下一次的它，只是飞到我看不见得地方里面，又一次重重地摔落在地上，而这次，它很有可能就没有那么幸运碰到像我这种人了。”</p><p>叶露“所以呢。”</p><p>“所以，与其做出这种套上‘伸出援手’皮衣的‘自我满足’，还不如从一开始就什么都别碰，没有参与干涉的情况下，那只小鸟，或许还有一线生机也不一定。”</p><p>叶露“那只是你的偏见吧…。”</p><p>“半吊子的人，不适合去做二把刀的事，然后换来半桶水的成果。”</p><p>我原本以为。</p><p>这句话应该能够点醒头槌少女才对，结果，适得其反。</p><p>叶露停下脚步，抬头狠狠地盯着我“成功不是打从一开始就会出现的，只有经历过无数次失败以后才能换来，你，难道没有好好上过历史课么？人类，就是从无数细碎的失败堆积而成的存在。”</p><p>完全没能预料到。</p><p>她居然也能说出这么绝妙的语句。</p><p>同时，对方也并没有因为我刚才的那些话语，而故意采取小孩子气的反智操作。</p><p>总结。</p><p>比起说教，我，果然还是更加擅长胁迫啊。</p><p>“所以，请问这是引用谁的名言？”</p><p>叶露开始回忆“阿厉…阿北…不记得了！！”</p><p>过于气愤的她，又一次提起脚步快速前进。</p><p>唉。</p><p>你这个头槌少女好歹再去努力那么几秒钟吧…总感觉，你完全浪费了刚才那句如此厉害的名人名言了。</p><p>‘人类，就是从无数细碎的失败堆积而成的存在。’</p><p>是吗？</p><p>有意思。</p><p>快速停下刚才那道思考的我，连忙紧跟对方的脚步。</p><p>…。</p><p>到达头槌少女指定的路段。</p><p>看见心急如焚的母猫就在附近树干上使劲‘喵喵’叫。</p><p>眼看头槌少女得知自己做错事不敢上前以后，我，连忙从她手里接过橘色猫咪，拎着这只小家伙的后颈来到它妈妈面前。</p><p>起初。</p><p>母猫下意识地躲开了。</p><p>没过多久，它总算注意到我手上紧握着自己孩子以后，连忙竖起尾巴和毛发，龇牙咧嘴地使劲朝着我这边走来…不，这是即将袭来的预感。</p><p>见状如此一幕的我。</p><p>赶紧放下小猫，然后，转身就跑。</p><p>在我跑动的期间。</p><p>母猫仔细嗅了嗅自己的孩子，不出一会，就把小猫叼着回去草丛里面了。</p><p>“呼，还好我有这方面的经验，不然我刚才肯定会在归还小猫的期间，会被它的老妈一巴掌抓伤。”</p><p>面对我的自言自语，叶露不屑一顾的说道“正常情况下，猫妈妈不都是满心欢喜地从恩人手里接过孩子的么？因此，臭虫你肯定是因为外观太过恐怖，才会导致人类以外的生物都知晓要在面对你的时候必须警惕起来。”</p><p>“关于我长相不好看的这点，我打从小时候就非常清楚，只不过，我现在也应该是你的恩人才对吧？从恩人手里得到恩惠以后，你要说的就是这个？”</p><p>叶露低头的同时，也在用围巾遮挡自己嘴巴“xie…xie。”</p><p>“不好意思我没听清楚，你刚才难道是想说‘借借’是吗？”</p><p>听到这里时。</p><p>头槌少女狠狠地给我来了一击阴间拳头…不好意思，挨揍的时候脑袋有点混乱，正确说法应该是阴搓搓地对着我腰间来了一拳。</p><p>“咳呃！！”</p><p>叶露“我谢谢你这只臭虫子，这回你能听清楚了吧！！”</p><p>“哪有这种…咳咳…道谢方法的啊……。”</p><p>叶露“哼。”</p><p>说完。</p><p>她便把我留在这里，然后独自一人转身朝着学校的方向回去。</p><p>从这天开始我彻底领悟到了一件事。</p><p>原来，性格这种东西真的很容易就会被互相吸引且模仿的，毕竟，我眼前就有这么一个活生生的例子了。</p><p>……。</p><p>…………。</p><p>再次回到学校以后。</p><p>教室，早就被打开了全部灯光，班上，已经有好几人在安静地赶着作业。</p><p>而我呢？</p><p>缓缓回到自己的专属座位上，掏出昨天晚上完成了却不确定是否正确的作业本。</p><p>于是乎，我便从笔袋里面掏出圆珠笔，开始进行名为查错的步骤。</p><p>直到，这间课室座无虚席为止。</p><p>呼。</p><p>错误的地方并不多嘛，尤其是数学这个科目的作业本，明明解题步骤都是我随便唬弄上去的玩意，可关键的应用题答案却非常正确。</p><p>所以，昨天晚上的我究竟是怎么…。</p><p>思考还没来得及刹车。</p><p>耳边，就立刻响起小恶魔的爽朗招呼声。</p><p>赫晓沫“早呀，江小白。”</p><p>听到这句话的瞬间。</p><p>我，立刻抬头看向隔壁桌的她。</p><p>“早。”</p><p>只见眼前的小恶魔迟迟没有选择坐下，而且，她的站姿明显变得更加诱人了。</p><p>嗯唔？</p><p>奇怪，为什么我要用‘诱人’一词去形容啊？</p><p>难道我最近的心理状况处于相当不安定的状态，因此才会导致我连她人的站姿，也会错看成是什么荷尔蒙的地狱？</p><p>应该没有这个可能吧…。</p><p>为了排除自身是否存在疑问，接下来的我，决定要稍微认真去观察一下对方这个站姿。</p><p>也就是把双手放在身后的普通站姿罢了。</p><p>谈何特别？</p><p>哦…喔，好像还真是不太一样。</p><p>视线以内正好就有一位男生很喜欢在走动的过程中，故意把双手放在自己的后背，可是，那家伙经由这个举动看起来像是弯腰驼背的糟老头子。</p><p>而如今映入我眼帘的小恶魔，却是截然相反的情况。</p><p>没错，她的腰板竟然挺得相当笔直。</p><p>单单只是这样的话，那么，该站姿应该自然而然就会拥有那些事业单位领导人的威压气势才对，结果，我完全没有获得这份感触。</p><p>甚至还依旧觉得相当诱…咳咳。</p><p>得继续加大力度去仔细观察才行。</p><p>啊，懂了。</p><p>原来小恶魔当前的站姿并不是领导专用的‘背握手腕’。</p><p>而是左手绕过后背的同时，握紧着右手手肘位置。</p><p>赫晓沫再次张口说道“你，视线里面陆续传递出来的热情快要把我给融化了喔，怎么，今天的我就这么值得你去注意的吗。”</p><p>说完。</p><p>她便立刻露出像是已经征服了全世界那般的笑容，去看待着我。</p><p>“啊…嗯…嗯唔。”</p><p>不知道是因为这声回应的缘故。</p><p>还是她已经站累了的缘故。</p><p>总之，赫晓沫总算坐回自己的专属座位上“诚恳可是好事哦，而我也希望你能一直继续保持下去，江~小白。”</p><p>对话结束。</p><p>紧接着的时间就是小恶魔圈子里面的人，开始找她打招呼去了。</p><p>所以说。</p><p>她刚才那种很诱人的站姿，难道，是她突显自己腰部很纤瘦才故意调整的？</p><p>不清楚。</p><p>与此同时。</p><p>就在我思绪还没来得及刹车的这段时间以内。</p><p>有个既熟悉又陌生的家伙，突然窜到我面前，然后习以为常的坐了下来，甚至还发出糟老头子才会发出的‘嘿咻’一声。</p><p>嗯唔？你问我这货难道是我失散多年的前面桌？</p><p>不不不，当然不是，我的前面桌可是如同空气一样的存在，哪怕上课期间我什么都没有做，那货也会非常自觉地给我提供一个绝佳的看黑板角度，总之，我，绝对不可能会认错我的前面桌的。</p><p>因此，这份答案就相当明显了。</p><p>目前正在霸占我座位正前方的家伙，其实是内鬼头头。</p><p>面对我这相当困惑的视线，眼前的高兴坚连忙提起嘴角“早啊，小白。”</p><p>关于他为何突然做出这种违和感十足的举动，其实，我认为这都不是重点。</p><p>重点是！！</p><p>我明显感觉高兴坚似乎老了很多。</p><p>尤其是他刚才微微一笑的时候，眼角的皱纹如同鱼尾…原来如此，这就是鱼尾纹的来历啊。</p><p>不对！！</p><p>现在不是感叹知识存储量的时候。</p><p>“喂，你现在…真的是我的同班同学，而不是什么误入高中的退休老人？”</p><p>高兴坚“小白的话语有时候还真是有够过分的啊，我不就是这几天以内，减少了在自己班上露脸的时间而已吗，至于这样子去说我吗。”</p><p>“话语过不过分的问题是其次，我刚才的言论可都是实话实说的啊，尤其是，你脸蛋的部分…总感觉像是被好几个吸血鬼榨干了那样…不是错觉，确实就有那股味道。”</p><p>高兴坚欣然一笑“吸血鬼…吗，如果只把这种程度就称呼为吸血鬼的话，大概…没事，这是我自言自语的笑话而已，别放在心上。”</p><p>“故意透露了一小部分情报出来，又故意止住自己无法合拢的嘴巴，并在最后的最后声称‘没事’，你以为我看不出这是姜太公钓鱼么…。”</p><p>高兴坚“虽然这确实不是钓鱼，不过，我想小白你肯定能够懂得其中意思的。”</p><p>“不想懂，也不想去思考。”</p><p>听到这句话以后。</p><p>只见高兴坚快速把视线放在小恶魔身上，随后又立刻放在我身上“就是…这么一回事。”</p><p>真不愧是内鬼头头，故意把这种夹带歧义的动作炫耀在我面前。</p><p>行吧。</p><p>既然你这姜太公真想要让我去解谜，那我就试着做给你看好了。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

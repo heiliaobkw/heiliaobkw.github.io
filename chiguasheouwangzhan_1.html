@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>吃瓜社区网站</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《吃瓜社区网站》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于吃瓜社区网站</h2>
+<p>					吃瓜社区网站<p>陈胡浩“这究竟是不是所谓的套中套，末将，并不知道；而当中的部分过程有没有被曲解成其他，末将，也无法继续深挖……不过，如果那位神秘人物连这一步都能计算在内的话，那么，这还真是一位相当之危险的角色啊，你说是不，江丞相。”</p><p>“对、对啊……。”</p><p>所以。</p><p>这种对话真的有必要么！</p><p>比起提前给那种猜测截胡，为什么我老是感觉到，你们两个其实是在通过绕圈子的方式，让母猩猩主动去截获更多的情报回来啊？</p><p>这，应该不是我的错觉吧！！</p><p>在这之后的时间，是顺势衔接回去普通话题的好时候。</p><p>尽管‘谈笑风生’这四个大字确实很适合形容现在，但是，母猩猩后续向我投来的视线里面，却也明显掺杂了更多的想法。</p><p>呃。</p><p>这就是你们两个的最终目地是吧。</p><p>服了。</p><p>…。</p><p>餐盘扔进回收篮，随即发出非常清脆的金属碰撞声。</p><p>午餐，结束。</p><p>而我这边也是时候要前往综合…不对，是要去一号楼的风纪部大本营，所以，今天没办法和小不点学姐闲聊了。</p><p>稍微有点令人感到小失望。</p><p>就在我拼命思考着，该怎么阐述接下来的自己，又一次需要提前一步离开这支干饭小队伍，的这个瞬间。</p><p>碰巧被我听见了。</p><p>路过我身旁的三五成群里面，竟然有人在很认真的讨论着口香糖的问题！</p><p>咳。</p><p>重点不是这个。</p><p>而是他们刚才在聊的话题里面，明显拥有着‘留兰香’的字眼。</p><p>你，还记得寻找良药的事情吗？</p><p>每天早上晚上刷牙的时候，牙膏里面的那股薄荷味道，能够非常有效的在短时间以内让我情绪安定下来，因此，我才会下意识的认为薄荷就是良药配方的首选。</p><p>而实际上。</p><p>是薄荷里头的留兰香味道，会让我感到安逸。</p><p>因此。</p><p>我目前的大致寻获方向就是找到配料表里面拥有该成分，且，必须确保方便携带以及不容易招惹她人眼球，的存在。</p><p>如果。</p><p>他们刚才提及的那款留兰香薄荷风味的口香糖，真的就是我的最佳选择的话。</p><p>那我肯定要稍微暗记一下这个关键词的。</p><p>伍文欣，回头看向我这边“变态，为什么突然在路中间停下？”</p><p>叶露，也顺势一同刹车“肯定只是吃饭的时候不小心把水喝多了吧。”</p><p>“啊，对，我现在哪怕只是随便动一下，估计都快要发展成原地浇花的状况，所以，你们二位先行一步去吧，我这边，估计就只能缓缓…。”</p><p>伍文欣轻叹一声“每次都是借尿遁，就不能用点更加新颖的借口么。”</p><p>叶露“借尿遁？你是说臭虫子他故意……。”</p><p>原本以为。</p><p>我应当要在接下来的时间里面，继续为刚才的谎言进行圆谎。</p><p>结果，母猩猩率先离开了这里。</p><p>导致身旁的头槌少女，无可奈何地选择跟上了对方的脚步。</p><p>伍文欣“在这个场景底下，除了他以外，到底还有谁会符合我刚才的那种说法，能劳烦你这只臭蚊子别再整些影响智商的发言出来不？”</p><p>叶露“说谁影响智商了啊，我，我刚才只是想更加确切的分辨出，你这臭猩猩的部分字眼里面，究竟有没有存在着含沙射影的成分。”</p><p>伍文欣“哪怕没有上过九年义务教育课程的昆虫，也不可能会像你这样净是吐些废话出来吧，还是说，你刚才那句‘吃饭期间不小心把水喝多’的解释，其实是你对着你自己述说的自嘲玩意？”</p><p>叶露“哪…哪有这种可能！！”</p><p>两人的对话声，渐行渐远。</p><p>而我身后的学生饭堂，却依旧吵杂。</p><p>尽管我并不是很想把中午的时间，浪费在综合楼以外的其他地方上，但是，我，早就没有所谓的退路了啊。</p><p>唉。</p><p>内心深处的哀叹，迎来了休止符。</p><p>而我，也立刻转身朝着一号教学楼的方向，迈出笨重的脚步。</p><p>……。</p><p>不出一会。</p><p>我，来到了风纪部大本营的走廊附近。</p><p>原本以为这个地方肯定处于相当热闹的情况，毕竟，接下来的时间就要举办所谓的迎新会了嘛。</p><p>结果。</p><p>拐角之后的走廊上，竟然看不见一位风纪部的成员在场，光是这一点，就已经让我感到有点惊讶了。</p><p>而更令我诧异的事情是。</p><p>大胖男孩他，究竟是什么时候过来这里的，甚至还端出了一副恭候多时的模样，明明我记得他离开饭桌的时间，也就比我快那么几分钟的程度。</p><p>然后，结合他那过于厉害的吨位以及龟速行驶的速度。</p><p>应该不难计算出这人步行过来所需花费的巨额时间才对。</p><p>但是！</p><p>重点的部分并不在这。</p><p>而是大胖男孩竟然非常光明正大的站在风纪部大本营附近，不断玩弄着自己手里那台智能手机，的这么一件怪事。</p><p>正当我即将说出：</p><p>‘你小子真是有够胆大包天的啊！’</p><p>的这个瞬间。</p><p>自称风纪部幽灵成员的范刺猬，居然突然就从我身后窜了出来，并把他的无情右手，狠狠地搭载在我的肩膀上。</p><p>范志伟“好小子，中午吃饭的时候竟然还有两位美人相伴，你是想让我羡慕死，还是想让我嫉妒死。”</p><p>“那只是惯例的日常而已，就像是你吃饭的时候，必须用筷子而不是用勺子那样。”</p><p>范志伟“这世上哪有这么好福利的惯例啊！”</p><p>“那是因为你没有瞧见桌子底下究竟发生了什么，才会觉得这是福利而已。”</p><p>范志伟“总之，我必须把你小子的恶行告诉给其他人听才行。”</p><p>“恶行是吧…如果我中午吃饭的期间有女生相伴的这件事，就是恶的一种，那么，站在那边不断玩弄着手机的陈豪兄，岂不是违反校规的恶？”</p><p>聊到这里时。</p><p>那头刺猬，终于愿意把目光放在除我以外的地方上。</p><p>然而。</p><p>他，却并没有指责大胖男孩的过错。</p><p>范志伟“校内明确规定，学生随身携带的手机不允许是智能手机，因此，并非是‘智能’的手机其实是可以带过来的，外加，使用手机的时候仅限休憩期间，所以，陈胡同学姑且算是在规定范围以内做了些合理的行动。”</p><p>“哈啊？他那台玩意，无论怎么看，始终都不像是…。”</p><p>范志伟，再次义正言辞的来了一句“我说是，便是。”</p><p>“呃，瞧你这个说法，纯粹就是滥用职权嘛。”</p><p>范志伟“你这人怎么这么不会说话，这，分明就是叫作公私分明！根本就不存在滥用职权的情况！退一万步来说哪怕真的存在，这也不过是我们风纪部的成员为了更好解决某些问题，而特意采取的一部分先斩后奏而已。”</p><p>“好家伙，每个字都被你给绕过去了。”</p><p>范志伟“那必须的，如果，一字一句都不能清晰的咬出，那么，你小子可是很难继续待在风纪部里面的啊。”</p><p>“你原意应该是要说，我必须在思路方面变得清晰起来，而不是在说话方面变得流畅起来吧。”</p><p>范志伟“差不多意思就得了。”</p><p>“你这人前后矛盾的速度有点过快啊。”</p><p>还没来得及聊完这事。</p><p>大胖男孩，正好也把手头上的忙活给解决完毕。</p><p>如今，他，缓缓收起自己的手机。</p><p>并开始朝着我们所在的方向，搭话。</p><p>陈胡浩“丞相你，是不是忘记一件姑且还算是有点重要的事了啊。”</p><p>“我？难道是中午吃饭时发生的事？”</p><p>陈胡浩“末将说的，可是今早的事情。”</p><p>“嗯唔……没印象。”</p><p>范志伟，用拳头敲响自己的掌心“啊对了，你小子不是说过会拉一个人头过来凑数的么，怎么现在这条走廊上就只有你们两个。”</p><p>“啊……！”</p><p>陈胡浩“终于想起来了吗。”</p><p>“我、我、我现在就回班上找他去。”</p><p>陈胡浩“丞相不必做这事，末将，早已在刚才的时候呼叫了他。”</p><p>“怎么做到的！！”</p><p>陈胡浩“班群。”</p><p>“班群？”</p><p>范志伟“喂喂喂，别露出这种第一次听闻的表情出来啊，每个教室每个班都有自己班群的这点，不是非常正常的事情么，你看我，哪怕已经被文理分科划分到其他的班上，也不会贸贸然地退出当年那个一年级的班群，所以，你小子…真的没有加班群？”</p><p>“你觉得我的这张脸，像是在说笑话么。”</p><p>范志伟“我觉得你的这张脸，本身就是个笑话。”</p><p>陈胡浩“虽然末将也并不知情，当初的丞相为何没有加入班群，不过，丞相也完全不必为这点倍感失望，毕竟，我们班的班群除了班主任偶尔会发话以外，根本就没有任何人在这里参与聊天，如同虚设，又如同装饰品。”</p><p>“即便如此，可…融入一个大集体里面，也是靠着这些微薄的一丝一毫，去构筑起来的吧。”</p><p>范志伟“事到如今才去做这事的人，反而会给人带来假惺惺的感觉。”</p><p>陈胡浩“范兄此言有理，丞相应当尽听。”</p><p>“好吧…那我就继续做好我自己吧。”</p><p>话音刚落。</p><p>走廊另一头传来了很明显的跑动声。</p><p>随着身影的闪烁，脑残男立刻出现在不远处的拐角。</p><p>杜明杰“呼——，还好我赶上了，不然这么重要的派对没有杰哥我的登场，肯定会让这个世界出现重大的损失。”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

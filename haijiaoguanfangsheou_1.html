@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海角官方社区</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《海角官方社区》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于海角官方社区</h2>
+<p>					海角官方社区<p>林小爱“老大，你刚才干嘛这样做？随随便便冒犯上级的话，可是吃不了兜着走的啊。”</p><p>快看。</p><p>就连他的下属也因此担忧起来了。</p><p>许道格“呵，我可没有蠢到必须在这种关键时候得罪那种上级，只不过，刚才那个家伙明显是被什么人给教唆了，我，才会选择赶走的。”</p><p>郑亥坤“教唆？”</p><p>负责放风的李力，在另一头附和道“这种事应该不可能吧，倒不如说，除了上级以外绝对没有人能够找到他才对，谈何而来的‘被教唆’一词。”</p><p>许道格“账号界面虽然是真的，但，身为中间人的他，竟然不惜冒着这种风险也要和我们见面，不就明摆着，这货，已经被某人截胡教唆的可能性变得非常大了么。”</p><p>林小爱“可是，那种图片加文字的方式，应该没人能轻易仿造出来吧…。”</p><p>许道格“除了小爱以外，我知道你们都很蠢，也知道你们在面对这事的时候，肯定会在一时半会之间呈现出难以置信的神情，但是，我们的对手竟然在这么短暂的时间里面，已经向我们示威了这么多次，既然这样，那我们也要稍微认真一点去对待了。”</p><p>郑亥坤“道哥的意思是…要全力实施那个？”</p><p>尽管我的一边耳朵已经被泥沙给灌满。</p><p>但考虑到我仍然躺倒在现场的缘故，于是乎，那个用脚踏着我脑门的纸老虎，决定动用暗号一样的说话方式去给予回应。</p><p>看样子。</p><p>他刚才是故意让我听见他与传话人之间的对话，才会选择用那种模式去进行掩饰的。</p><p>为的，是什么呢？</p><p>许道格“猜对了，我的爱~坤。”</p><p>郑亥坤“可是！！”</p><p>许道格“这个世界，原本就没有任何规则可言，而现在之所以会变成这副模样，全因为创造出那堆规则的家伙们，想要为周遭的弱者贴上一些无法反抗的便利明文罢了。</p><p>我啊，当然知道你这软蛋肯定是在畏惧反抗的下场是什么，不过，既然中间人都已经变成这副德性，那我们的做法不就显得更加不存在任何问题了，不是么？”</p><p>该怎么解读他的这番话语。</p><p>该怎么理解那些虽然常用却无法串联起来的词汇。</p><p>明明自己很是清楚那个姓杜的，肯定会在接下来的时间里面准备做些什么大动作，不过，我却偏偏不知道具体的内容会是什么。</p><p>总而言之。</p><p>她们，与所谓的‘上级’。</p><p>已经因此瓜裂成两个派系了，是这层意思是吧？</p><p>林小爱“老大，万一出什么状况的时候那该怎么办。”</p><p>许道格“区区只会在背地里耍小聪明的挨千刀，哪有可能会比得上我这种轻车熟路的强者，哪怕今后真的出了什么问题，我，也能用挨千刀的人头去让上级佩服的无话可说，因为，我，从现在开始就是这所学校的校规，任何得罪我的人，都不得好死。”</p><p>这些话语，真的允许我这种外人给听见吗？</p><p>不对。</p><p>那个纸老虎，肯定就是为了让我确切听到，才会继续把我留在这的。</p><p>不然的话，他老早之前大可以把我从这里赶离出去。</p><p>许道格，仰天吆喝“来吧挨千刀，等你什么时候卸下面具，然后对我使出浑身解数的时候，我，会确切告诉你‘痛’是怎么写的。”</p><p>众人“威武！！”</p><p>在炒热气氛的这个能耐上。</p><p>我们班里面确实没有一个人，能比得上这个姓杜的。</p><p>只不过。</p><p>他的理念以及他的想法，却并没有通过这些话语灌注到每个人的心底，至少，目前正在践踏着我脸颊的纸老虎。</p><p>明显，又一次把自己的重心偏移了出去。</p><p>郑亥坤，低声附和道“威武…。”</p><p>他在思考些什么。</p><p>我，并不知道。</p><p>不过。</p><p>他，待会肯定会主动留下来和我单独聊些什么。</p><p>…。</p><p>……。</p><p>…………。</p><p>——江小白视角。</p><p>真没想到。</p><p>刺猬那边竟然一口气发了这么多的报告书过来，而且，还示意我今天晚上赶紧帮他整理好，不然的话，明天就来不及递交上去了。</p><p>看来。</p><p>我在中午那时的突击行动，以及，把管教完毕的‘环’交予给他的这件事，确实，给那头刺猬带来了巨大的困扰呢。</p><p>唉，真拿他没办法啊。</p><p>就稍微帮忙汇总一下好了。</p><p>赵珊洳“师兄。”</p><p>“在听。”</p><p>赵珊洳“难道，藏在手表里面的那位女生比我长的还要漂亮吗？”</p><p>“在校期间的一位男前辈，由于今天无法抽身的缘故，所以，就把手头上的一部分忙活丢给了我，而我不久之前也确实欠了他不少人情债，为此，只能点头答应这事。”</p><p>赵珊洳发出了意味深长的一声“哦……。”</p><p>这里，是才校图书馆的第三层。</p><p>周遭除了我们以外，也就只有屈指可数的学生在角落里面研究着书籍。</p><p>尽管这个地方确实不允许我们发出噪音，但奈何地方实在是太过空旷的缘故，因此，我们只需控制好说话声的大小，就绝对能被翻书声给淹没。</p><p>“我刚才，应该没有说错什么才对哇。”</p><p>赵珊洳“特意，在前辈的字眼里面强调了性别为男，而且，还把委托的事情追加了无法抽身的情景，最后，甚至动用了人情债这种说法，师兄，你，不觉得你的这份解释太过趋向完美了吗。”</p><p>她，完全没有把疑问的成分掺杂在句子之中。</p><p>反倒是能让人听得出，这是一句话里有话的肯定句。</p><p>“被小如小看了！”</p><p>赵珊洳“我从头到尾都没有小看师兄，只是觉得，师兄在面对这类突发奇想的提问的时候，肯定没办法拿出令人感到满意的答案出来，甚至还因此引起不少误会才对。”</p><p>我，是知道的。</p><p>这位初三女生很喜欢耍我的这件事。</p><p>同时。</p><p>我，也是知道的。</p><p>故意制造出可控的些许误会出来，更容易用回忆的形式，去弥补我们相识时间太过短暂的这点。</p><p>关于这些，我全都有明确记在心里。</p><p>只是。</p><p>我也考虑到，倘若每次都遵循着相同的方式去进行，迟早有一天会被对方给厌倦。</p><p>尤其是。</p><p>处于临时情侣关系的我们，那就更应该紧握‘新鲜感’的优点，迎刃而上。</p><p>“哈哈，小如果然就是为了触发这种类型的事情，才会故意掏出那种看似普通的提问出来的吧，不过好巧不巧的是，我，最近可是有好好研究过恋爱中人必定遭遇的问题，因此…这一切都在我的计划以内。”</p><p>攻守互换，也是一个不错的选择。</p><p>尽管想法的部分很美满，但实际情况却是…我，接下来大概率是要被对方给反杀了吧。</p><p>赵珊洳“谁和你是恋爱中人了？”</p><p>看吧。</p><p>我就知道。</p><p>“哎…？”</p><p>赵珊洳“自作多情也要适可而止才行呀~。”</p><p>“奇怪…我明确记得小如上次说过，要和我组成临时CP来着，难道，我又不小心跳到其他世界线了么？”</p><p>赵珊洳“或许是也不一定呢。”</p><p>“据我所知，小如听到特殊词汇的时候肯定会优先质疑那个词汇才对，总觉得，你刚才的语气里面似乎掺杂着说谎的气味喔。”</p><p>赵珊洳“哪有~。”</p><p>“真的吗？”</p><p>赵珊洳“假的。”</p><p>“请问…小如为什么要在这种事情上骗我呢？万一我在此期间真的产生了些什么误会，逼迫自己跳转到其他世界线上的话，到时候该怎么办？”</p><p>赵珊洳笑道“如果每条世界线都需要师兄拼了命才能挽回某些东西的话，那么，这条世界线肯定就是让师兄你稍微享受一下，临时CP之间偶尔就会说些害羞话，偶尔就会说些骗人话，的这些基础情调了。”</p><p>在无数个平行宇宙里面。</p><p>见识到无数个外观性格内在几乎相同，但，人际关系方面却稍有不同的熟人。</p><p>这，无疑会给当事人带来非常严重的精神损耗。</p><p>尽管，我这种家伙不过是幻想着那位当事人的经历，去试图蒙骗眼前这位初三女生而已，不过，我，或多或少还是能够从那堆科幻小说里面的设定看得出。</p><p>有种无法用言语描述出来的心累，就在这份设定里面涌现着。</p><p>既然连我都能得到如此感悟，那么，那位初三女生又何尝做不到这一步呢？</p><p>是的。</p><p>如今的她，在试图通过自己的方式，去弥补我那份虚构出来的精神损耗。</p><p>如果我是非常不解风情的人，那我接下来，肯定会毫不犹豫地拿出感谢她的话语。</p><p>但值得庆幸的是。</p><p>我的灵机一动，成功为我递交了值得一试的好话。</p><p>“刚才的你，露出了至此为止我所见识过的无数位赵珊洳里面，笑容最灿烂的一次。”</p><p>这。</p><p>是一段难以存在于现实世界之中的情话。</p><p>却依旧能让眼前的初三女生，有一瞬间变得害臊了起来。</p><p>即便她脸颊上的余温还没完全如愿以偿地退去，但，嘴巴上依然非常坚固地表示着自己的态度，甚至，还晓得反过来询问我。</p><p>赵珊洳“有被心动到吗？”</p><p>“嗯，确实心动了。”</p><p>赵珊洳“看来，师兄平时并不怎么擅长交友呢，尤其是面对女性朋友的这个方面，其数量肯定处于屈指可数的状态，不然的话，正常人哪有可能会为这点小事就心动的。”</p><p>“呜呜，居然被一口气的说对了，而且还是小我一年级的师妹…颜面何存啊。”</p><p>赵珊洳“师~兄。”</p><p>“唔？”</p><p>赵珊洳“虽然我很是介意你和其他女生拉近距离，不过，师兄今后肯定要在不同场合底下，与不同性别的人物交好，所以，你今后趁着午休的时间，特意前来这里把我作为你的练习对象去锻炼一下交友方面的能耐，怎样？”</p><p>午休？</p><p>而且还是上学期间？</p><p>不行不行不行…。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

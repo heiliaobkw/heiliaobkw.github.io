@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>红领巾信箱</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《红领巾信箱》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于红领巾信箱</h2>
+<p>					红领巾信箱<p>这个男人喘着粗气，回过神来发现自己倒在地上，但又感觉不太对劲，他发现头顶的不是天空，也是地面，这才反应过来，自己是被倒挂在了墙壁上，脚踝被来自顶上屋顶内的一条富有弹性的绳子绑着，要说唯一感到疼痛的地方，就是后脑勺被身后的墙撞击到的疼痛，也许这就是他昏迷的原因。</p><p>  随后一个黑色的声音出现在他遥望的屋顶，太阳的照射使他看不清这个人影究竟是谁，但心里多半已经想到，只是这个人不断的放着绳子，把他一点一点的继续往下放，随后安稳着陆到塔楼的门口，坐在那入口处的地面上。</p><p>  安全着地后，脚下的绳子便突然消失了，伴随着顶楼看不见的身影，他也不愿再盯着阳光看向天上了，垂下头叹了口气，些许歇息了起来。</p><p>  矢一焰背着虚弱的缪，和梦溪从顶楼准备下去，来到原本关闭的大钟门前，原本想要打破这扇大门的矢一焰，却发现门却自己自动打了开来，他也不再多想，继续一点一点的往下移动。</p><p>  来到下两层，矢一焰看到了紫瞳正趴在一堆巨大的玩具废墟上打哈欠，但凡里面有一个玩具有点抽搐，便会降下雷电向它劈去。</p><p>  “原来如此，所以你能这么快轻松的到达顶层。”</p><p>  矢一焰对着梦溪说道，梦溪嗯的一声点了点头。</p><p>  他大喊了一声紫瞳，紫瞳竖起耳朵抬头望去，变从玩具堆里跳了下来回到矢一焰的身边，几人继续往下层走去，而这些玩具果不其然开始复原，但它们重组后，便不再抱有敌意，而是聚在一起跟在矢一焰他们的身后。</p><p>  “啊啊啊啊啊啊啊啊啊！嫁不出啦！呜啊啊啊啊啊啊啊啊啊啊啊啊！！”</p><p>  不知往下移动了多少层，矢一焰他们隐隐约约听到了吵闹的哭喊声，随着越往下移动，声音越来越响亮，果不其然。</p><p>  “你在吵什么呢？”</p><p>  矢一焰皱着眉头从远处走来，可儿见到矢一焰，先是心花怒放，随后又吓得赶紧双手遮住自己的眼睛。</p><p>  “干什么呢？捂着眼睛，眼睛怎么了？”</p><p>  矢一焰带有疑问的背着缪走到她身边，伸出一只手把她的手拽了下来，发现是眼睛旁有一道很明显的顺着鼻梁斜下去的大口子，不过幸好没有伤到眼睛。</p><p>  “很疼吗？”他问道。</p><p>  可儿捂着眼睛漏出一点看向他，委屈的点了点头，又说：“这么丑的伤疤，以后你会讨厌我吗？”</p><p>  看到可儿问出他难以理解的问题，矢一焰奇怪的看向她，随后猛的拍了一下她的脑袋。</p><p>  “好疼！”</p><p>  “也许应该多敲几下你的智商才能恢复正常。”</p><p>  说罢他又往附近看了看，但是没有见着旋凯。</p><p>  “旋凯呢？”</p><p>  矢一焰这么一问，缪也勉强睁开眼睛看了一眼，发现旋凯确实不在。</p><p>  “这。”</p><p>  可儿指了指身边的一只缩成团的穿山甲。</p><p>  场面顿时陷入了寂静。</p><p>  矢一焰：“我问你旋凯呢？” </p><p>  可儿：“这儿……” </p><p>  她依然指了指这个奇怪的动物，除了可儿之外，其余三人都惊讶的看着这个他们不敢相信的东西。</p><p>  “旋凯！咳咳咳！！！”</p><p>  缪刚大吼一声又胸疼的直说不上话。</p><p>  “怎么回事？这是旋凯？发生什么了？”</p><p>  矢一焰替缪问道。</p><p>  可儿也不解，回想了一下，说：“当时我们两在这里躲着敌人，然后旋凯好像很累，说自己异能消耗太大了，实在撑不住，得睡一会，然后他就秒躺了，结果我就发现他的身体开始缩小，然后最后就变成这样了。”</p><p>  “你就一点都不惊讶吗……”矢一焰无语的问道他。</p><p>  “诶？我以为这就是他的能力，不是吗？”可儿疑惑道。</p><p>  经过她这么一说，矢一焰看了看这个正在睡觉的穿山甲，仔细一想，确实只有这个可能性，就像原本以为可儿的能力是操控石头，但是之后又能迷之做到操控树木绿植，也许和可儿一样，旋凯的异能也有着他自己都没了解过的能力。</p><p>  “疑问放到以后再说吧，我们得离开这里了。”</p><p>  “我们赢了，对吧？”</p><p>  “是啊。”</p><p>  听到这，可儿终于开心的松了一口气。</p><p>  “把旋凯抱上，走了。” </p><p>  “诶！可我不想抱这种长着怪吓人的东西……”</p><p>  “这是旋凯！叫你抱上就抱！……现在能走路的就我们两个了。”  </p><p>  可儿一脸不情愿的撇过脸抱起了这个她从未见过的动物，一点一点的跟在矢一焰后面。</p><p>  来到了第一层的入口处，大门也和之前一样自动打开，刺眼的阳光从外面照射进来，可儿惊讶道，都已经天亮了。</p><p>  他们走了出来，发现阿托亚正坐在前方，他回头看了一眼矢一焰几人，又转了回去，没有说一句话。</p><p>  矢一焰背着缪继续向前，几人就这样路过了他的身边，逐渐走向外面。</p><p>  “慢着。”</p><p>  阿托亚突然发声，矢一焰停下了脚步，几人回头向他望去。</p><p>  “从这里走就是回头路了，我来给你们指路。”</p><p>  他这么说道，随后突然开始一阵阵巨大的响声和地面的震动，弄的几人都差点没站稳，矢一焰发现，远处的高墙都逐渐开始下降，外面的森林一点一点的被暴露出来，直到最后，所有的围墙全都缩回地面，彻底消逝，原本是被包围着的这座玩具之城，失去了围墙后，没有原本显得高大气派，但四周都是森林，倒更添一份意境。  </p><p>  同时，他们脚下的地砖开始移动，朝着一个相同的地方指去。</p><p>  “这条路，沿着直走，一直直走能有一个小村落，这个村子有马车，那是一个唯一可以坐马车去主城的村子，因为这个村子离主城的路程也就四五天，并且有贸易往来。”</p><p>  “主城？什么主城？”矢一焰疑问道。</p><p>  听到这，反倒是阿托亚先楞了一下。</p><p>  “你们是真的冒险者新手啊，但好歹这种得知道吧？散布在格伦布尔大陆的每一个冒险者协会和PNP尽管有大有小，但都是支部，真正的冒险者协会和PNP本部，都是聚集在一个叫做……</p><p>  【永恒之星】</p><p>  的世界最大的梦幻之地。</p>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

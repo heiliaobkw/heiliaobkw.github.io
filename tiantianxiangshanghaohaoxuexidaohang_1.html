@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>天天向上好好学习导航</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《天天向上好好学习导航》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于天天向上好好学习导航</h2>
+<p>					天天向上好好学习导航<p>布子恩学姐“这可是在校内低调公布过的事喔！”</p><p>“呃…虽然我确实是那种，不怎么喜欢关注校内新闻的家伙，但也不至于用到这种劣质的谎言去欺骗我这类山顶洞人吧。”</p><p>布子恩学姐“坏弟弟，居然敢不信姐姐我说过的话，那我现在就证明给你看。”</p><p>说完这句话的她。</p><p>立刻，从桌子里面掏出自己的智能手机。</p><p>快速打开学校的官网，并把通告的部分特意调取出来给我看。</p><p>真没想到，这事竟然是真的。</p><p>理科二年1班的司徒同学，因涉及滥用职权而违反了我校的规章制度，故采取以下措施去作为惩罚：</p><p>(一)立刻撤销校风校规校纪维护执行部门部长一职，且，不允许让该学生今后继续参与任何职能部门。</p><p>(二)检讨并纠正自身所犯下的过错，让该学生深刻认识到自己的错误，并采取措施避免今后再次犯错。</p><p>(三)此事确切反映了规章制度仍然存有漏洞与不足，因此，我校应当立刻制定全新的校纪校规，并在例行校会期间对所有学生进行宣传，确保今后大家能以此事为借鉴。</p><p>(四)记录和追踪该同学今后是否仍然存在违规行为，以便日后对该同学进行再次评估。</p><p>对于这类严重违规违纪的行为，我校应当根据最新规定的规章制度采取相应的纪律处分，例如口头警告、书面警告、停学、开除等。</p><p>但。</p><p>鉴于该学生，在上学期担任校风校规校纪维护执行部门部长时的出色表现，因此，我校根据现版本的《学生手册》中违规违纪行为处理规定，决定给予该同学书面警告，希望该同学能在接下来的时间内严格遵循我校的规章制度，再次努力争取成为懂规范守纪律的表率。</p><p>以上，便是此次通报的全部。</p><p>“呜哇，这确实是铁板钉钉上的东西啊。”</p><p>布子恩学姐“这下你终于愿意信姐姐我说的话了吧！”</p><p>“可是…这也不对啊。”</p><p>布子恩学姐“有哪里不对的呢？”</p><p>“根据我们班上同学的说法来看，司徒千里学姐，应该是被一堆通过完美角度拍摄下来的照片，故意引发了两女一男事件并就此流传到会议室老师们的耳目里，从而，导致她必须引退风纪部部长一职才能解决。”</p><p>布子恩学姐“虽然这事我也有些许了解，不过，真正让司徒同学离职的原因仅仅就是这个而已喔，并没有在官网上记录了除此以外的说法。”</p><p>“我并不认为那位学姐会选择在此期间，特意去做这种无意义的反抗举动，难道，布学姐真的觉得，司徒千里学姐是这种蠢人吗？”</p><p>布子恩学姐“我从来都没有这样认为过。”</p><p>“既然这样的话！”</p><p>布子恩学姐“但是，这就是校方给予的铁答案，也是校方对外声称的说法，那，我们就只能这样子去看待。”</p><p>“你的意思就是在说，为了防止简历上那份被辞退的理由太过离谱，而特意把这种子虚乌有的罪名推到学姐身上，再借以这个理由去作为正式的引退理由，是吗。”</p><p>布子恩学姐“如果真是这样的话，那为什么不干脆直接填一个，因个人问题而辞退的理由呢？这样不是显得更加干净便捷吗。”</p><p>“对哦。”</p><p>布子恩学姐“我只知道这事在我眼里看来，是相当矛盾的。”</p><p>“请问…怎么说呢？”</p><p>布子恩学姐“按照正常的失窃情况来看，那群校外人员原本可以做到无需归还的，却偏偏愿意用同等数量的图书硬塞过来，期间，还特意赠送了一部分体育器材放在排球部的部室里面，说什么，这是没能来得及赶在开学之前归还的赔礼…之类的，难道，现代的盗窃犯都是这么热心肠的类型吗。”</p><p>“新器材？啊…原来开学那会排球部突然新进的那些器材，就是她们给的啊？”</p><p>布子恩学姐“口罩学弟怎么聊着聊着，就忽然蹦出这种题外话出来了，难道，你有朋友在排球部那边训练吗？”</p><p>“啊，嗯唔，我的隔壁桌就是排球部的成员。”</p><p>布子恩学姐“想必她肯定很受欢迎吧？”</p><p>“难道学姐认识她？”</p><p>布子恩学姐“但凡能够加入排球部的人，哪有可能会是不受欢迎的啊，毕竟，那个地方最看重的除了打排球的本事以外，还有就是人情世故这个方面的技术。”</p><p>“原来如此，居然还有这个方面的能耐需要考察的啊…真令人感到意外。”</p><p>按照你的说法来看，如果这事是真的话。</p><p>那么。</p><p>羞涩学姐她，肯定会是第一批被拒绝入部的学生也不一定。</p><p>因此，像这种空穴来风的事情，果然没办法使人深信啊。</p><p>布子恩学姐“总之，口罩学弟已经把想要问的都问完了吗？”</p><p>“不，我还有一件事没能来得及问。”</p><p>布子恩学姐“既然这样那就快说吧，姐姐我稍微有点犯困的迹象了。”</p><p>“姜…咳，一年1班的朱希同学，和，那次图书被失窃的事，是有直接关联的吗？”</p><p>布子恩学姐“你，为什么要这样问呢？她明明是这么善良可爱的女生来着。”</p><p>“那是因为我，没能在我和学姐初次见面的那天里面，瞧见她的身影出现在这个图书室里头的缘故。”</p><p>布子恩学姐“仅仅就是这条理由？”</p><p>“是的。”</p><p>布子恩学姐“每当朱希觉得自己做错什么事情的时候，通常，都不会立刻主动出现在我面前承认错误，而是静悄悄的做完该弥补的忙活以后，才会姗姗来迟的找我道歉，因此，在口罩学弟你看不见的地方里面，她可是有好好替我减少相应的负担，只是，由于这次的怪事太不凑巧，才会让你产生一些很微妙的误会而已。”</p><p>“误会？什么误会？”</p><p>布子恩学姐“就是她手里那把备用钥匙，被司徒同学瞧见了的这么一回事。”</p><p>“哎…。”</p><p>布子恩学姐“好了，这次真的已经把该说的都说完了，口罩学弟快把我的枕头拿过来，姐姐我…估计快要扛不住了。”</p><p>“哦、哦…。”</p><p>握紧专属的抱枕，趴在受理台上。</p><p>就这样保持一动不动没过多久。</p><p>小不点学姐，迎来入睡。</p><p>无可奈何的我，唯有提前离开这个图书室，把宁静重新归还给这片地带。</p><p>…。</p><p>然而好巧不巧的是。</p><p>在我即将离开综合楼的这段期间，偶然，遇到了即将过来这边的社联会书记大白鲨。</p><p>不妙，这个地方可是没有躲藏点的啊。</p><p>原本打算直接转身回去综合楼的我。</p><p>却早已被不远处的她，给及时喊停。</p><p>杜莉莎学姐“慢着！那边那个新生，谁允许你就这么冠冕堂皇的进去综合楼里面的，既然你已经听到我在说话的话，那就赶紧给我死·过来这边，快！！”</p><p>“躲得过初一，躲不了十五是吧…。”</p><p>杜莉莎学姐“你小子还愣在那里自言自语些什么？”</p><p>“没什么，卑职现在就过来。”</p><p>提起无比忐忑的步伐。</p><p>快速朝着大白鲨书记所在的地方前进。</p><p>终于来到对方面前的我，不出三秒，就被她一手拉扯着耳朵。</p><p>相当用力的揪着我这头人形蠢驴，一同前往综合楼的后门地带。</p><p>“好痛，好痛！书记大人，能劳烦您小点力气吗，我从未说过不会跟你一起走，而且，也非常乐意配合您的步伐前进，所以…我的耳朵快要被您给扯下来了呀！！”</p><p>杜莉莎学姐“如果人类的耳朵真就这么容易被扯断的话，那我倒是想现在就看看你这个新生，忽然掉了一边耳朵之后的滑稽情景。”</p><p>“好痛好痛好痛！！”</p><p>好不容易抵达理想的谈话地点以后。</p><p>大白鲨书记终于愿意松开她的老虎钳，而我这边也获得了短暂的休整时间。</p><p>“呜哇…我明显感觉自己的左边耳朵被您拉长了一节。”</p><p>杜莉莎学姐“如果再继续和我说些抱怨的话，你信不信我立刻替你右边耳朵也做一个小手术。”</p><p>“别别，求求您大人有大量放过我吧。”</p><p>杜莉莎学姐“呵，放过你？没门！”</p><p>“呃。”</p><p>杜莉莎学姐“好你个臭小子，居然连我也敢耍是吧。”</p><p>“我完全不懂杜学姐忽然之间在说些什么。”</p><p>杜莉莎学姐“明明刚才还晓得喊我书记大人，结果到这个瞬间就把喊法的部分立刻变回杜学姐了，挺势利的哈。”</p><p>“要是我现在继续喊您一声书记大人，您就会愿意放过我的话，那我肯定会毫不犹豫的做出这种动作。”</p><p>杜莉莎学姐“这世上哪有可能会存在这种福利，傻了吧你。”</p><p>“果然啊。”</p><p>杜莉莎学姐“总之，现在的我，要好好给你去算这笔旧帐了，臭小子。”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

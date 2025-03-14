@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>51cg10.com</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《51cg10.com》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于51cg10.com</h2>
+<p>					51cg10.com<p>“如果你不想让那件事曝光给更多人知道，那就乖乖坐回原位去。”</p><p>我，是这所学校在读一年级的学生。</p><p>我，居然通过这句话成功震慑住那位，在读二年级的学长。</p><p>对方如果真有打算就此离开的话，现在，他停下脚步的举动就会变得毫无意义，看来，学长他确实有好好思考过我这番话，会带来何等的折磨以及利益的权衡。</p><p>确认过思绪以后，学长他，无可奈何地回到原位。</p><p>他立刻抬头盯着我，并轻声骂道“请问你这位大爷，想要从我这里得到些什么？”</p><p>如果需要钱财的话，我会立刻摊开手掌。</p><p>如果需要戏弄的话，我会立刻张嘴命令。</p><p>很遗憾的，目前为止这两个答案我都没有给与…具体来说，我根本就没打算做到这个地步。</p><p>虽然我很想立刻答复你一句：我也不知道哇。可是，现状却并不允许让我这么做。</p><p>不仅如此，现在的我除了无法回应你这个提问以外，甚至还不知道接下来的话题去向应该要怎么走。</p><p>就在这时，我，不小心把目光放在学长手上。</p><p>大脑立刻灵光一闪，话题，随之涌现。</p><p>“把你刚才拿着的书，放在桌面上。”</p><p>由于这句话不是拜托，而是命令。</p><p>因此，我的语句没有一丝客气的感觉，我的语气会变得不由自主地加重力道。</p><p>学长起初还是会露出有点不太情愿的感觉，但没过多久，他便乖乖照着我的吩咐那般，用自己卑微的双手，把这本书呈递在这个光滑的桌面上。</p><p>果然如我刚才所见的一样。</p><p>这本书，确实就是小说。</p><p>而且，这本小说的封面还搭配着不少穿着相当暴露的女性。</p><p>另外值得一提的亮点是，该小说标题的部分似乎特别长，具体就是封面快要塞不下去的程度。</p><p>“这是…重生文的题材么？”</p><p>根据封面所指的信息，如果，这本玩意并不是什么挂羊头卖狗肉的东西。</p><p>那么…。</p><p>学长点了点头“对，就是穿越类型的重生文。”</p><p>得到这份标准的答复以后，我，稍微安下心来。</p><p>因为我刚才高速整理出来的话语，全是建立在这个基础上才会准备的，假如，这本小说的主题出现临时变故的话。</p><p>那我接下来，只能继续保持发呆状态几分钟才行。</p><p>不过万幸的是，我似乎不需要那样子去做了。</p><p>确认好脑袋里面的词汇没任何问题以后，我，顺走了桌面上的这本小说。</p><p>然后用手指敲打在小说的封面。</p><p>“你是为了打发时间才去看这玩意的？还是说，你想从这玩意里面学到什么有用的知识么？”</p><p>我的言论明显在否定着他的兴趣，因此，学长表现得很是愤怒。</p><p>而且，举动方面也变得非常想要从我手里夺回小说。</p><p>很遗憾的是。</p><p>像他那种慢吞吞的动作，我估计邻居家的六岁小朋友随便一闪都能轻松躲开。</p><p>学长紧咬着自己下唇，使劲压低自己的说话音量，然后如此回复我“我怎么想那都是我的自由，与你何干啊！”</p><p>他人的兴趣爱好确实与我这个外人毫不相干。</p><p>倒不如说，我也不想去碰这趟浑水。</p><p>但如果不是男神委托我、小际吩咐我、相关经验也拿到手的前提下…我现在，根本就不可能会出现在你的眼前。</p><p>所以。</p><p>你，就不能体谅一下如此勤奋的我吗！！</p><p>“现在这破事关不关我事，那都已经不是由你去决定的了，再说，以学长你现在这个立场来说，难道你就不懂得什么客气点吗？你，真的很是希望自己接下来的命运里面，会摊上更多很有意思的大事吗？”</p><p>我知道我的语气越来越重，而且，话语方面也更显人性的恶劣。</p><p>学长他，立刻消停了下来。</p><p>如同一只正在静候我宰割的羔羊那般，完全放弃了抵抗。</p><p>这么快就缴械投降了么，可是，我的恶言相向还没完结啊，为啥要摆出一副什么都看透了的表情出来啊！！</p><p>放下小说，继续戳着封面。</p><p>“重生文是吧？而且，题材还是穿越类型的…重生文就这么好看吗？能让你废食忘寝不务正业也要去读下去吗？它这里面究竟藏着什么不可用言语去掂量的答案吗？它能让你从中学会什么相当有用的知识吗？快说话回答我啊学长，你都已经看了这么久了，肯定能给我准确答复才对的啊？”</p><p>这番话，原本是我当年对着镜子前的自己，曾经述说过的话语。</p><p>那时候年幼的我，成功意识到这类小说带来的问题严重性以后。</p><p>立刻，阻止自己继续阅读这类小说。</p><p>因为。</p><p>我并不希望自己内心深处，会期盼着那颗永远都不会降临的‘后悔药’。</p><p>眼前的学长原本还打算张嘴说些什么，可惜，只要他的把柄还在我手上，这辈子都只能保持欲言又止的状态。</p><p>如今的他，正好就在做出这番举动，把哽咽在喉咙里面的话语，‘咕’的一声吞进肚子。</p><p>看来，他已经相当清楚。</p><p>自己接下来的愚蠢发言只会换来更加糟糕的结局，因此，他，选择强忍下去。</p><p>喜欢看重生文的人，总是会幻想着自己如果能改变过去的话，现在又会变成什么鬼模样。</p><p>是的，这个是我的偏见。</p><p>哪怕全世界的人都不会这样去认为，至少，我是这么认为的。</p><p>而如今。</p><p>这位学长从排球部事件结束以来，他，一口气失去了所有本该得到的东西，像现在这个低谷时刻的他，毫无疑问肯定会这样子去幻想自己的过去。</p><p>不要犹豫…不要怕事…。</p><p>即便这是‘子非鱼’，也要继续按照这个设想继续思考下去。</p><p>不然的话。</p><p>我会逐渐忘记‘可怜人必要可恨处’这句话的重要性啊！！</p><p>“废物无论重生多少遍，终究还是废物一个，而且，你凭什么会认为老天爷偏偏挑中这么一个废物，也不会挑选一个惊世奇才去重生，或许，他在得到这份力量之后能够改变一整个世界呢？而你，重生之后能改变些什么？”</p><p>我，并不希望他会把重生一事，成为他今后的一切精神寄托。</p><p>至少，在人老之前，在退休之前，在踏入棺材之前……我，都不允许让这个和我年龄相仿的家伙，拥有这种不该有的思想觉悟。</p><p>“你，想再次成为笑话么？”</p><p>哪怕，我没有听见他人心声的耳朵。</p><p>哪怕，我的观察力依旧处于有待提高的状态。</p><p>我，依然能够非常清楚地知道，眼前这位学长架起的盾牌已经被我彻底弄破了。</p><p>碎落一地的碎片，完全没能为他提供任何防御效果。</p><p>即便知道破坏盾牌的元凶就在自己的眼前，可学长他，却只能紧握双拳咬紧牙关强忍下去。</p><p>这，就是你的回答吗？</p><p>这，根本就不是什么了不起的觉悟，纯粹只是太过胆小怕事而已。</p><p>外加。</p><p>我刚才要说的东西，可不止是这点程度。</p><p>“对了，你刚才说这本小说是异世界题材来着…噢哦，原来如此，是魔法与剑为主的中世纪背景故事啊；在异世界里面，你可以幻想出那些不存在的魔法，然后一击秒杀别人；但在现实生活中，你却因为别人一句话就变成社会性死亡的状态。”</p><p>如果，你还有一丝尊严的话，那就请你赶紧奋发起来反抗我啊。</p><p>让我和小际去确认你，是否还具备被拯救的资格啊！！</p><p>为什么不吭声？</p><p>难道我刚才那番话的语气还不够吗？</p><p>或许，真的不够也不一定。</p><p>所以…我，必须得再加把劲才行。</p><p>至少，要让这个恶棍形象永远刻在他第一印象的程度为止。</p><p>我，站起来大声对着他如此骂道。</p><p>“你连‘现在’都改变不了，谈什么未来和那些不存在的科幻剧情啊，学长！！”</p><p>我故意发出的噪音，导致图书阅览室里面所有人都被惊醒。</p><p>如今，她们逐渐把夹带刺痛的目光看过来。</p><p>没问题的，这群人里面没有我认识的同级生，更加不存在我们班级上的学生。</p><p>哪怕事后被她们成功认出我是什么来头，最终，也会因为‘贼丢人’的这个事迹而选择不再追究。</p><p>所以。</p><p>肯定不会因此出现什么人际关系道路的障碍。</p><p>即便…真要是出现了这种万分之一的可能性。</p><p>我很肯定，小际也会立刻察觉过来，只不过目前为止就连那过于渺小的推测，也已经通过没有震动手表的这个提示，去让我得到了确认。</p><p>接下来，我，只需继续看看那位正在被我踩着底线的学长。</p><p>究竟还能撑多久而已？</p><p>哦？对方终于要开始行动起来了吗……。</p><p>学长他，一口气夺回了自己那本放在桌面上的小说，并站起来，指着阅览室的大门“你滚，我不想再看见你…如果你不滚那就我滚！！”</p><p>这，大概就是他鼓足勇气之后的全部。</p><p>也不知道这种结论，能不能成功映入小际的法眼里面。</p><p>就在学长他匆匆离开座位，即将踏出阅览室大门的这个瞬间。</p><p>我，毫不犹豫地朝着他那卑微的背影补充了一句。</p><p>“学长！！别说下辈子再去努力的这种话！！给我好好地活在当下啊！！”</p><p>为了防止这种类型的家伙，会因此不小心诱发轻生的念头。</p><p>我，必须相当用力且大声地喊出这句话给他听，以此确保，在座各位都会成为我的目击证人。</p><p>不然的话，万一那位学长要是真的很不幸地选择走进死胡同，那至少不会就此把我拖下水。</p><p>呼呼…。</p><p>该做的都已经做完了，像是脱了线玩偶一样，我，立刻瘫软在这个位置上。</p><p>双腿抖个不停，手心接连冒汗。</p><p>像这种宝贵的体验，我是真的、真的、真的不想再次去经历。</p><p>可是，现在的我也就只有这套方法是可以完美实施的。</p><p>就在众人目光纷纷散去的期间，一道非常轻盈的脚步声，正从我身后逐渐传来。</p><p>回头望去，小不点学姐露出相当灿烂的笑容。</p><p>竖起大拇指…指着自己身后多媒体电脑室的方向……。</p><p>当我看见你竖起大拇指的瞬间，还以为你是打算在夸赞我呢，结果，居然只是想示意让我去那种地方私下沟通而已啊。</p><p>也行吧。</p><p>反正这个地方是小不点学姐的地盘。</p><p>如果我敢违抗她现在的指示，很有可能下次连进门的机会都没有。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

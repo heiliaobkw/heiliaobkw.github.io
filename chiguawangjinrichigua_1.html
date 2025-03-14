@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>吃瓜网 今日吃瓜</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《吃瓜网 今日吃瓜》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于吃瓜网 今日吃瓜</h2>
+<p>					吃瓜网 今日吃瓜<p>…。</p><p>……。</p><p>…………。</p><p>——江小白视角。</p><p>好不容易等消防演习结束以后，紧接着的事情就是上课。</p><p>当然，除了上课以外。</p><p>在这节课程结束之后没过多久，便传来了一件挺有意思的传闻，有人，竟然趁着全校师生都去操场上学习的期间，偷偷溜进教室里面偷东西。</p><p>虽说是传闻级别的情报，没有得到老师的证实，也没有受害人站出来说话，更没有说明是哪个班级里面发生的事情。</p><p>不过。</p><p>这件事，或多或少都和不久之前的风纪部，在二号楼里面来回折腾的事有点关联吧？</p><p>不知道，我猜的。</p><p>总而言之。</p><p>这两枚棋子已经如我所愿那样，被范刺猬给顺利接管了，那么，接下来应该就剩静候对方露出破绽的部分了。</p><p>“大概，不出一天的时间就行了吧？”</p><p>其实。</p><p>我由始至终只把流言蜚语的计划全盘轰出给那头刺猬，但，并没有把后续的方案也一同交予出去。</p><p>其理由方面不为别的。</p><p>单纯就是觉得，与其只动用我一个脑子去解决这事，倒不如让刺猬也有实际干预这事的权利。</p><p>再说。</p><p>我认为刺猬她们的抉择并不会比我差多少，毕竟，她们根本就不缺曾经拟定过的打算，只是开头第一步难以抬起原有的脚步罢了。</p><p>倘若这事必须有人承担那份‘万一失败’的责任。</p><p>那么，背负这份罪名的人必定就是我。</p><p>同样道理。</p><p>我也是解决万事开头难的一把开山刀，正因为有我这种人的存在，才能把这类荒诞的计划像是爆水管那样强行继续进行下去。</p><p>尽管，我确实如同我周末晚上所说的一样。</p><p>给予了刺猬相应的行动抉择，然而，我也并不是完全放心交给他去全权处理。</p><p>至少。</p><p>我会在至关重要的时段特意前去为他指明大致方向。</p><p>虽说他也不一定会照做就是了，好歹，计划赶不上变化的这件事，今天一大早的时候就已经确切见识过了。</p><p>“唉，地球的转速真快啊……。”</p><p>自言自语到一半的时候。</p><p>忽然。</p><p>我的前面坐，就被某号人物迅速地坐了下来“头晕目眩的话，不如，去医务室看看会比较好喔。”</p><p>抬头仔细一看。</p><p>竟然是那个好久不见的内鬼头头。</p><p>“呜哇，吓我一跳。”</p><p>高兴坚“早啊，江小白。”</p><p>一旦我的隔壁桌不在。</p><p>我的周遭，时不时就会出现这类过于特殊的遭遇。</p><p>看来，今后每逢课间休息的时候，我也要稍微去室外走一走才行啰。</p><p>“还对我说什么早上好呢，现在明明已经处于日上三竿的状态了啊。”</p><p>高兴坚“那是因为我实在想不到除此以外的招呼该怎么去打，该怎么和你打。”</p><p>“学秦礼秋那样，直接‘哟’一声不就得了么。”</p><p>高兴坚“你的这份建议，完全不值得参考啊。”</p><p>聊到这里时。</p><p>对方再次调整了一下坐姿。</p><p>而我这边，则是从趴桌子的状态变更为单手支撑脸颊。</p><p>“距离我们上次聊天，至少也已经将近一年时间了吧。”</p><p>高兴坚“哪有这么夸张，才两周不到而已了啦。”</p><p>果然。</p><p>还是有点受不鸟这个内鬼头头，故意动用女生专属的‘了啦’去作为自己的语句收尾。</p><p>“所以，说吧，必须找我聊的重要事是什么。”</p><p>因为这句话语的存在。</p><p>眼前的他，总算露出了比之前稍微要认真一点的神情。</p><p>高兴坚“我想说的要事一共有两个，其一，鉴于阿哥最近对我施加的压迫力太强，因此，我也尽可能的在近期以内减轻成员之间的隔阂。”</p><p>“直接把事实说出去不就得了么。”</p><p>高兴坚“会说，但不是现在。”</p><p>“唉…第二件事呢？”</p><p>高兴坚“其二，她最近似乎被某些人给盯上了，由于我怕到时候的我会忙不过来，因此，我希望你能找个可靠的保镖过来帮忙。”</p><p>与其说是某些人，不如说是某个小团体吧。</p><p>看来。</p><p>前哨站的家伙在调查能耐这个方面还是有点本事的，只需一天时间，就能顺利查到她就是近期流言蜚语的散布者。</p><p>但以小恶魔的智慧来说。</p><p>对方即将上门找茬的这件事，肯定是早就料到且有所防范的东西。</p><p>话，虽然是这样说，可是预防万一也是人之常情。</p><p>尽管我也很想出手相助。</p><p>不过，必须装作不知情的我，根本就不能这么爽快的去点头答应啊。</p><p>“找囧(Jiong)妹去帮忙，不行吗？”</p><p>高兴坚，摇了摇头“阿哥不会同意的。”</p><p>“那…舞男他们呢？”</p><p>高兴坚，再次摇了摇头“简政恒他们最近有点事情要去忙，哪怕真的愿意帮忙，至少也得等完事之后才有相应的空闲时间。”</p><p>“在人际关系网上，你所认识的人绝对比我多，而且，你也不像是随随便便就低头求人的家伙，看来，这件事已经变成非我不可的情况了啊…关于理由的部分，我能听一下么？”</p><p>高兴坚“理由就是，当你听完以后绝对不会选择坐视不管。”</p><p>“呵，也对，这虽然不是什么好做法，但这确实是名正言顺的好理由。”</p><p>高兴坚“你，会顺应这道气氛然后答应下来的吧。”</p><p>“姑且可以试着答应，但别对我抱有太大的期望，毕竟我手边能用的资源肯定不足你的十分之一，然后呢，你待会要去哪里？”</p><p>高兴坚，露出了相当无可奈何的表情“去隔壁班，继续完成她指派的任务。”</p><p>“哪怕是这种时候也要去？”</p><p>高兴坚“正因为她很顽固的原因，所以我没有其他选项。”</p><p>“难道，你没有和她试过硬碰硬吗？”</p><p>高兴坚“为什么你说的这句话，会包含着一种非常理所当然的感触在里面？”</p><p>“身为隔壁桌的我，一旦说错什么话，又或者是没能如她所愿那样，在上课期间做些哄她开心的举动，那么，我的下场就会变成如你所想的那样，尽管这些过程每经历一次都会让人心惊胆跳，但至少，该强硬的某些观点就必须继续坚持下去，不然的话，鬼知道她下一次的得寸进尺会蔓延到哪里。”</p><p>高兴坚“真羡慕啊。”</p><p>“这种事情，哪里存在着值得羡慕的部分？”</p><p>高兴坚，缓缓地站了起来“好了，该说的我都已经说了，那么，接下来的时间我也该动身前往隔壁班了。”</p><p>“临走之前，你，不去询问一下我接下来的做法么？”</p><p>高兴坚“完全没这必要，因为，敌人的敌人必定会是最可靠的友军。”</p><p>“对，但…是仅限这次合作的可靠友军。”</p><p>说完。</p><p>内鬼头头便转身朝着班级大门离去，还顺势挥了挥手示意再会。</p><p>尽管我知道这种举动，不过是为了在阿哥面前展示出来的演技，但，细节要做全的这件事，还真不是每个人都能轻易办得到的。</p><p>好了。</p><p>别光顾着看他的背影。</p><p>我也是时候要离开自己的专属座位，前往后排群体那边找脑残男稍微聊一聊。</p><p>理由的部分该怎么说呢？</p><p>对了。</p><p>这次就用‘演习’去解释吧，反正今天早上才经历完消防演习，而我命令他接下来要做的，就是某件事情的未雨绸缪，至于这件事由于涉及风纪部的机密情报，所以不方便透露。</p><p>不过。</p><p>如果这次‘演习’的质量很好的话，今后就会更加重用他这号人物，并且，答应会在皮卡秋的事情上帮他些许。</p><p>不错，理由的部分以及诱饵的部分全都布置好了。</p><p>就看接下来该怎么开口说出第一句话而已。</p><p>杜明杰“哦，老爷子是不是来找我的哇？”</p><p>看样子。</p><p>脑残男比我想象中还要更加看重我啊。</p><p>不然的话。</p><p>正常人哪有可能会在与同圈子的人聊到一半的时候，突然，就把视线放在除此以外的这边，并，相当自然地优先找我去进行搭话呢。</p><p>“对啊，稍微有点事需要带你出去一趟。”</p><p>杜明杰“怎么又来？我今天应该没有得罪谁哇，而且，也不可能会有什么人能够发现，我把手机藏在书包里头的这件事……。”</p><p>“总而言之，快跟我过来就对了。”</p><p>杜明杰“好嘞。”</p><p>因为这一幕的缘故。</p><p>拽男阿广，也连忙看向我们这边。</p><p>梁广信“你小子打算带我们的阿杰去哪儿啊？”</p><p>“这种问题别问我，要问，就去问待会回来的他。”</p><p>杜明杰“老爷子的这种说明方式，怎么掺杂着一股涉及危险事的赶脚啊。”</p><p>梁广信“既然这样，那我，能跟你们一起去一趟不？”</p><p>说完这话的他，毫不犹豫的站了起来。</p><p>用这份行动直截了当的证明接下来的自己，必定，会如刚才所说的那样子去进行。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

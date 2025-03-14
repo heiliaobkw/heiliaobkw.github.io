@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黄瓜主页</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《黄瓜主页》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于黄瓜主页</h2>
+<p>					黄瓜主页<p>我，并非是小际。</p><p>所以我没办法动用还没学过的套路以及方法，去解决当前的燃眉事态。</p><p>但即便如此，我，仍然侥幸存有其他方案。</p><p>外加。</p><p>眼前的男神，似乎比我想象之中更容易听取大白话的部分。</p><p>因此。</p><p>“满不满足现状的问题，那都是其次，虽然，老师您认为我的成长，并不是什么偶然诞生的产物，但是，我内心却擅自给我解释道，根本就没有这么一回事。”</p><p>沈楠老师“哦？这话怎么说？”</p><p>“类人猿发明了点燃柴火的这件事，真的，只是老天爷给予的碰巧吗？”</p><p>沈楠老师“懂了，你的意思就是在说，如果类人猿在没有绞尽脑汁的情况下，哪怕瞧见了机缘巧合，也不见得会因此发生质的改变。”</p><p>“是的，我，正是这层意思。”</p><p>快看，男神的眼光游走到其他地方上了。</p><p>也就是说，这个打比方的方案似乎不太奏效。</p><p>得拿出更加切合现实的出色案例才能…对了！</p><p>“再说，明明老师早就拥有解决人际关系问题的好口诀，却偏偏故意不去传授给我的这点，不觉得很偏心吗。”</p><p>沈楠老师“如果我真的是偏心的家伙，那我早就不会在最初的时候……。”</p><p>似乎意识到什么的他。</p><p>立刻，改了口。</p><p>沈楠老师“对喔，你小子先前欠我的东西还挺多的啊。”</p><p>“哪有这种可能，我明确记得最初那次的债务，已经动用两份检讨书的方式去解决了。”</p><p>沈楠老师“仅仅是两份检讨书的程度，你觉得真能比得过我那天耗掉的脑细胞么。”</p><p>“呃，秋后算账也不至于秋到今天吧…。”</p><p>沈楠老师“总之，这笔帐我肯定不会就这样算了的。”</p><p>“哎。”</p><p>沈楠老师笑道“但是，能在你们这群学生的成长路上起到些什么作用，那么，这将会是我身为老师的荣耀。”</p><p>如果。</p><p>我还是一个月之前的我。</p><p>那我现在肯定还是处于读不懂别人心声的情况，更会擅自认为，老师就是那种无论何时都会站在学生身边，替学生分担忧愁的…道具。</p><p>真庆幸这一个月时间里面的我，竟然真的有好好成长起来的这件事啊。</p><p>“男神老师笑得这么灿烂，难道你想就此成为这所学校里面的太阳么。”</p><p>沈楠老师“太阳吗…比起太阳这种修饰词，我反而觉得我更像是马路边的街灯那样，安安静静站在一旁负责照亮脚底下的路，让你们这群当学生的，在顺利回到家之前都不会迷路就行了。”</p><p>“呜哇，金句！！”</p><p>沈楠老师“怎么，不喜欢听我说金句啊？”</p><p>“不不不，我可是巴不得男神老师尽管多来几句，好让我今后学习的时候更有动力哇。”</p><p>沈楠老师“你小子的品味还真是有够高尚的啊，行吧，那我再整几句金句出来好了。”</p><p>“欢迎欢迎，热烈欢迎。”</p><p>沈楠老师“别吵！”</p><p>“遵命。”</p><p>像这种类型的说话方式，明显掺杂着一股在哄公司领导人的感觉。</p><p>随着两声咳嗽的传出。</p><p>终于做好心理准备的男神，开始述说专属于自己的金句。</p><p>沈楠老师“明明有些学生头顶上自带一盏聚光灯，却偏偏喜欢独自一人走去漆黑的小巷子里面；而有些学生甚至连家里开灯的钱都凑不齐，却能毫不迷茫的朝着光明大道笔直走去。”</p><p>这。</p><p>根本就不是什么金句，单纯就是嘲讽话而已吧。</p><p>沈楠老师“如果强行要我灌大家都喝毒鸡汤洗脑的话，或许，就能把这一切涉及公平的问题都给解决掉了吧，只可惜，我能做的事情并不多。”</p><p>“请问，这是老师您的短板吗？”</p><p>沈楠老师“不，这是身为老师的共同短板。”</p><p>能做，与，不能做。</p><p>仅仅只是一纸之隔的距离。</p><p>只要男神老师刻意把这段心声隐瞒起来的话，那么，身为学生的我们，根本就不知道有哪些事项是身为老师不能做的。</p><p>然而。</p><p>他，却一直坚守着自己的信念。</p><p>并坚信自己就应该像街边路灯那样保持安静。</p><p>真不愧是怀有理想论的男人。</p><p>我。</p><p>果然难以在太阳底下，瞧见你那领头走在前面且健硕巨大的背影啊。</p><p>…。</p><p>……。</p><p>不知不觉中。</p><p>体育课，结束。</p><p>虽然我也有幸参与到那种接力羽毛球赛里面，只不过，由于玩美式足球的那伙人竟然也选择中途加入进来，的缘故。</p><p>因而导致我们这群人，一轮下来平均每人也就打了两球的程度。</p><p>仅此而已。</p><p>收拾场上散落的排球，收拾羽毛球拍以及毽子。</p><p>然后。</p><p>转身朝着体育器材仓库那边前进。</p><p>途中。</p><p>非常稀有的瞧见了大胖男孩他，竟然，十分盛情地主动邀约我一同前去共享午餐，的这么一件事。</p><p>实属，微妙。</p><p>“难得今天陈豪兄拥有这般好雅致，难道，是大本营那边突然向你布置了什么特殊安排，才会需要提前在这与我会面？”</p><p>陈胡浩“此事，在共饮途中提及也并不迟，现在，应当不是闲聊这个的好时候。”</p><p>“哦？竟然还有比此事更显重要的存在？莫非，是收获了相当离谱的最新情报，才会迫使陈豪兄不惜一切代价也要优先说给…。”</p><p>陈胡浩，及时打断“并非是从她人嘴里获得的，而是，末将这边…稍微遇到一点麻烦了。”</p><p>“但说无妨。”</p><p>陈胡浩“腿脚疲惫，拖沓累赘。”</p><p>“原来如此，难怪陈豪兄为什么会在铃声一响的那个瞬间，毫不犹豫的朝着我挥手招安，原来是体育课上浪费太多体力的缘故了啊。”</p><p>陈胡浩“不仅如此，包括清晨期间的持续站岗，也是对末将的体力以及精神，都造成极其严重的负荷…饮恨、叹悲。”</p><p>“所以，你现在连前往学生饭堂的力气都没有了，是吧？”</p><p>陈胡浩“正是。”</p><p>“行吧，那我待会放好器材以后，就这样扶着你前往饭堂那边吧，尽管‘背’的这个字眼是绝对做不到的了，但至少可以用推的这个方式去。”</p><p>陈胡浩“末将倒有一计在此。”</p><p>“有何妙计？”</p><p>陈胡浩“丞相可以在顺利归还玉璧以后，前往饭堂后门附近借用一辆木牛流马，如此一来，末将就能更为迅速的到达饭堂最深处。”</p><p>现代工艺里面，哪还有什么木牛流马的啊。</p><p>哪怕饭堂后门真的存在与这类似的玩意，顶多，也只是…小推车？</p><p>对喔。</p><p>尽管这玩意我也就见识过两遍的程度，不过，饭堂里面的打饭阿姨确实常备着一台，专门用来运载食材的小推车。</p><p>因此…啊！</p><p>“难道，你昨天中午去参与风纪部迎新会的时候，也是使用这个方法进行快速移动的？”</p><p>陈胡浩“妙哉，竟被丞相识破。”</p><p>“可是，当时负责推你移动的家伙，到底会是谁。”</p><p>陈胡浩“如果没有得到范大将军提供的助力，末将，根本无望能够做到快速转移。”</p><p>“范大将军到底是…哦，你是说那头刺猬啊，虽然我知道以你当前的身体情况来说，难以办得到走快两步，但也不应该就此成为你放弃努力的动机啊，要是再继续这么下去，恐怕你今后腿脚方面会出问题的啊。”</p><p>陈胡浩“这不是末将想要减，就能减的问题。”</p><p>“行吧，那你就在这里静候我，等我优先把器材确切归还了以后，再去一趟饭堂后门那边弄一台小推车过来。”</p><p>陈胡浩“末将，在此恭迎丞相的喜讯。”</p><p>就这样。</p><p>我，开始进行一系列的跑腿、归还、推车、运载、卸货…等工程作业。</p><p>如果不是看在体育馆离饭堂不远的份上，肯定不会就这样乖乖照做的，毕竟，我这边也需要克制体力过多消耗的啊。</p><p>一旦耗费太多，下午时段就肯定会出问题。</p><p>傍晚的时候更是会难以继续保持精神抖擞。</p><p>呼。</p><p>好不容易解决完大胖男孩这个移动堡垒以后，终于，迎来了最值得令人期待的干饭时段。</p><p>今天的时蔬，比以往的那些要…。</p><p>陈胡浩“有劳丞相了。”</p><p>“稍微等会，你所说的这句有劳，肯定不止是我刚刚把你推进来的这件事而已，是吧。”</p><p>也就是说。</p><p>大胖男孩待会还想要让我去替他排队购饭。</p><p>这可兴不得的啊，如果啥跑腿事情都要我来解决的话，那他的身体肯定只会变得越来越肥硕而已。</p><p>像这种时候，我，应该要好好拒绝才对。</p><p>紧接着的下一秒。</p><p>陈胡浩，连忙掏出自己金光闪闪的学生卡“此乃车马费，待会丞相可以去小卖部那边，任意挑选一瓶价位适宜的饮品，以作为末将的答谢之礼。”</p><p>“真拿你没办法啊，仅此一次而已喔。”</p><p>收下对方的学生卡以后。</p><p>我，果断去排队购饭。</p><p>而大胖男孩则是拖拽着疲惫的身躯，缓缓前往附近的空位上。</p><p>虽然我很是清楚他最近几天中午主要吃的菜肴是什么类型，但考虑到这家伙每天都顶着这么一个大肚腩迟早会出事情，于是，我，擅自把他餐盘里面的膳食纤维拉满数量。</p><p>简单来说，就是大幅度增加素食的份额。</p><p>就这样。</p><p>手里捧着两份午餐的我，平稳地端到大胖男孩的面前。</p><p>放下，餐盘。</p><p>陈胡浩立刻警觉了过来“丞相……你，是否给错了自己的餐盘？”</p><p>“不，这就是你的。”</p><p>陈胡浩“啊这。”</p><p>“如此疲劳的你，不可能还会拥有活跃的肠胃，一旦再次触碰大量难以消化的肉类，我很肯定午后的陈豪兄只会更显疲惫，因此，我，才会推荐你尝用这款以蔬菜去作为主体的美食，至于当前餐盘上，之所以会在份量方面显得比以往要大，其原因就是陈豪兄的食量并不小，且，蔬菜会更容易被消化的缘故，没事的，趁热吃吧，碳水化合物以及热量值我都会给你计算好。”</p><p>陈胡浩“即便是再怎么绿色健康的食物，终究，还是难以欠缺美味以及吸引力的啊，再说，兵马未动粮草先行，如果我方士气没能时刻保持高昂，怕是……。”</p><p>“如果还有下次这种累到腰瘫必须推小车的情况，那我，就去商业街那边找几位路过的小学女生过来劝导你。”</p><p>陈胡浩“别别，丞相，我们有话好好说。”</p><p>“假设，陈豪兄的大肚腩是因为病症才导致的问题，我这边肯定不会采取这么严厉的措施，然而，每当我瞧见你中午用餐的盛况，就知道这绝对不可能是医学领域上难以解决的事情。”</p><p>陈胡浩“那么，末将在此笑纳丞相的善意了…。”</p><p>“嗯唔，这就对了。”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

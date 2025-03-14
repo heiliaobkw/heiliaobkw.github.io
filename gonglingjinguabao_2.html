@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>红领巾 瓜报</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《红领巾 瓜报》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于红领巾 瓜报</h2>
+<p>					红领巾 瓜报<p>我知道对方之所以会生气的理由，也知道如何把她言语之中的这些怒火降下来。</p><p>同时。</p><p>我已经确切理解自己的接下来，不能继续任由她牵着我鼻子走。</p><p>“刚才的那句话，只是我想试着说说看而已…我啊，哪有那个本事能靠这种江湖伎俩去混吃，再说，就算真的要赚钱，也不可能通过这种方法去玩弄同班同学的啊。”</p><p>毕竟，我现在可不是什么道士。</p><p>而是名副其实的江湖骗子啊。</p><p>秦礼秋立刻消停了杀意，随后，她故意坐在我前面桌的椅子上。</p><p>翘起自己纤细的二郎腿，时不时把目光放在课室大门。</p><p>秦礼秋戳着我的桌面“所以，你，愿意无偿提供帮助么？”</p><p>“无偿是不可能的，这辈子都不可能的。”</p><p>秦礼秋放下二郎腿“既然这样，那就别继续浪费你我的时间了，快说吧，你究竟想要什么东西才会愿意帮助我，只要，那种东西是我力所能及范围内的都可以，说。”</p><p>这份无比熟悉的既视感，好强烈啊。</p><p>对了。</p><p>我记得周一回到课室的时候，那位脑回路有点问题的同班男生，看见我被头槌少女壁咚的那一幕以后。</p><p>也是像现在这样，不断地追问我事情经过以及事发理由。</p><p>没错，这种语气就是经典复刻了当时的情况。</p><p>只不过。</p><p>眼前这位女生并没有像那位同班男生一样，尽是说些不合理的话语。</p><p>“唉…。”</p><p>即便对方是思考能力正常的人类，可是。</p><p>如果我在这里随随便便拒绝她的话，接下来，这位少女死缠烂打的模样，我，大致也能想象出来的。</p><p>因此，我，终究还是叹气一声。</p><p>秦礼秋“你！！看到我身后出现什么东西才会叹气一声，还是…因为没办法解决我的事情，所以才会叹气一声？”</p><p>这个人，终于彻底卸下了她的扑克脸。</p><p>如今的她表现得相当畏惧，如同一只受到惊吓的小猫一样。</p><p>然而。</p><p>导致她变成这个模样理由，居然是因为我的一声叹气。</p><p>只是顺应着这个话题继续下去，哪怕这份问题依旧没能成功解决，眼前的她，肯定也会变得稍微安心一点。</p><p>嗯，这是没办法中的办法。</p><p>“行吧，那我们就赶紧开始来聊‘代价’的问题吧。”</p><p>因为这句话的效力，秦礼秋不再露出畏惧的表情，反而立刻拍响桌面站立了起来“行，快说。”</p><p>首先映入我眼帘的，是她那苗条的身材…。</p><p>啊不对。</p><p>我怎么能在这种时候被荷尔蒙给击败啊，稍微冷静一点。</p><p>万一我接下来尝试提出的条件里面，突然之间就转变为不可描述的内容。</p><p>那，我在这个学期蓄心积虑打造出来的人际关系道路，绝对会就此一拍即散的啊。</p><p>冷静，冷静啊。</p><p>“咳咳，我，想要知道你至此为止一直死守下来的秘密，究竟是什么？”</p><p>虽说，我人现在确实已经足够冷静了。</p><p>只不过。</p><p>荷尔蒙带来的连锁反应，依旧让我不由自主地往邪门歪道的方向去思考。</p><p>尽管，我的这道提问确实掺杂着那种下流成分。</p><p>但，如果我能顺利得知同班同学的秘密，今后肯定能发挥奇效不是么。</p><p>至少，我是这样认为的。</p><p>再说，这个世界上有哪种物品的价格能和不为人知的情报相提并论。</p><p>根本就没有，不是吗。</p><p>秦礼秋左思右想了一会，期间，她多次确认我的眼神。</p><p>我知道的，这人在试图钻空子，只不过，我并没有给她机会让我主动放弃这个想法，直到，她也叹气一声为止。</p><p>看来，她的决议已定。</p><p>来吧，让我看看你的诚意吧。</p><p>随后，秦礼秋张嘴说道“笔墨纸砚，诗书礼乐…关于文房四宝，儒家六经的这些东西，你应该有所知晓吧？”</p><p>“嗯？嗯唔…。”</p><p>秦礼秋“既然这样那我就不多做解释了，总之，我们家族族谱里面的任何一位后裔，关于她的名字，始终都是离不开以上的这些字眼。”</p><p>哎？</p><p>这种事情，真的算是秘密吗？</p><p>而且，这个故事我好像在哪里听过一遍来着。</p><p>对了。</p><p>之前，马云菲的故事也是这样被描述的，当时高兴坚刻意说明，马家后代的名字里面，如果没有夹带‘云’字便会夹带‘腾’字。</p><p>这个，就是大家族的墨规吧？</p><p>不知道，也不想知道。</p><p>“然后呢…。”</p><p>秦礼秋继续念道“我的名字里面有个‘礼’字，所以，我也是族谱因果的受害者之一。”</p><p>话音结束，我们，没有在这之后的对话。</p><p>是的，无论静候多久终究还是没有张嘴。</p><p>直到我主动打破寂静为止。</p><p>“就…就这？”</p><p>秦礼秋坐了下来，把头歪向一边“嗯，对，就是这。”</p><p>“作为一直死守下来的秘密而言，完全听不出有秘密的感觉啊。”</p><p>秦礼秋“如果换作别人，她这辈子都不可能会知晓这事，再说，秘密这种事情肯定是涉及整个家族才会显得更加庞大的啊，我，应该没有说错吧…你现在怎么露出这种表情。”</p><p>“由于这件事与我理解过盛的秘密，稍微有点不同，所以才会…虽说已经不止是稍微的程度了。”</p><p>秦礼秋立刻露出了一副，有点听懂我这句话意思的表情“贼丢人，你，该不会是打算让我说出那些令人害臊的过往，又或者是，不可以告知她人的男女生之间…。”</p><p>“我也没说到这个地步啊。”</p><p>秦礼秋“可是你的眼神就是这样提示的。”</p><p>“我有露出这种眼神？”</p><p>秦礼秋“就是那种三十多岁还没结婚，看见年轻妹子就会虎视眈眈的下流眼神。”</p><p>“那可是真糟…啊不对，我的意思是，我这种眼神天生下来就是这样的，别误会这么多。”</p><p>秦礼秋“天生就是下流胚子？”</p><p>“请你别擅自把词语拆解之后，再重新安装上去。”</p><p>秦礼秋“我不管，既然你已经把我家族最大的秘密听完，那就得兑现承诺才行。”</p><p>一边说出这句话的她，一边离开了我的前面座。</p><p>如今，她的这番结论也未免太过骄蛮了吧…但是，语气方面倒是完全听不出野蛮的味道。</p><p>比起母猩猩而言，她，还是稍微差了点吧？</p><p>嗯？</p><p>我为啥会在这种时候，突然把母猩猩充当对比的例子啊。</p><p>“…等等。”</p><p>趁着对方还没完全离开这附近的时候。</p><p>我，连忙喝止她的下一步。</p><p>秦礼秋没有停下脚步“现在才反悔的话，我可是会当作完全听不见的！！”</p><p>“至少，你也要把求助的内容说给我听才行啊。”</p><p>秦礼秋终于愿意停下脚步，她，没有回头的说道“自从周末那事情以来，我老是感觉自己的桌子，这几天中午回来之后，都像是被什么黏糊糊的昆虫经过，害我每次都要拿出大量的湿纸巾，来回擦拭很多遍才行…就这样。”</p><p>说完，她就立刻朝着自己座位迅速走去。</p><p>只留下满脑子问号的我。</p><p>嗯？就这？</p><p>无论是秘密的内容，还是求助的信息。</p><p>全都让我一头雾水。</p><p>大概，每位真正遇到着急事态却又始终无法得到解决方案的人，都会像她那样，做出这种胡乱求医的行为吧。</p><p>尽管我也没法立刻帮她些什么，但是，‘周末’这个关键词倒是有好好地记住了。</p><p>我，借助自己庞大的身躯遮挡着对方的视线，并试图对自己的手表镜头。</p><p>用力说出‘小际’的嘴型。</p><p>与此同时，手表，传来了熟悉的震动。</p><p>【是的】</p><p>难怪我和你刚才在课室内欢快畅聊时，你这家伙为什么没有提醒我去使用文字的方式进行。</p><p>起初的时候我以为是贪图便利，真没想到。</p><p>这，居然也是你一手策划的布局啊。</p><p>虽然我接下来的举动，会选择配合对方给与的设定演下这一场戏份，但，从一开始就计算好全部的小际，那才是最让人难以置信的。</p><p>即便如此，我，依旧会对此感到合情合理，那才是极其不自然的地方。</p><p>唉。</p><p>看来，我的思考方式也已经越来越偏离常人领域了吧。</p><p>…。</p><p>由于秦礼秋的非自然现象问题没有设置时间限制，也没有说出让我立刻根治该问题的话语。</p><p>因此，这种不了了之的麻烦。</p><p>姑且可以忽略不计，吧？</p><p>虽说，我没必要刻意管理她人的遭遇，但是，我可以借着这位后排群体的女性成员，去逼问‘周末’那天究竟发生了什么事情。</p><p>毕竟。</p><p>这件事极大概率会和田径部产生关联，也不一定。</p><p>……。</p><p>时间，一分一秒地流逝了。</p><p>出现在这间教室以内的学生，越来越多。</p><p>正当我，终于看见小恶魔回到班集体里面的时候。</p><p>第一时间听见她嘴里对我诉说出来的话语，既不是什么招呼声，也不是什么赞美词，而是一句略带肯定语气的提问。</p><p>赫晓沫放下书包，她，露出关怀孤寡老人的表情“江小白，你昨天是遭受什么刺激了吗？”</p><p>哪怕她没有直接说出口，她的语气里面也明确夹带着。</p><p>真是太可怜了，的这道想法。</p><p>“就不能委婉一点吗…不对，我为什么要被你这样说啊。”</p><p>赫晓沫指着我的脑袋“证据就在这。”</p><p>“啊…原来是这个，我昨天只是心血来潮跑去剪个头发而已，为什么你刚才会掏出和我老妈一模一样的答复啊。”</p><p>赫晓沫“伤心的时候就必须摆出伤心的姿态，快哭吧，好男儿往往都是哭出来的，无论你接下来会落下多少颗泪珠，我想，这个班集体都不会怪罪于你的哦，江·小白。”</p><p>她的表情，如同面具一样。</p><p>非常随意且自然地切换来，切换去。</p><p>“行了行了，我知道我修了一个很糟糕的发型，我不配继续做人，请您看在我如此诚恳地承认自己的错误之后，可否，高抬贵手别再提这件事。”</p><p>赫晓沫突然靠过来掂量着我的脑袋，随后，再次补充道“但是，我觉得你的发型挺好看的啊，有一股很清爽的感觉。”</p><p>真没想到，小恶魔居然会这么认真地去称赞我。</p><p>这让我稍微有点…。</p><p>赫晓沫立刻打断了我的思绪“只不过…嘛。”</p><p>明明，上一秒我还在为她这句赞美，而感到心动。</p><p>可是，下一秒我却再也高兴不起来了。</p><p>赫晓沫绽放出异常灿烂的笑容“大冬天跑去剪这个造型，难免会被人怀疑脑子是不是有点秀逗，我个人建议你，还是赶紧找兽医照一下脑部CT吧，我这句话可是很认真的。”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

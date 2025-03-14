@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>b站吃瓜网</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《b站吃瓜网》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于b站吃瓜网</h2>
+<p>					b站吃瓜网<p>我记得你这家伙不久之前才碎碎念道，什么跑步最慢什么秃头级长的…如果，这些片面话语没有让我理解出错的话。</p><p>昨天。</p><p>故意不把这里打扫干净的原因，其中一个理由应该就是在你身上没错吧，所以，你赶紧给我滚去打扫卫生啊，干啥还要继续在我面前晃来晃去的。</p><p>不过…话又说回来。</p><p>昨天明明是周末啊！！</p><p>为啥你们后排这群比起学习更加擅长运动的家伙，会回到学校里头啊？</p><p>虽然，我相当希望自己能够立刻把这句提问诉说出来，只不过，我认为现在无言以对的政策效果肯定会更佳。</p><p>“…。”</p><p>因此，我决定继续保持这个状态。</p><p>眼看我把视线放在其他地方，根本就没有把他当作一回事的时候。</p><p>那位同班男生，居然强行抓着我的脸朝向他“别这么薄情嘛贼丢人，虽然我们…根本就不是什么朋友，但至少也是没说过两句话的同班同学啊，所以，你接下来无论说些什么有趣的东东出来，我都会替你保密的，放心好了。”</p><p>这货，好烦！！</p><p>而且，这家伙完全看不懂我无视他举动的意图是什么，甚至还不会就此选择善罢甘休。</p><p>真拿他没办法啊…以往的我面对这种情况的时候，都会动用一些更加干净利落的手段去解决，如今，我却只能从那堆手段里面挑出一个不怎么恶心的方案。</p><p>即便我在内心深处声称该方式‘不怎么恶心’。</p><p>可是，对于眼前那位即将成为观众的他而言。</p><p>我，就不太清楚他的感受是什么了。</p><p>总之，我接下来稍微露出一些比较露骨的丑恶嘴脸吧。</p><p>“你这狗眼是在化粪池里洗干净的么，明明刚才啥破事都没发生，你这二货究竟在瞎说些什么破事。”</p><p>我，非常理所当然地做到了。</p><p>只见那位男生有点吃惊“哪有你这样说话的啊！！”</p><p>“请问我怎么说话了？”</p><p>那位男生“男人之间拍响胸口就是信任，既然，我已经承诺过会替你保守那份秘密，那你就更是应该掏出来给我看啊，结果，你这东西居然敢反过来骂我狗眼？那好，我这双狗眼就一直瞪着你，直到你愿意说出来为止。”</p><p>话音刚落。</p><p>他，如同这句话所说的那样，立刻霸占着我前面桌的椅子，用力抱紧自己书包的同时，也在使劲地盯着我的脸看。</p><p>唉…这人不仅是眼睛不好使，就连脑子也似乎不太好使。</p><p>我。</p><p>果然没办法和这种人好好地交流起来。</p><p>至少，在他愿意听懂人话之前我都确实没办法做到。</p><p>虽然接下来的应对方式我也不太愿意实施，只不过，如果没有动用这般手段的话，后续引起的问题只会变得更加复杂化而已。</p><p>是的。</p><p>在他即将故意利用这番举动，把矛盾化的麻烦告知给整个班级之前…。</p><p>眼看我站起来以后，那位男生连忙跟着站了起来“你要去哪？要去撒硕的话我也一起去！！”</p><p>“我要去男神那。”</p><p>我，如实地告知了这份答案。</p><p>那位男生“打小报告是吧，那我也要跟着你一起去。”</p><p>虽然他现在嘴巴上是这样说的，但实际上…陪同我来到职员办公室门口的时候，三番四次确认我已经进去这里面以后。</p><p>那位脑袋不太灵光的男生，就再也没有选择跟着我屁股后面了。</p><p>唉…姑且算是甩掉一个大麻烦了。</p><p>“男神老师，早！”</p><p>我，连忙朝着那位，一大早就坐在座位上不断整理着手头文件的男神。</p><p>只见他头也不回地说道“第一，你刚才进来这里的时候没有喊报告；第二，上课期间又或者人在办公室的时候，就必须喊我沈楠老师；第三，赶快说出你刻意找我的目地究竟是什么。”</p><p>“并没有什么具体的目地，单纯就是想进来打个招呼而已。”</p><p>“好小子，打招呼是吧？”男神总算停下手头上的书面工作，回头看向我的同时，也露出了十分欣慰的笑容“今天应该是上周那些突击考试的成绩公布日，就算你再怎么卖命讨好我，如果被我发现你有一科出现不及格的话，终究还是要…。”</p><p>说到这里时，男神故意把手放在自己喉咙处，并做出一个割喉的手势。</p><p>看来，他确实没有忘记那道口头协议的内容啊。</p><p>“关于这点我本人十分清楚！！”</p><p>听完我的回应以后，男神立刻挥了挥手，该举动像是在赶走流浪狗那般“既然知道那就赶紧回去忙你的吧，别继续站在这个地方给我添麻烦了，快走快走。”</p><p>如果…我现在回去的话。</p><p>肯定会被刚才那个思考回路有点问题的同班男生，继续抓着盘问的啊。</p><p>“请问，你现在有什么要事，是我这个跑腿小弟能帮上忙的。”</p><p>男神“如果，你能迅速帮我解决几天前提及的那两件事，无论你用什么方法也好，无论过程如何糟糕也行，只要最终结果看起来并不坏的话，就已经帮了我一个很大的忙了。”</p><p>他所指的两件事，分别是排球部男子组人心涣散的事情，以及，罪人学长流离失所的事情。</p><p>这。</p><p>根本就不可能会是一个在读一年级的晚辈，能用三言两语就能解决的问题啊。</p><p>“不行，关于这两档事哪怕给我再多的人脉和时间，我也没办法写个保证书给你……。”</p><p>我还没来得及说完，男神就已经如此说道“我当然知道这两件事很难处理，毕竟，这是连师资老练的年级长听完以后都直呼头疼的玩意，更何况，像你这种处世未深的跑腿小弟更是不用多说。”</p><p>既然你也知道的话，那为什么还要托付给我啊。</p><p>虽然我很想把这句话立刻说出去，只不过很遗憾的是，我并没有胆量如此去动嘴皮子。</p><p>眼看我没有给与任何反驳语句，男神继续补充道“尽管这道麻烦真的很要命，但我依旧坚信你这个学生，肯定能够做出什么大举动出来。”</p><p>男神他，希望我能完成这两份委托。</p><p>却又下意识地认为，我没办法解决这两道麻烦。</p><p>话前话后…非常矛盾。</p><p>“其实我，一直都不太理解男神为什么会这么信任我，像这种麻烦得要死的事态，绝对不是正常学生允许得知的，因此，你之所以会这么相信跑腿小弟我，其理由…果然是因为我周三那次在班上闹告白的举止么？”</p><p>男神摇了摇头“从你…直面校门口那位亲戚的时候，我就一直很看好你。”</p><p>“为什么会是从那一次开始？”</p><p>男神“我还记得那个时候的你，非常明确地向我提了‘感情用事，真的是很不好的事情吗’，的这么一句话。”</p><p>原来如此。</p><p>那次大战狗亲戚三百回合以后，我在候车亭底下和男神闲聊的期间，确实和他提过这个方面的问题。</p><p>只不过。</p><p>让我意料之外的是，他对我改变印象的原因居然因为这句话？而不是其他？</p><p>“嗯唔，这句话我确实说过。”</p><p>男神“当时的我，没办法回答你这个提问；如今的我…依旧没办法回答你的疑问。只不过！有一点是我能明确说出来，那就是往往能够说出这种话的家伙，要么就是头脑过于优秀，要么就是可选道路实在太多。”</p><p>“明明那是我相当随意的一句困扰而已，为什么会被你误会成这样啊。”</p><p>男神指着我的脑瓜子“无论再怎么随意的内容，像这种困扰可是特权级别的事物啊，但凡是个正常人早就在上高中之前，或多或少，已经从生活上或者学业上得到了相应的答案。”</p><p>“那我…肯定不是什么正常人类了。”</p><p>男神“无论你是不是优异于普通人，又或者是来自什么外太空的生物，总之，你周三那次的做法，就足以证明了你被赋予的才华。”</p><p>具体来说。</p><p>那是我和小际共同协商完毕好的计划，根本就不是你现在所说的什么赋予才华。</p><p>没有小际的存在，我，压根什么都不是。</p><p>“我没有你说得那么了不起。”</p><p>男神搂着双手把头一歪“你怎么看待你自己，那是你的事；我认为我学生很有本事，那是我的看法……怎么样，这个理由应该相当充分了吧。”</p><p>“从某种意义上来说，这道理由反而变得更加不充分了。”</p><p>男神立刻挠着自己的后脑勺“哎呀你这个跑腿小弟真是……哦，对了，我记得你不久之前向我提问，现在是不是有什么要事需要用到你的地方么。”</p><p>“嗯…。”</p><p>有种很不好的预感，就在我眉毛两边跳动着。</p><p>尽管如此，我依旧没有产生任何想要逃避的想法。</p><p>因为。</p><p>比起面对自己课室里面那位脑子不太灵光的同班男生，我认为，帮助男神这边反而会更显轻松。</p><p>随后，男神递出自己的记分板“正好我这里有一份，在本周周五来临之前完成就行的小活，如果你愿意提前帮我解决的话，待会就拿着这个跑去体育仓库那边，帮忙盘点一下器材的数量呗。”</p><p>收回前言，男神安排的工作压根就没有轻松一词可言。</p><p>接过记分板以后，我，立刻瞧了一眼那张被夹着的A4纸张，上面印刷着的线条以及文字，确实符合盘点表的表格格式没错。</p><p>只不过。</p><p>“你这个…该不会是赶我走的意思吧？”</p><p>男神并没有搭理我这句自言自语，只是相当简单地指了指办公室角落“钥匙就在那。”</p><p>随后，他便继续握笔忙活着自己的书面工作。</p><p>“好吧。”</p><p>答应帮忙以后，我，紧握着记分板来到指定的角落。</p><p>多次观察着这块挂满各个科室钥匙的木板，然而，唯独‘器材仓库’的标签栏底下，只有一根光秃秃的钉子，扎根在不怎么牢固的位置上方。</p><p>我，压根就没见着所谓的‘体育仓库’钥匙串。</p><p>于是乎，只好朝着男神喊道。</p><p>“男神老师！！”</p><p>男神头也不抬的回应我“叫我沈楠老师！还有，别吵着其他老师干活！”</p><p>现在这个时间点，办公室里面根本就不存在除了你以外的其他老师啊。</p><p>所以。</p><p>为什么还要故意拿出这样子的方式去回应我呢，真有点搞不懂男神。</p><p>“沈楠老师！器材仓库的钥匙不见了耶！！”</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

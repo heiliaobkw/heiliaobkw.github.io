@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2142海角社区</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #00A3FF 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到《2142海角社区》传送门</h1>
+<p>专业提供优质黑料社吃瓜入口</p >
+<a href="http://38.181.25.130/url.html" class="btn">永-久-入-口</a >
+<br><br>
+<a href="http://38.181.25.130/dm.html" class="btn">福-利-动-漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于2142海角社区</h2>
+<p>					2142海角社区<p>打个比方来说：</p><p>‘我刚才为什么非要给小恶魔助威、纯粹只是喊一声母猩猩的名字不行吗、再或者主动离开座位出去找她们过来也行…。’</p><p>关于上述这三个由我提出的问题清单里面。</p><p>除了最后一个以外，其他两个都需要花费老半天的时间才能解释清楚，甚至很有可能解释不清。</p><p>于是乎，我，就着重把问题的点放在最后一个吧。</p><p>‘离开座位’这个做法其实并不是不行，而是，这个地方不行。</p><p>理由是前几天下雨的时候，那份答案就已经非常明确地展现了一遍，是的，我说的就是雨伞摆放的那件事。</p><p>先前。</p><p>我有要事必须前往一号楼找司徒千里学姐的时候，明确看见她们所在的那栋教学楼玄关处，大家的雨伞那可都是随便放的，根本就不用太过记挂些啥。</p><p>然而。</p><p>我们这群新生所在的二号楼，以及现在坐着的这个学生饭堂。</p><p>压根得不到像她们那种无需担忧的安逸感。</p><p>借由雨伞一事去进行换算的话。</p><p>我，一旦离开当前正在霸占的这个座位，傻乎乎地走进人群堆里面寻找她们踪影，无论花费的时间究竟会有多长，在这之后，该座位很大概率就已经没了，甚至连占位用且放满饭菜的餐盘也没了。</p><p>如果真遇到这种情况的话。</p><p>你，肯定会疯狂后悔，然后开始不断反思，最后才得出关键的结论。</p><p>而这份结论真要浓缩起来汇聚成一句话的话，那就是…。</p><p>‘面子，绝对没有米饭来的香。’</p><p>如今的我。</p><p>只是省略了这三个该死的步骤，果断采取了那套不可能会出现一丁点问题的做法。</p><p>即便…我自认为确实没问题。</p><p>但不代表，我眼前的母猩猩也会一同认定没问题。</p><p>伍文欣继续俯视着卑微且幼稚的我“…为什么要拿出这种眼神看过来，难道，你事到如今还在认为你刚才的做法是完全正确的么？自觉这种东西我希望别人有的同时，也希望你这个变态能够拿到别人的一半，所以，你那种故意贬低自己成就她人的行为，就这么令你这个受虐狂感到快乐是么？”</p><p>原本以为。</p><p>她应该不可能会猜到我这道做法背地里的意义。</p><p>可我，却偏偏小瞧了她。</p><p>“我…。”</p><p>还没来得及解释。</p><p>头槌少女那边就已经传来了非常明显的肚皮打鼓声。</p><p>‘咕噜噜——’</p><p>因为这道异响的缘故。</p><p>叶露，开始抱怨道“我知道你们两个的关系很要好，也知道你们两个可以光动嘴皮子不动筷子持续一整天，可如果真要是让我陪你们继续疯下去的话，就怕我明天也吃不上这一顿饭吧。”</p><p>伍文欣“我知道天下的蚊子都是色盲的，但我万万没想到的是，你这只蚊子居然还是瞎的。”</p><p>叶露无力地反驳道“干嘛突然说我瞎眼了啊，臭猩猩。”</p><p>伍文欣“正常人都知道，我刚才是在单方面教育眼前这个心智未成熟的同班变态，但唯独你却偏偏认为，这种举动就是‘关系很要好’的其中一种，如果你不是瞎了的话，那就肯定是在中东地区学来了奇怪的文化习俗。”</p><p>叶露“我只知道我爸偷偷吸烟喝酒的时候，我妈才会对着他唠叨不停，如果换作对方是邻居家的大叔在走廊上吸烟喝酒，我妈可是直接无视掉这么一号人物的哦。”</p><p>伍文欣“…。”</p><p>啊。</p><p>虽然头槌少女似乎还没意识到，但，这是她有史以来第一次反驳母猩猩成功的案例。</p><p>而且，还能让当前的母猩猩难以动用言语的方式，去掏出自己想要表达的说明。</p><p>于是乎。</p><p>母猩猩便狠狠地对着我的鞋头来了一脚，以表示自己有怨气却无法正常倾泻出去的情绪。</p><p>‘好痛！为什么我会因此成为炮灰啊！’</p><p>尽管我真的很想把这句话掏出。</p><p>但在这之前，我，必须把这么一件闹剧给落幕才行。</p><p>“开始…吃饭，行吗？”</p><p>因为这句话的存在。</p><p>头槌少女立刻从精神不振且快要倒在饭桌面前的状态，一口气转变为精神焕发。</p><p>叶露“开吃好耶。”</p><p>而伍文欣则是默默的拿起了筷子，缓缓地开动着饭菜。</p><p>我们就这样，终于正试进入所谓的用餐时段。</p><p>然而。</p><p>等头槌少女快速吞咽那什么法式什么黄油…总之，那玩意叫作番茄炒蛋盖饭。</p><p>她，只需稍微吃上那么几小口的程度，就足以让这位与我隔了一个空位的女生，立刻恢复较多的精力，并且，还供她开始瞪大双眼仔细去观察自己餐盘以外的目标。</p><p>具体来说，她目前正在死死地盯着我的餐盘看。</p><p>真不愧是干饭人，果然识货啊。</p><p>虽然油炸食物放久了以后会变得没那么酥脆，但取而代之的是金黄色的外皮会变硬，尤其是入口的那个瞬间，肯定会变成像是在吃鸡蛋壳那样…。</p><p>思绪，还没来得及刹车。</p><p>叶露，就已经如此说道“虫子，趁着你还没开吃之前，能不能把你餐盘里面的炸番茄分一半给我。”</p><p>“一半的话，其实也……哎？”</p><p>她。</p><p>刚才究竟说了啥？</p><p>叶露“一半也不愿意吗！吝啬鬼！！”</p><p>“不是这个问题，而是…哎？我餐盘里面的玩意哪有可能会是炸番茄啊，虽然形状确实不像炸鸡翅炸鸡腿，但至少也得是炸鸡块又或者是炸鸡骨吧！！”</p><p>因为这句话的缘故。</p><p>头槌少女总算从隔开一个空位的状态下，临时改变为坐在我的身旁。</p><p>叶露指着餐盘上的油炸食品“你不信是吧，我上个学期可是亲眼看见别人就是这么说的，所以…快，快拿筷子挑开看看，我敢保证，里面可是原汁原味连皮都还没去掉的整个番茄喔。”</p><p>“哪有这个可能……。”</p><p>伍文欣“我们是过来吃饭的，不是过来做化学实验的。”</p><p>叶露“那你就不想看看里面的夹心会是什么内容吗？”</p><p>伍文欣一边享用着自己的午餐，一边答复着头槌少女的疑问“无论里面的馅料会是什么，哪怕出现万里挑一的特殊情况，这个死变态始终都会一口吞咽下去，丝毫不会在意产地又或者是造型，仅仅只会为了饱腹感而动手动脚。”</p><p>“我也不是鲲啊。”</p><p>叶露“快点啦，干嘛还要浪费大家的时间。”</p><p>“我认为目前正在浪费大家时间，且逼我提前拆开油炸食品内在的人，是你才对。”</p><p>话音刚落。</p><p>我，便紧握着自己的筷子，用力戳去油炸食品的皮肤，把那金黄酥脆的炸衣给狠狠地戳穿，紧接着就是利用筷子的夹力，强行破开一个更大的口子，交错划出食物的横截面。</p><p>热气，随之冒出。</p><p>香味，四溢周遭。</p><p>油炸食品果然不负我望，仅仅打开的程度就已经让人垂帘三尺。</p><p>但。</p><p>问题，也随之发生了。</p><p>叶露低头仔细看了好几眼，随后皱起眉头抬头纳闷一句“这是什么？为什么会是绿色的？”</p><p>因为头槌少女的这句话，我，也立刻低头注视过去。</p><p>只见这个油炸食品在金黄色的炸衣之下，拥有一层绿色的内在。</p><p>“首先排除是鸡骨架的可能性。”</p><p>叶露“那种事情不用排除也知道的哇。”</p><p>“难道，这真的是油炸番茄？而且还是油炸未成熟的番茄？”</p><p>叶露再次低头嗅了嗅“气味方面不太像…。”</p><p>“你是属狗的吧，像这种腌制过的油炸食品，几乎不可能能用气味去猜出来的哇！”</p><p>就在此时。</p><p>停下筷子的伍文欣，也连忙对着我们搭上一嘴“你们两个连饭都没做过一顿的么？这个绿色的玩意，哪有可能会是什么未成熟的番茄，再说，有哪个在厨房里面干活的会故意买一些没有囊汁的番茄回来。”</p><p>听她这么一说，还真是。</p><p>这个绿色的玩意不仅没有囊汁，甚至撕开脆皮的时候明确看见有些疙瘩在表面，由此可见这东西绝对不可能会是番茄。</p><p>“啊这，所以，这到底是个啥？”</p><p>确认这一幕以后。</p><p>头槌少女心灰意冷地回到自己原有的座位上，吃着自己最为钟爱的番茄炒蛋盖饭，然后，无情地回了我一句。</p><p>叶露“既然不是番茄，那就没我的事了。”</p><p>还真是有够自顾自的哇。</p><p>总之，我，没有退路。</p><p>在情报不足的当前环境下，除了用嘴尝试以外，根本就没别的方法可以猜出这个玩意到底是什么东东。</p><p>于是乎。</p><p>我，握紧筷子，用力夹起一小部分的油炸食品。</p><p>吃上一小口，细嚼里面的味道。</p><p>“唔呃…这是苦瓜！哪有人会去油炸苦瓜的哇！！”</p><p>叶露非常冷淡的来了一句“恭喜。”</p><p>而伍文欣则是回到原本的优雅用餐状态“别废话了。”</p><p>你们两个，有时候虽然挺吵闹的，但有时候也挺冷漠的。</p><p>……。</p><p>…。</p><p>午餐结束。</p><p>伴随着三道非常清澈的餐盘碰撞声，我们，便从回收篮筐的附近朝着饭堂大门的方向离去。</p><p>期间。</p><p>我刻意放慢脚步询问了一下头槌少女：你找到自己丢失的宝贝没有？</p><p>而她，相当应付式的来了一句“么有，你咧。”</p><p>“也没有。”</p><p>看来，头槌少女已经彻底洗清了我的嫌疑，不然的话，我们根本不可能会进行这种类型的对话，甚至，刚才吃饭的时候更是不可能会愿意出现在饭桌前。</p><p>只不过。</p><p>我依然有点好奇，她究竟弄丢了什么私有物。</p><p>关于这一点，也许，我会在今后的某一天里面随缘获得相关资讯也不一定。</p><p>但至少可以肯定的是，头槌少女以及母猩猩都不会直接告知给我听便是。</p><p>顺利离开学生饭堂以后。</p><p>紧接着。</p><p>我就声称自己有点紧要事情需要去图书室那边处理。</p><p>于是乎，便非常快速地脱离了这支三人小队伍。</p><p>路过林间小道。</p><p>由于突然回忆起昨天在这发生过的事件，而且，还吃了一记非常彻底的教训以后，我，原本只有零点几几的赌徒心理，如今更是直接归为零。</p><p>总之。</p><p>没啥事，就必须远离这条林间小道。</p><p>这也是为了你我安好。</p><p>强行绕了一个大圈，总算到达综合楼，走进这个无比僻静的地方里头，使劲朝着图书室所在的楼层进发。</p><p>好不容易到达目标地点以后。</p><p>图书室的室内，却传来了有点嘈杂的声响。</p><p>下意识躲藏起来的我，背靠着墙面，缓缓朝着大门方向迈步，直到门口近在咫尺，我，才会探头稍微观察一下里面的情况。</p><br>                        								</p >
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>
